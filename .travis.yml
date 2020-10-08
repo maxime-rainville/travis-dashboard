@@ -1,0 +1,19 @@
+language: node_js
+
+dist: xenial
+
+before_deploy:
+  - npm install
+  - npm run fetch
+  - npm run build
+
+deploy:
+- provider: pages
+  skip_cleanup: true
+  keep-history: false
+  github-token: $GITHUB_AUTO_PUBLISH_API_TOKEN
+  local-dir: build
+  on:
+    branch: master
+    repo: maxime-rainville/travis-dashboard
+    condition: -n $RELEASE
