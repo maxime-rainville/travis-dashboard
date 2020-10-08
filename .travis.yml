@@ -20,5 +20,5 @@ deploy:
   local-dir: build
   on:
     branch: master
-    repo: maxime-rainville/travis-dashboard
-    condition: -n $RELEASE
+    # repo: maxime-rainville/travis-dashboard
+    # condition: -n $RELEASE
