@@ -7,7 +7,7 @@ import MenuIcon from "@material-ui/icons/Menu";
 import { makeStyles } from "@material-ui/styles";
 import * as React from "react";
 import { useSelector } from "react-redux";
-import { Route, Router } from "react-router-dom";
+import { Route, BrowserRouter } from "react-router-dom";
 import { history } from "./configureStore";
 import { HomePage } from "./pages";
 import { RootState } from "./reducers/index";
@@ -65,7 +65,7 @@ function App() {
 	};
 
 	return (
-		<Router history={history}>
+		<BrowserRouter basename={process.env.PUBLIC_URL}>
 			<div className={classes.root}>
 				<div className={classes.appFrame}>
 					<AppBar className={classes.appBar}>
@@ -117,7 +117,7 @@ function App() {
 					<Routes />
 				</div>
 			</div>
-		</Router>
+		</BrowserRouter>
 	);
 }
 
