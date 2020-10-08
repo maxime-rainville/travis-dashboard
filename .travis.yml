@@ -9,6 +9,9 @@ before_deploy:
   - npm run fetch
   - npm run build
 
+script:
+  echo skip test
+
 deploy:
 - provider: pages
   skip_cleanup: true
