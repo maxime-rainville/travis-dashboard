@@ -7,7 +7,7 @@ dist: xenial
 before_deploy:
   - npm install
   - npm run fetch
-  - CI=false npm run build
+  - PUBLIC_URL=/travis-dashboard/ CI=false npm run build
 
 script:
   echo skip test
