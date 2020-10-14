@@ -3,6 +3,8 @@ import { AppBar, Badge, Divider, Drawer as DrawerMui, Hidden, IconButton, List, 
 import { Theme } from "@material-ui/core/styles";
 import FormatListNumberedIcon from "@material-ui/icons/FormatListNumbered";
 import HomeIcon from "@material-ui/icons/Home";
+import GitHub from "@material-ui/icons/GitHub";
+import UpdateIcon from '@material-ui/icons/Update';
 import MenuIcon from "@material-ui/icons/Menu";
 import { makeStyles } from "@material-ui/styles";
 import * as React from "react";
@@ -28,6 +30,10 @@ function Routes() {
 
 function Drawer(props: {  }) {
 	const classes = useStyles();
+	const lastModified = useSelector((state: RootState) => state.build.lastModified);
+	const ago = lastModified ? 
+	    `Fetched ${Math.round(((new Date()).getTime() - lastModified.getTime()) / 1000 / 60)} min ago` :
+	    '';
 
 	return (
 		<div>
@@ -40,8 +46,19 @@ function Drawer(props: {  }) {
 					</ListItemIcon>
 					<ListItemText primary="Home" />
 				</ListItem>
+				<ListItem component="a" button href="https://github.com/maxime-rainville/travis-dashboard/">
+					<ListItemIcon>
+						<GitHub />
+					</ListItemIcon>
+					<ListItemText primary="View Source" />
+				</ListItem>
+				<ListItem component="a" button href="https://travis-ci.org/github/maxime-rainville/travis-dashboard/branches">
+					<ListItemIcon>
+						<UpdateIcon />
+					</ListItemIcon>
+					<ListItemText primary="Refresh data" secondary={ago} />
+				</ListItem>
 			</List>
-			<Divider />
 		</div>
 	);
 }

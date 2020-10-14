@@ -4,7 +4,8 @@ import createReducer from "./createReducer";
 
 const initialState = {
 	modules: [],
-	loading: true
+	loading: true,
+	lastModifed: undefined
 };
 
 const statePriority: BuildStateType[] = [
@@ -48,7 +49,8 @@ export const build = createReducer<BuildState>(initialState, {
 	},
 	[BuildActions.BUILD_LOADED](state: BuildState, action: BuildAction) {
 		return {
-			modules: action.payload ? postProcess(action.payload) : [],
+			modules: action.payload ? postProcess(action.payload.json) : [],
+			lastModified: action.payload ? action.payload.lastModified : undefined,
 			loading: false
 		};
 	},

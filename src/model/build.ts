@@ -13,6 +13,11 @@ export interface BuildData {
   }
 }
 
+export interface BuildDataPayload {
+  json: BuildData
+  lastModified: Date
+}
+
 export interface Module {
   name: string
   branches: {[branch: string]: BranchData}
@@ -31,10 +36,11 @@ export enum BuildActions {
 
 export type BuildAction =
   | BuildActionType<typeof BuildActions.LOADING_BUILDS, void>
-  | BuildActionType<typeof BuildActions.BUILD_LOADED, BuildData>
+  | BuildActionType<typeof BuildActions.BUILD_LOADED, BuildDataPayload>
 ;
 
 export interface BuildState {
   modules: Module[],
-  loading: boolean
+  loading: boolean,
+  lastModified?: Date
 }
