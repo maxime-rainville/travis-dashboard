@@ -1,5 +1,5 @@
 
-export type BuildStateType = 'passed'|'errored'|'failed'|'running';
+export type BuildStateType = 'passed'|'errored'|'failed'|'running'|'expired'|'canceled';
 
 export interface BranchData {
   id: number

@@ -7,7 +7,8 @@ import { BranchBuild } from './BranchBuild';
 const variantByState: any = {
 	errored: 'contained',
 	failed: 'contained',
-	passed: 'outlined'
+	passed: 'outlined',
+	expired: 'outlined'
 }
 
 export function Build({name, branches, state}: Module) {

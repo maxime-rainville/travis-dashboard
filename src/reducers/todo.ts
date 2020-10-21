@@ -9,7 +9,7 @@ const initialState = {
 };
 
 const statePriority: BuildStateType[] = [
-	'errored','failed', 'running', 'passed'
+	'errored', 'failed', 'canceled', 'expired', 'running', 'passed'
 ];
 
 function sort(a: BuildStateType, b: BuildStateType) {
@@ -34,13 +34,33 @@ function branchStateReduce(accumulator:BuildStateType, {state}:BranchData) {
   return sort(accumulator, state) > 0 ? state : accumulator;
 }
 
+function markExpiredBuild(data: BranchData): BranchData {
+  if (data.state !== 'passed') {
+	  return data;
+  }
+
+  const buildDate = new Date(data.started_at);
+  const now = new Date();
+  const expiry = new Date();
+  expiry.setDate(now.getDate() - 30);
+
+  return (buildDate < expiry) ? {...data, state: 'expired'} : data;
+}
+
 function postProcess(data: BuildData) {
 	return Object.keys(data)
 		.map(module => ({
 			branches: data[module],
 			name: module,
-			state: Object.values(data[module]).reduce(branchStateReduce, 'passed')
-		})).sort((a, b) => sort(a.state, b.state));
+		}))
+		.map(({branches, ...data}) => {
+			for (const key in branches) {
+				branches[key] = markExpiredBuild(branches[key]);
+			}
+			return {branches, ...data};
+		})
+		.map(data => ({...data, state: Object.values(data.branches).reduce(branchStateReduce, 'passed')}))
+		.sort((a, b) => sort(a.state, b.state));
 }
 
 export const build = createReducer<BuildState>(initialState, {

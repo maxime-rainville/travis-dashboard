@@ -1,5 +1,5 @@
 // prettier-ignore
-import { AppBar, Badge, Divider, Drawer as DrawerMui, Hidden, IconButton, List, ListItem, ListItemIcon, ListItemText, Toolbar, Typography, useMediaQuery } from "@material-ui/core";
+import { AppBar, Badge, Divider, Drawer as DrawerMui, Hidden, IconButton, List, ListItem, ListItemIcon, ListItemText, ListSubheader, Toolbar, Typography, useMediaQuery } from "@material-ui/core";
 import { Theme } from "@material-ui/core/styles";
 import FormatListNumberedIcon from "@material-ui/icons/FormatListNumbered";
 import HomeIcon from "@material-ui/icons/Home";
@@ -16,6 +16,8 @@ import { RootState } from "./reducers/index";
 import { withRoot } from "./withRoot";
 import { useActions } from "./actions";
 import * as ReduxActions from "./actions/todo";
+import { BuildStateType } from "./model";
+import { buildStateColours } from './components/BranchBuild';
 
 function Routes() {
 	const classes = useStyles();
@@ -28,15 +30,35 @@ function Routes() {
 	);
 }
 
+const states: BuildStateType[] = [
+	'failed',
+	'canceled',
+	'expired',
+	'running',
+	'passed'
+];
+
+const styledBy = (property: string, props: any, mapping: any): string =>
+	mapping[props[property]]
+
+const legendStyles = makeStyles({
+	legend: props => ({
+		background: styledBy('state', props, buildStateColours),
+		width: 24,
+		height: 24,
+		borderRadius: 3
+	})
+});
+
 function Drawer(props: {  }) {
 	const classes = useStyles();
 	const lastModified = useSelector((state: RootState) => state.build.lastModified);
 	const ago = lastModified ? 
 	    `Fetched ${Math.round(((new Date()).getTime() - lastModified.getTime()) / 1000 / 60)} min ago` :
-	    '';
+		'';
 
 	return (
-		<div>
+		<div className={classes.drawerList}>
 			<div className={classes.drawerHeader} />
 			<Divider />
 			<List>
@@ -58,6 +80,20 @@ function Drawer(props: {  }) {
 					</ListItemIcon>
 					<ListItemText primary="Refresh data" secondary={ago} />
 				</ListItem>
+			</List>
+			<div className={classes.drawerSpacer}></div>
+			<List>
+				<ListSubheader>Legend</ListSubheader>
+				{
+					states.map(state => (
+						<ListItem key={state}>
+							<ListItemIcon>
+								<span className={legendStyles({state}).legend}></span>
+							</ListItemIcon>
+							<ListItemText primary={state} />
+						</ListItem>
+					))
+				}
 			</List>
 		</div>
 	);
@@ -170,6 +206,14 @@ const useStyles = makeStyles((theme: Theme) => ({
 			position: "relative",
 			height: "100%",
 		},
+	},
+	drawerList: {
+		minHeight: '100%',
+		display: 'flex',
+		flexDirection: 'column'
+	},
+	drawerSpacer: {
+		flexGrow: 1
 	},
 	content: {
 		backgroundColor: theme.palette.background.default,
