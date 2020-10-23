@@ -5,13 +5,17 @@ import { useActions } from "../actions";
 import * as ReduxActions from "../actions/todo";
 import { RootState } from "../reducers";
 
-export function BuildForm() {
+interface Props {
+	className: string
+}
+
+export function BuildForm({className}: Props) {
 	const {toggleFilter, setTerm} = useActions(ReduxActions);
 	const {filter} = useSelector((state: RootState) => state.build);
 	const classes = useStyles();
 	return (
-		<FormGroup row>
-			<TextField label="Filter by name" onChange={event => setTerm(event.target.value)} />
+		<FormGroup row className={className}>
+			<TextField label="Filter by name" onChange={event => setTerm(event.target.value)} className={classes.term} />
 			<FormControlLabel
 				control={<Switch checked={filter === 'latestStable'} onChange={toggleFilter} />} 
 				label="Latest stable only"/>
@@ -20,11 +24,7 @@ export function BuildForm() {
 }
 
 const useStyles = makeStyles(({
-	branchBtn: props => {
-		return {
-			margin: '0 8px 8px 0',
-			flexGrow: 1,
-			textDecoration: 'none'
-		}
-	},
+	term: {
+		flexGrow: 1
+	}
 }));

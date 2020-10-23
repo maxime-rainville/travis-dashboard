@@ -140,7 +140,7 @@ function App() {
 							>
 								Silverstripe CMS Build dashboard
 							</Typography>
-							<BuildForm />
+							<BuildForm className={classes.appForm} />
 						</Toolbar>
 					</AppBar>
 					<Hidden mdUp>
@@ -196,7 +196,10 @@ const useStyles = makeStyles((theme: Theme) => ({
 		position: "absolute",
 	},
 	appTitle: {
-		flexGrow: 1
+		flexGrow: .7
+	},
+	appForm: {
+		flexGrow: .3
 	},
 	navIconHide: {
 		[theme.breakpoints.up("md")]: {
