@@ -1,11 +1,14 @@
 import { makeStyles, Button, Theme, Typography, Card, CardContent, Grid, CardActions } from "@material-ui/core";
 import * as React from "react";
+import {BuildStateType} from "../model/build";
 
-export const buildStateColours = {
+export const buildStateColours: { [state in BuildStateType]: string } = {
 	failed: "linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)",
 	errored: "linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)",
 	passed: "linear-gradient(45deg, #61b047 30%, #00ca99 90%)",
 	running: "linear-gradient(45deg, #fede6b 30%, #8bfe6b 90%)",
+	created: "linear-gradient(45deg, #fede6b 30%, #8bfe6b 90%)",
+	started: "linear-gradient(45deg, #fede6b 30%, #8bfe6b 90%)",
 	expired: "linear-gradient(45deg, #6b8bfe 30%, #de6bfe 90%)",
 	canceled: "linear-gradient(45deg, #ad495e 30%, #ad9749 90%)",
 };
@@ -22,7 +25,10 @@ interface Props {
 const variantByState: any = {
 	errored: 'contained',
 	failed: 'contained',
-	passed: 'outlined'
+	passed: 'outlined',
+	created:  'contained',
+	started:  'contained',
+	running:  'contained',
 }
 
 const colorByState: any = {

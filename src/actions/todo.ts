@@ -23,3 +23,23 @@ export function initBuildData() {
 		
 	}
 }
+
+export function toggleFilter() {
+	return {type: BuildActions.TOGGLE_FILTER}
+}
+
+export function setTerm(term: string) {
+	return (dispatch: dispatchCallback) => {
+		const triggerSearchTimeout = setTimeout(() => {
+			dispatch({type: BuildActions.TRIGGER_SEARCH});
+		}, 500)
+
+		dispatch({
+			type: BuildActions.SET_TERM, 
+			payload:{
+				term,
+				triggerSearchTimeout
+			}
+		});
+	}
+}

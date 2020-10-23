@@ -18,6 +18,7 @@ import { useActions } from "./actions";
 import * as ReduxActions from "./actions/todo";
 import { BuildStateType } from "./model";
 import { buildStateColours } from './components/BranchBuild';
+import { BuildForm} from "./components/BuildForm";
 
 function Routes() {
 	const classes = useStyles();
@@ -135,9 +136,11 @@ function App() {
 								variant="h6"
 								color="inherit"
 								noWrap={isMobile}
+								className={classes.appTitle}
 							>
 								Silverstripe CMS Build dashboard
 							</Typography>
+							<BuildForm />
 						</Toolbar>
 					</AppBar>
 					<Hidden mdUp>
@@ -191,6 +194,9 @@ const useStyles = makeStyles((theme: Theme) => ({
 	appBar: {
 		zIndex: theme.zIndex.drawer + 1,
 		position: "absolute",
+	},
+	appTitle: {
+		flexGrow: 1
 	},
 	navIconHide: {
 		[theme.breakpoints.up("md")]: {
