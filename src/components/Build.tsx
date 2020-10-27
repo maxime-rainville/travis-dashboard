@@ -16,7 +16,7 @@ export function Build({name, branches, state}: Module) {
 
 	return (
 		<Grid item xs={6} sm={4} md={3}>
-			<a href={`https://travis-ci.org/github/${name}/branches`} style={{textDecoration: 'none'}}>
+			<a href={`https://travis-ci.com/github/${name}/branches`} style={{textDecoration: 'none'}}>
 				<Card className={classes.box}>
 					<CardContent>
 						<Typography gutterBottom variant="h6" component="h2">
