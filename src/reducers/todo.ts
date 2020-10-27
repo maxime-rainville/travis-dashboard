@@ -151,7 +151,7 @@ export const build = createReducer<BuildState>(initialState, {
 		const {term, triggerSearchTimeout} = <SetTermPayload> action.payload;
 		return {
 			...state,
-			term,
+			term: term.toLocaleLowerCase(),
 			triggerSearchTimeout
 		};
 	},
