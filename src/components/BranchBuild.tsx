@@ -40,7 +40,7 @@ const colorByState: any = {
 export function BranchBuild({module, branch, build: {id, state}}: Props) {
 	const classes = useStyles({state});
 	return <Button 
-		href={`https://travis-ci.org/github/${module}/builds/${id}`} 
+		href={`https://travis-ci.com/github/${module}/builds/${id}`} 
 		variant={variantByState[state]} 
 className={classes.branchBtn}>{branch}</Button>;
 }
