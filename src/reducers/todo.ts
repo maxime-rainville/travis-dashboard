@@ -1,5 +1,5 @@
 import { AddCircleTwoTone } from "@material-ui/icons";
-import { BranchData, BranchList, BuildAction, BuildActions, BuildData, BuildDataPayload, BuildState, BuildStateType, FilterType, SetTermPayload } from "../model";
+import { BranchData, BranchList, BuildAction, BuildActions, BuildData, BuildDataPayload, BuildState, BuildStateType, FilterType, SetTermPayload, Module } from "../model";
 import createReducer from "./createReducer";
 
 
@@ -19,7 +19,7 @@ const statePriority: BuildStateType[][] = [
 	['passed']
 ];
 
-function sort(a: BuildStateType, b: BuildStateType) {
+function sortByState(a: BuildStateType, b: BuildStateType) {
 	if (a === b) {
 		return 0;
 	}
@@ -36,6 +36,22 @@ function sort(a: BuildStateType, b: BuildStateType) {
 	return 0;
 }
 
+function sortModule(a: Module, b: Module) {
+	if (a === b) {
+		return 0;
+	}
+	const stateSort = sortByState(a.state, b.state);
+	return stateSort !== 0 ? stateSort : a.name.localeCompare(b.name);
+}
+
+/**
+ * Filter out branches that are not the latest. Branches that will be returned are:
+ * - master/main
+ * - the next minor release branch
+ * - the last two patch release branch
+ * @param branches
+ * @param mod 
+ */
 function moduleBranchFilter(branches: BranchList, mod: string): BranchList {
 	let nextBranches: {
 		nextMajor ?: string,
@@ -84,11 +100,20 @@ function moduleBranchFilter(branches: BranchList, mod: string): BranchList {
 	}, {});
 }
 
-
+/**
+ * Given a list of branches, find the worst "state". (e.g "Running" is worst than "Passing" and "Failed" is worst than "running")
+ * This is use to attach a state to a given module.
+ * @param accumulator 
+ * @param param1 
+ */
 function branchStateReduce(accumulator:BuildStateType, {state}:BranchData) {
-  return sort(accumulator, state) > 0 ? state : accumulator;
+  return sortByState(accumulator, state) > 0 ? state : accumulator;
 }
 
+/**
+ * Create an artificial state of expired for bulids that haven't run in more than 30 days.
+ * @param data 
+ */
 function markExpiredBuild(data: BranchData): BranchData {
   if (!data || data.state !== 'passed') {
 	  return data;
@@ -120,7 +145,7 @@ function postProcess(data: BuildData, filter: FilterType, term: string) {
 			return {branches, ...data};
 		})
 		.map(data => ({...data, state: Object.values(data.branches).reduce(branchStateReduce, 'passed')}))
-		.sort((a, b) => sort(a.state, b.state));
+		.sort((a, b) => sortModule(a, b));
 }
 
 export const build = createReducer<BuildState>(initialState, {
