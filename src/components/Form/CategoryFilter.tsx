@@ -21,6 +21,10 @@ export function CategoryFilter({className}: Props) {
 	const {setCategoryFilter} = useActions(ReduxActions);
 	const {categoryFilters} = useSelector((state: RootState) => state.build);
   const classes = useStyles();
+
+  if (!categoryFilters) {
+    return null;
+  }
   
   return (
 		<FormControl className={classes.root}>
