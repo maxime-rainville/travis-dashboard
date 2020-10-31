@@ -1,4 +1,4 @@
-import { BuildActions } from "../model";
+import { BuildActions, CategoryFilterType } from "../model";
 
 interface reduxAction {
 	type: string,
@@ -42,4 +42,8 @@ export function setTerm(term: string) {
 			}
 		});
 	}
+}
+
+export function setCategoryFilter(categoryFilters: CategoryFilterType[]) {
+	return {type: BuildActions.SET_CATEGORY_FILTER, payload: {categoryFilters}}
 }

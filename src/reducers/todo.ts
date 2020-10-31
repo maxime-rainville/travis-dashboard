@@ -1,6 +1,7 @@
 import { AddCircleTwoTone } from "@material-ui/icons";
-import { BranchData, BranchList, BuildAction, BuildActions, BuildData, BuildDataPayload, BuildState, BuildStateType, FilterType, SetTermPayload, Module } from "../model";
+import { BranchData, BranchList, BuildAction, BuildActions, BuildData, BuildDataPayload, BuildState, BuildStateType, FilterType, SetTermPayload, Module, SetCatPayload, CategoryFilterType } from "../model";
 import createReducer from "./createReducer";
+import { data as ssModuleData } from "silverstripe-cms-meta";
 
 
 const initialState: BuildState = {
@@ -8,17 +9,23 @@ const initialState: BuildState = {
 	loading: true,
 	raw: {},
 	filter: 'latestStable',
-	term: ''
+	term: '',
+	categoryFilters: ['core', 'nonmodule', 'supported', 'unsupported']
 };
 
 const statePriority: BuildStateType[][] = [
-	['errored', 'failed'], 
-	['canceled'], 
-	['expired'], 
-	['running', 'created', 'started'], 
+	['errored', 'failed'],
+	['canceled'],
+	['expired'],
+	['running', 'created', 'started'],
 	['passed']
 ];
 
+/**
+ * Sort states with the least desirable one showing up first.
+ * @param a
+ * @param b
+ */
 function sortByState(a: BuildStateType, b: BuildStateType) {
 	if (a === b) {
 		return 0;
@@ -36,6 +43,11 @@ function sortByState(a: BuildStateType, b: BuildStateType) {
 	return 0;
 }
 
+/**
+ * Sort module by build state and then by name.
+ * @param a
+ * @param b
+ */
 function sortModule(a: Module, b: Module) {
 	if (a === b) {
 		return 0;
@@ -50,7 +62,7 @@ function sortModule(a: Module, b: Module) {
  * - the next minor release branch
  * - the last two patch release branch
  * @param branches
- * @param mod 
+ * @param mod
  */
 function moduleBranchFilter(branches: BranchList, mod: string): BranchList {
 	let nextBranches: {
@@ -61,7 +73,7 @@ function moduleBranchFilter(branches: BranchList, mod: string): BranchList {
 	} = { }
 
 	const keys = Object.keys(branches);
-	
+
 
 	if (keys.indexOf('master') > -1) {
 		nextBranches.nextMajor = 'master';
@@ -103,8 +115,8 @@ function moduleBranchFilter(branches: BranchList, mod: string): BranchList {
 /**
  * Given a list of branches, find the worst "state". (e.g "Running" is worst than "Passing" and "Failed" is worst than "running")
  * This is use to attach a state to a given module.
- * @param accumulator 
- * @param param1 
+ * @param accumulator
+ * @param param1
  */
 function branchStateReduce(accumulator:BuildStateType, {state}:BranchData) {
   return sortByState(accumulator, state) > 0 ? state : accumulator;
@@ -112,7 +124,7 @@ function branchStateReduce(accumulator:BuildStateType, {state}:BranchData) {
 
 /**
  * Create an artificial state of expired for bulids that haven't run in more than 30 days.
- * @param data 
+ * @param data
  */
 function markExpiredBuild(data: BranchData): BranchData {
   if (!data || data.state !== 'passed') {
@@ -127,8 +139,22 @@ function markExpiredBuild(data: BranchData): BranchData {
   return (buildDate < expiry) ? {...data, state: 'expired'} : data;
 }
 
-function postProcess(data: BuildData, filter: FilterType, term: string) {
+function filterModule(moduleName:string, categoryFilters: CategoryFilterType[]) {
+	if (categoryFilters.length === 4) {
+		return true;
+	}
+	
+	const moduleMetaDada = ssModuleData.find((meta) => meta.repo === moduleName );
+	return moduleMetaDada ? (
+		(categoryFilters.indexOf('core') > -1 && moduleMetaDada.core ) ||
+		(categoryFilters.indexOf('supported') > -1 && moduleMetaDada.supported ) ||
+		(categoryFilters.indexOf('unsupported') > -1 && !moduleMetaDada.supported )
+	) : categoryFilters.indexOf('nonmodule') > -1;
+}
+
+function postProcess(data: BuildData, {filter, term, categoryFilters}: BuildState) {
 	return Object.keys(data)
+		.filter((module) => filterModule(module, categoryFilters))
 		.map(module => ({
 			branches: data[module],
 			name: module,
@@ -149,30 +175,30 @@ function postProcess(data: BuildData, filter: FilterType, term: string) {
 }
 
 export const build = createReducer<BuildState>(initialState, {
-	[BuildActions.LOADING_BUILDS](state: BuildState) {
+	[BuildActions.LOADING_BUILDS]() {
 		return initialState;
 	},
 	[BuildActions.BUILD_LOADED](state: BuildState, action: BuildAction) {
 		const {json, lastModified} = <BuildDataPayload> action.payload;
 		return {
 			...state,
-			modules: postProcess(json, state.filter, state.term),
+			modules: postProcess(json, state),
 			lastModified: lastModified,
 			loading: false,
 			raw: json
 		};
 	},
 	[BuildActions.TOGGLE_FILTER]({filter, ...state}: BuildState) {
-		const nextFilter = filter === 'latestStable' ? 'all' : 'latestStable';
-		return {
+		const nextFilter: FilterType = filter === 'latestStable' ? 'all' : 'latestStable';
+		const next = {
 			...state,
-			modules: postProcess(state.raw, nextFilter, state.term),
 			filter: nextFilter
 		};
+		return {...next, modules: postProcess(state.raw, next)};
 	},
 	[BuildActions.SET_TERM](state: BuildState, action: BuildAction) {
 		state.triggerSearchTimeout && clearTimeout(state.triggerSearchTimeout);
-		
+
 		const {term, triggerSearchTimeout} = <SetTermPayload> action.payload;
 		return {
 			...state,
@@ -183,7 +209,13 @@ export const build = createReducer<BuildState>(initialState, {
 	[BuildActions.TRIGGER_SEARCH](state: BuildState) {
 		return {
 			...state,
-			modules: postProcess(state.raw, state.filter, state.term),
+			modules: postProcess(state.raw, state),
 		};
 	},
+	[BuildActions.SET_CATEGORY_FILTER](state: BuildState, action: BuildAction) {
+		const {categoryFilters} = <SetCatPayload>action.payload;
+		const next = {...state, categoryFilters}
+
+		return {...next, modules: postProcess(state.raw, next)};
+	}
 });

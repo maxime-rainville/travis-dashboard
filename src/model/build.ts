@@ -1,6 +1,7 @@
 
 export type BuildStateType = 'passed'|'errored'|'failed'|'running'|'expired'|'canceled'|'created'|'started';
 export type FilterType = 'all'|'latestStable';
+export type CategoryFilterType = 'core'|'supported'|'unsupported'|'nonmodule';
 
 export interface BranchData {
   id: number
@@ -28,6 +29,9 @@ export interface SetTermPayload {
   triggerSearchTimeout: number
 }
 
+export interface SetCatPayload {
+  categoryFilters: CategoryFilterType[]
+}
 export interface Module {
   name: string
   branches: BranchList
@@ -44,7 +48,8 @@ export enum BuildActions {
   BUILD_LOADED = "BUILD_LOADED",
   TOGGLE_FILTER = "TOGGLE_FILTER",
   SET_TERM = "SET_TERM",
-  TRIGGER_SEARCH = "TRIGGER_SEARCH"
+  TRIGGER_SEARCH = "TRIGGER_SEARCH",
+  SET_CATEGORY_FILTER = "SET_CATEGORY_FILTER",
 }
 
 export type BuildAction =
@@ -53,6 +58,7 @@ export type BuildAction =
   | BuildActionType<typeof BuildActions.TOGGLE_FILTER, void>
   | BuildActionType<typeof BuildActions.SET_TERM, SetTermPayload>
   | BuildActionType<typeof BuildActions.TRIGGER_SEARCH, void>
+  | BuildActionType<typeof BuildActions.SET_CATEGORY_FILTER, SetCatPayload>
 ;
 
 export interface BuildState {
@@ -62,5 +68,6 @@ export interface BuildState {
   raw: BuildData,
   filter: FilterType,
   term: string,
-  triggerSearchTimeout?: number
+  triggerSearchTimeout?: number,
+  categoryFilters: CategoryFilterType[],
 }

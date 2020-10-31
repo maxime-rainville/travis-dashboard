@@ -18,7 +18,7 @@ import { useActions } from "./actions";
 import * as ReduxActions from "./actions/todo";
 import { BuildStateType } from "./model";
 import { buildStateColours } from './components/BranchBuild';
-import { BuildForm} from "./components/BuildForm";
+import { BuildForm} from "./components/Form/BuildForm";
 
 function Routes() {
 	const classes = useStyles();
@@ -138,7 +138,7 @@ function App() {
 								noWrap={isMobile}
 								className={classes.appTitle}
 							>
-								Silverstripe CMS Build dashboard
+								Silverstripe CMS Squad dashboard
 							</Typography>
 							<BuildForm className={classes.appForm} />
 						</Toolbar>
