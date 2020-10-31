@@ -226,7 +226,7 @@ const useStyles = makeStyles((theme: Theme) => ({
 	},
 	content: {
 		backgroundColor: theme.palette.background.default,
-		overflow: 'scroll',
+		overflow: 'auto',
 		width: "100%",
 		height: "calc(100% - 56px)",
 		marginTop: 56,
