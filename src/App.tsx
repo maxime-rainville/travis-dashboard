@@ -1,103 +1,18 @@
 // prettier-ignore
-import { AppBar, Divider, Drawer as DrawerMui, Hidden, IconButton, List, ListItem, ListItemIcon, ListItemText, ListSubheader, Toolbar, Typography, useMediaQuery } from "@material-ui/core";
+import { AppBar, Drawer as DrawerMui, Hidden, IconButton, Toolbar, Typography, useMediaQuery } from "@material-ui/core";
 import { Theme } from "@material-ui/core/styles";
-import HomeIcon from "@material-ui/icons/Home";
-import GitHub from "@material-ui/icons/GitHub";
-import UpdateIcon from '@material-ui/icons/Update';
 import MenuIcon from "@material-ui/icons/Menu";
 import { makeStyles } from "@material-ui/styles";
 import * as React from "react";
-import { useSelector } from "react-redux";
-import { Route, BrowserRouter } from "react-router-dom";
-import { history } from "./configureStore";
-import { HomePage } from "./pages";
-import { RootState } from "./reducers/index";
+import { BrowserRouter } from "react-router-dom";
 import { withRoot } from "./withRoot";
 import { useActions } from "./actions";
-import * as ReduxActions from "./actions/todo";
-import { BuildStateType } from "./model";
-import { buildStateColours } from './components/BranchBuild';
+import * as ReduxActions from "./actions/build";
+import { Drawer } from './components/Drawer';
 import { BuildForm} from "./components/Form/BuildForm";
 
-function Routes() {
-	const classes = useStyles();
+import { Routes } from './Routes';
 
-	return (
-		<div className={classes.content}>
-			<Route exact={true} path="/" component={HomePage} />
-			<Route exact={true} path="/home" component={HomePage} />
-		</div>
-	);
-}
-
-const states: BuildStateType[] = [
-	'failed',
-	'canceled',
-	'expired',
-	'running',
-	'passed'
-];
-
-const styledBy = (property: string, props: any, mapping: any): string =>
-	mapping[props[property]]
-
-const legendStyles = makeStyles({
-	legend: props => ({
-		background: styledBy('state', props, buildStateColours),
-		width: 24,
-		height: 24,
-		borderRadius: 3
-	})
-});
-
-function Drawer(props: {  }) {
-	const classes = useStyles();
-	const lastModified = useSelector((state: RootState) => state.build.lastModified);
-	const ago = lastModified ? 
-	    `Fetched ${Math.round(((new Date()).getTime() - lastModified.getTime()) / 1000 / 60)} min ago` :
-		'';
-
-	return (
-		<div className={classes.drawerList}>
-			<div className={classes.drawerHeader} />
-			<Divider />
-			<List>
-				<ListItem button onClick={() => history.push("/")}>
-					<ListItemIcon>
-						<HomeIcon />
-					</ListItemIcon>
-					<ListItemText primary="Builds" />
-				</ListItem>
-				<ListItem component="a" button href="https://github.com/maxime-rainville/travis-dashboard/">
-					<ListItemIcon>
-						<GitHub />
-					</ListItemIcon>
-					<ListItemText primary="View Source" />
-				</ListItem>
-				<ListItem component="a" button href="https://github.com/maxime-rainville/travis-dashboard/actions?query=workflow%3A%22Build+and+Deploy%22">
-					<ListItemIcon>
-						<UpdateIcon />
-					</ListItemIcon>
-					<ListItemText primary="Refresh data" secondary={ago} />
-				</ListItem>
-			</List>
-			<div className={classes.drawerSpacer}></div>
-			<List>
-				<ListSubheader>Legend</ListSubheader>
-				{
-					states.map(state => (
-						<ListItem key={state}>
-							<ListItemIcon>
-								<span className={legendStyles({state}).legend}></span>
-							</ListItemIcon>
-							<ListItemText primary={state} />
-						</ListItem>
-					))
-				}
-			</List>
-		</div>
-	);
-}
 
 function App() {
 	const todoActions = useActions(ReduxActions);
@@ -206,35 +121,15 @@ const useStyles = makeStyles((theme: Theme) => ({
 			display: "none",
 		},
 	},
-	drawerHeader: { ...theme.mixins.toolbar },
 	drawerPaper: {
-		width: 250,
-		backgroundColor: theme.palette.background.default,
-		[theme.breakpoints.up("md")]: {
-			width: drawerWidth,
-			position: "relative",
-			height: "100%",
-		},
-	},
-	drawerList: {
-		minHeight: '100%',
-		display: 'flex',
-		flexDirection: 'column'
-	},
-	drawerSpacer: {
-		flexGrow: 1
-	},
-	content: {
-		backgroundColor: theme.palette.background.default,
-		overflow: 'auto',
-		width: "100%",
-		height: "calc(100% - 56px)",
-		marginTop: 56,
-		[theme.breakpoints.up("sm")]: {
-			height: "calc(100% - 64px)",
-			marginTop: 64,
-		},
-	},
+	    width: 250,
+        backgroundColor: theme.palette.background.default,
+        [theme.breakpoints.up("md")]: {
+                width: drawerWidth,
+                position: "relative",
+                height: "100%",
+        },
+},
 }));
 
 export default withRoot(App);

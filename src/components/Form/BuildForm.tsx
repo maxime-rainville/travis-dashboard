@@ -2,7 +2,7 @@ import { makeStyles, FormGroup, Switch, FormControlLabel, TextField } from "@mat
 import * as React from "react";
 import { useSelector } from "react-redux";
 import { useActions } from "../../actions";
-import * as ReduxActions from "../../actions/todo";
+import * as ReduxActions from "../../actions/build";
 import { RootState } from "../../reducers";
 import { CategoryFilter } from "./CategoryFilter";
 

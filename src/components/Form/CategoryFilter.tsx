@@ -2,7 +2,7 @@ import { makeStyles, FormControl, InputLabel, Select, Input, MenuItem, Checkbox,
 import * as React from "react";
 import { useSelector } from "react-redux";
 import { useActions } from "../../actions";
-import * as ReduxActions from "../../actions/todo";
+import * as ReduxActions from "../../actions/build";
 import { CategoryFilterType } from "../../model";
 import { RootState } from "../../reducers";
 
