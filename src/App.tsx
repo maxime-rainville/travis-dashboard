@@ -23,8 +23,7 @@ function App() {
 
 	const classes = useStyles();
 	const [mobileOpen, setMobileOpen] = React.useState(true);
-	// const state = useSelector((state: RootState) => state);
-
+	
 	const isMobile = useMediaQuery((theme: Theme) =>
 		theme.breakpoints.down("sm")
 	);
@@ -53,7 +52,7 @@ function App() {
 								noWrap={isMobile}
 								className={classes.appTitle}
 							>
-								Silverstripe CMS Squad dashboard
+								Silverstripe CMS Squad Dashboard
 							</Typography>
 							<BuildForm className={classes.appForm} />
 						</Toolbar>
