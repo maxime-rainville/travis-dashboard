@@ -75,7 +75,7 @@ function Drawer(props: {  }) {
 					</ListItemIcon>
 					<ListItemText primary="View Source" />
 				</ListItem>
-				<ListItem component="a" button href="https://travis-ci.com/github/maxime-rainville/travis-dashboard/branches">
+				<ListItem component="a" button href="https://github.com/maxime-rainville/travis-dashboard/actions?query=workflow%3A%22Build+and+Deploy%22">
 					<ListItemIcon>
 						<UpdateIcon />
 					</ListItemIcon>
