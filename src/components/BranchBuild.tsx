@@ -1,4 +1,4 @@
-import { makeStyles, Button, Theme, Typography, Card, CardContent, Grid, CardActions } from "@material-ui/core";
+import { makeStyles, Button } from "@material-ui/core";
 import * as React from "react";
 import {BuildStateType} from "../model/build";
 
@@ -29,12 +29,6 @@ const variantByState: any = {
 	created:  'contained',
 	started:  'contained',
 	running:  'contained',
-}
-
-const colorByState: any = {
-	errored: 'secondary',
-	failed: 'secondary',
-	passed: 'primary'
 }
 
 export function BranchBuild({module, branch, build: {id, state}}: Props) {

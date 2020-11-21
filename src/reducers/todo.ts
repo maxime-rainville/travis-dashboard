@@ -1,4 +1,3 @@
-import { AddCircleTwoTone } from "@material-ui/icons";
 import { BranchData, BranchList, BuildAction, BuildActions, BuildData, BuildDataPayload, BuildState, BuildStateType, FilterType, SetTermPayload, Module, SetCatPayload, CategoryFilterType } from "../model";
 import createReducer from "./createReducer";
 import { data as ssModuleData } from "silverstripe-cms-meta";
@@ -179,7 +178,7 @@ export const build = createReducer<BuildState>(initialState, {
 		return initialState;
 	},
 	[BuildActions.BUILD_LOADED](state: BuildState, action: BuildAction) {
-		const {json, lastModified} = <BuildDataPayload> action.payload;
+		const {json, lastModified} = action.payload as BuildDataPayload;
 		return {
 			...state,
 			modules: postProcess(json, state),
@@ -199,7 +198,7 @@ export const build = createReducer<BuildState>(initialState, {
 	[BuildActions.SET_TERM](state: BuildState, action: BuildAction) {
 		state.triggerSearchTimeout && clearTimeout(state.triggerSearchTimeout);
 
-		const {term, triggerSearchTimeout} = <SetTermPayload> action.payload;
+		const {term, triggerSearchTimeout} =  action.payload as SetTermPayload;
 		return {
 			...state,
 			term: term.toLocaleLowerCase(),
@@ -213,7 +212,7 @@ export const build = createReducer<BuildState>(initialState, {
 		};
 	},
 	[BuildActions.SET_CATEGORY_FILTER](state: BuildState, action: BuildAction) {
-		const {categoryFilters} = <SetCatPayload>action.payload;
+		const {categoryFilters} = action.payload as SetCatPayload;
 		const next = {...state, categoryFilters}
 
 		return {...next, modules: postProcess(state.raw, next)};

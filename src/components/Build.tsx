@@ -1,15 +1,7 @@
-import { makeStyles, Button, Theme, Typography, Card, CardContent, Grid, CardActions } from "@material-ui/core";
-import { NoEncryption } from "@material-ui/icons";
+import { makeStyles, Theme, Typography, Card, CardContent, Grid } from "@material-ui/core";
 import * as React from "react";
 import { Module } from "../model";
 import { BranchBuild } from './BranchBuild';
-
-const variantByState: any = {
-	errored: 'contained',
-	failed: 'contained',
-	passed: 'outlined',
-	expired: 'outlined'
-}
 
 export function Build({name, branches, state}: Module) {
 	const classes = useStyles({state});
@@ -35,8 +27,6 @@ export function Build({name, branches, state}: Module) {
 	);
 }
 
-const styledBy = (property: string, props: any, mapping: any): string =>
-	mapping[props[property]];
 const useStyles = makeStyles((theme: Theme) => ({
 	box: (props: any) => ({
 		borderRadius: 8,

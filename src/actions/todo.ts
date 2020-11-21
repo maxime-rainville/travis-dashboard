@@ -16,7 +16,7 @@ export function initBuildData() {
 			json: data,
 			lastModified: 
 				response.headers.has('last-modified') ? 
-				new Date(<string>response.headers.get('last-modified')) : 
+				new Date(response.headers.get('last-modified') as string) : 
 				undefined
 		  	})))
 		  .then(data => dispatch({type: BuildActions.BUILD_LOADED, payload: data}));

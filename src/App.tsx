@@ -1,7 +1,6 @@
 // prettier-ignore
-import { AppBar, Badge, Divider, Drawer as DrawerMui, Hidden, IconButton, List, ListItem, ListItemIcon, ListItemText, ListSubheader, Toolbar, Typography, useMediaQuery } from "@material-ui/core";
+import { AppBar, Divider, Drawer as DrawerMui, Hidden, IconButton, List, ListItem, ListItemIcon, ListItemText, ListSubheader, Toolbar, Typography, useMediaQuery } from "@material-ui/core";
 import { Theme } from "@material-ui/core/styles";
-import FormatListNumberedIcon from "@material-ui/icons/FormatListNumbered";
 import HomeIcon from "@material-ui/icons/Home";
 import GitHub from "@material-ui/icons/GitHub";
 import UpdateIcon from '@material-ui/icons/Update';
@@ -67,7 +66,7 @@ function Drawer(props: {  }) {
 					<ListItemIcon>
 						<HomeIcon />
 					</ListItemIcon>
-					<ListItemText primary="Home" />
+					<ListItemText primary="Builds" />
 				</ListItem>
 				<ListItem component="a" button href="https://github.com/maxime-rainville/travis-dashboard/">
 					<ListItemIcon>
@@ -104,6 +103,7 @@ function App() {
 	const todoActions = useActions(ReduxActions);
 	React.useEffect( () => {
 		todoActions.initBuildData();
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, []);
 
 	const classes = useStyles();

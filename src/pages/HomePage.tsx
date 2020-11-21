@@ -1,4 +1,4 @@
-import { Button, Typography, Grid, CircularProgress } from "@material-ui/core";
+import { Grid, CircularProgress } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
 import * as React from "react";
 import { useSelector } from "react-redux";
@@ -7,8 +7,6 @@ import { RootState } from "../reducers";
 
 export function HomePage() {
 	const classes = useStyles();
-	const [boxColor, setBoxColor] = React.useState("red");
-
 	const {modules, loading} = useSelector((state: RootState) => state.build);
 
 	return loading || !modules ? <CircularProgress /> : 	
