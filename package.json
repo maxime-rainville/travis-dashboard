@@ -41,6 +41,6 @@
 		"@types/redux-logger": "3.0.7",
 		"@types/webpack-env": "1.15.1",
 		"eslint-plugin-react": "7.17.0",
-		"fetch-travis-data": "^0.3.0"
+		"fetch-travis-data": "^0.4.0"
 	}
 }
