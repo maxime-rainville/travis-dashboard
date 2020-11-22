@@ -128,7 +128,7 @@ const useStyles = makeStyles((theme: Theme) => ({
                 position: "relative",
                 height: "100%",
         },
-},
+	},
 }));
 
 export default withRoot(App);
