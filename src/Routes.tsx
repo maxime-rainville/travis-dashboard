@@ -2,16 +2,19 @@
 import { Theme } from "@material-ui/core/styles";
 import { makeStyles } from "@material-ui/styles";
 import * as React from "react";
-import { Route } from "react-router-dom";
-import { HomePage } from "./pages";
+import { Route, Switch } from "react-router-dom";
+import { HomePage, StatsPage } from "./pages";
 
 export function Routes() {
 	const classes = useStyles();
 
 	return (
 		<div className={classes.root}>
-			<Route exact={true} path="/" component={HomePage} />
-			<Route exact={true} path="/home" component={HomePage} />
+			<Switch>
+				<Route exact path="/" component={HomePage} />
+				<Route path="/home" component={HomePage} />
+				<Route path="/stats" component={StatsPage} />
+			</Switch>
 		</div>
 	);
 }

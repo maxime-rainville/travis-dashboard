@@ -70,4 +70,5 @@ export interface BuildState {
   term: string,
   triggerSearchTimeout?: number,
   categoryFilters: CategoryFilterType[],
+  stats: {[state in BuildStateType]: number}
 }

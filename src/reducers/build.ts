@@ -9,7 +9,17 @@ const initialState: BuildState = {
 	raw: {},
 	filter: 'latestStable',
 	term: '',
-	categoryFilters: ['core', 'nonmodule', 'supported', 'unsupported']
+	categoryFilters: ['core', 'nonmodule', 'supported', 'unsupported'],
+	stats: {
+		'passed': 0,
+		'errored': 0,
+		'failed': 0,
+		'running': 0,
+		'expired': 0,
+		'canceled': 0,
+		'created': 0,
+		'started': 0
+	}
 };
 
 const statePriority: BuildStateType[][] = [
@@ -173,7 +183,31 @@ function postProcess(data: BuildData, {filter, term, categoryFilters}: BuildStat
 		.sort((a, b) => sortModule(a, b));
 }
 
-export const build = createReducer<BuildState>(initialState, {
+/**
+ * Count builds by state type
+ * @param bulidState 
+ */
+function countBuildStateType(bulidState: BuildState): BuildState {
+	const initStats = {
+		'passed': 0,
+		'errored': 0,
+		'failed': 0,
+		'running': 0,
+		'expired': 0,
+		'canceled': 0,
+		'created': 0,
+		'started': 0
+	};
+	
+	const stats = bulidState.modules.reduce((accumulator, module) => {
+		Object.values(module.branches).forEach(branch => accumulator[branch.state]++);
+		return accumulator;
+	}, initStats);
+
+	return {...bulidState, stats};
+}
+
+ const reducer = createReducer<BuildState>(initialState, {
 	[BuildActions.LOADING_BUILDS]() {
 		return initialState;
 	},
@@ -218,3 +252,5 @@ export const build = createReducer<BuildState>(initialState, {
 		return {...next, modules: postProcess(state.raw, next)};
 	}
 });
+
+export const build = (state: BuildState | undefined, action: any) => countBuildStateType(reducer(state, action));

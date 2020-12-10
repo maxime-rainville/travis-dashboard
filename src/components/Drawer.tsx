@@ -2,15 +2,16 @@
 import { Divider, List, ListItem, ListItemIcon, ListItemText, ListSubheader } from "@material-ui/core";
 import { Theme } from "@material-ui/core/styles";
 import HomeIcon from "@material-ui/icons/Home";
+import PieChartIcon from '@material-ui/icons/PieChart';
 import GitHub from "@material-ui/icons/GitHub";
 import UpdateIcon from '@material-ui/icons/Update';
 import { makeStyles } from "@material-ui/styles";
 import * as React from "react";
 import { useSelector } from "react-redux";
-import { history } from "../configureStore";
 import { RootState } from "../reducers/index";
 import { BuildStateType } from "../model";
 import { buildStateColours } from './BranchBuild';
+import { useHistory } from 'react-router-dom';
 
 const states: BuildStateType[] = [
 	'failed',
@@ -38,6 +39,7 @@ export function Drawer(props: {  }) {
 	const ago = lastModified ? 
 	    `Fetched ${Math.round(((new Date()).getTime() - lastModified.getTime()) / 1000 / 60)} min ago` :
 		'';
+	const history = useHistory();
 
 	return (
 		<div className={classes.root}>
@@ -49,6 +51,12 @@ export function Drawer(props: {  }) {
 						<HomeIcon />
 					</ListItemIcon>
 					<ListItemText primary="Builds" />
+				</ListItem>
+				<ListItem button onClick={() => history.push("/stats")}>
+					<ListItemIcon>
+						<PieChartIcon />
+					</ListItemIcon>
+					<ListItemText primary="Stats" />
 				</ListItem>
 				<ListItem component="a" button href="https://github.com/maxime-rainville/travis-dashboard/">
 					<ListItemIcon>
