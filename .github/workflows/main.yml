@@ -18,7 +18,7 @@ jobs:
           npm install
           TRAVIS_TOKEN=${{ secrets.TRAVIS_TOKEN }} npm run fetch
           PUBLIC_URL=/travis-dashboard/ CI=false npm run build
-          date > build/timestamp.txt
+          cp build/index.html build/404.html
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
