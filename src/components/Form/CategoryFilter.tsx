@@ -2,9 +2,9 @@ import { makeStyles, FormControl, InputLabel, Select, Input, MenuItem, Checkbox,
 import * as React from "react";
 import { useSelector } from "react-redux";
 import { useActions } from "../../actions";
-import * as ReduxActions from "../../actions/build";
-import { CategoryFilterType } from "../../model";
+import * as ReduxActions from "../../actions/filter";
 import { RootState } from "../../reducers";
+import { CategoryFilterType } from "../../reducers/filters";
 
 interface Props {
 	className?: string
@@ -19,13 +19,13 @@ const categories: {[key in CategoryFilterType]: string} = {
 }
 export function CategoryFilter({className}: Props) {
 	const {setCategoryFilter} = useActions(ReduxActions);
-	const {categoryFilters} = useSelector((state: RootState) => state.build);
+	const {categoryFilters} = useSelector((state: RootState) => state.filters);
   const classes = useStyles();
 
   if (!categoryFilters) {
     return null;
   }
-  
+
   return (
 		<FormControl className={classes.root}>
         <InputLabel id="demo-mutiple-checkbox-label" color="secondary">Category</InputLabel>

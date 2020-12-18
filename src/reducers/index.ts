@@ -1,13 +1,16 @@
 import { History } from "history";
 import { combineReducers } from "redux";
 import { BuildState } from "../model";
-import * as todoReducer from "./build";
+import { builds } from "./Build/reducer";
+import { filters, FilterState } from "./filters";
 
 export interface RootState {
-	build: BuildState;
+  builds: BuildState;
+  filters: FilterState
 }
 
 export default (history: History) =>
 	combineReducers({
-		...todoReducer,
+    builds,
+    filters
 	});

@@ -1,22 +1,22 @@
-import { Grid, CircularProgress } from "@material-ui/core";
+import { Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
 import * as React from "react";
-import { useSelector } from "react-redux";
 import { Build } from "../components";
-import { RootState } from "../reducers";
+import { ResultLoader } from "../components/ResultLoader";
+import { useBuilds } from "../selectors/useBuilds";
 
 export function HomePage() {
 	const classes = useStyles();
-	const {modules, loading} = useSelector((state: RootState) => state.build);
+	const {modules, loading} = useBuilds();
 
-	return loading || !modules ? <CircularProgress /> : 	
-	(
+	return (
+  <ResultLoader loading={loading} results={modules}>
 		<div className={classes.root}>
-			<Grid className={classes.centerContainer} container direction="row" justify="center" alignItems="stretch" spacing={3}> 
+			<Grid className={classes.centerContainer} container direction="row" justify="center" alignItems="stretch" spacing={3}>
 				{modules.map( ({name, ...props}) => <Build key={name} name={name} {...props} />)}
 			</Grid>
 		</div>
-	);
+  </ResultLoader>);
 }
 
 const useStyles = makeStyles({

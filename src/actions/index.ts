@@ -1,6 +1,8 @@
 import { useMemo } from "react";
 import { useDispatch } from "react-redux";
 import { bindActionCreators } from "redux";
+import { BuildAction } from "./build";
+import { Action as FilterAction} from './filter';
 
 export function useActions(actions: any, deps?: any): any {
 	const dispatch = useDispatch();
@@ -15,3 +17,8 @@ export function useActions(actions: any, deps?: any): any {
 		deps ? [dispatch, ...deps] : deps
 	);
 }
+
+export type Action =
+  | BuildAction
+  | FilterAction
+;

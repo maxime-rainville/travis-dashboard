@@ -1,11 +1,10 @@
-import { CircularProgress } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
 import * as React from "react";
-import { useSelector } from "react-redux";
-import { RootState } from "../reducers";
 import { Doughnut } from 'react-chartjs-2';
 import { buildStateColours } from '../components/BranchBuild';
+import { ResultLoader } from "../components/ResultLoader";
 import { BuildStateType } from "../model";
+import { useStats } from "../selectors/useStats";
 
 const labels: BuildStateType[] = [
 	'failed',
@@ -30,13 +29,16 @@ function buildData(stats: {[state in BuildStateType]: number}) {
 
 export function StatsPage() {
 	const classes = useStyles();
-	const {stats, loading} = useSelector((state: RootState) => state.build);
+  const {stats, loading} = useStats();
 
-	return loading ? <CircularProgress /> : 	
-	(
-		<div className={classes.root}>
-			<Doughnut data={buildData(stats)} legend={false}  />
-		</div>
+  const results = Object.values(stats).find(count => count > 0) !== undefined;
+
+	return (
+		<ResultLoader loading={loading} results={results}>
+      <div className={classes.root}>
+        <Doughnut data={buildData(stats)} legend={false}  />
+      </div>
+    </ResultLoader>
 	);
 }
 

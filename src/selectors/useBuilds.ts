@@ -1,26 +1,10 @@
-import { BranchData, BranchList, BuildAction, BuildActions, BuildData, BuildDataPayload, BuildState, BuildStateType, FilterType, SetTermPayload, Module, SetCatPayload, CategoryFilterType } from "../model";
-import createReducer from "./createReducer";
+import { BranchData, BranchList, BuildStateType, Module } from "../model";
 import { data as ssModuleData } from "silverstripe-cms-meta";
+import { CategoryFilterType, FilterType } from "../reducers/filters";
+import { useSelector } from "react-redux";
+import { RootState } from "../reducers";
+import { useMemo } from "react";
 
-
-const initialState: BuildState = {
-	modules: [],
-	loading: true,
-	raw: {},
-	filter: 'latestStable',
-	term: '',
-	categoryFilters: ['core', 'nonmodule', 'supported', 'unsupported'],
-	stats: {
-		'passed': 0,
-		'errored': 0,
-		'failed': 0,
-		'running': 0,
-		'expired': 0,
-		'canceled': 0,
-		'created': 0,
-		'started': 0
-	}
-};
 
 const statePriority: BuildStateType[][] = [
 	['errored', 'failed'],
@@ -131,28 +115,11 @@ function branchStateReduce(accumulator:BuildStateType, {state}:BranchData) {
   return sortByState(accumulator, state) > 0 ? state : accumulator;
 }
 
-/**
- * Create an artificial state of expired for bulids that haven't run in more than 30 days.
- * @param data
- */
-function markExpiredBuild(data: BranchData): BranchData {
-  if (!data || data.state !== 'passed') {
-	  return data;
-  }
-
-  const buildDate = new Date(data.started_at);
-  const now = new Date();
-  const expiry = new Date();
-  expiry.setDate(now.getDate() - 30);
-
-  return (buildDate < expiry) ? {...data, state: 'expired'} : data;
-}
-
 function filterModule(moduleName:string, categoryFilters: CategoryFilterType[]) {
 	if (categoryFilters.length === 4) {
 		return true;
 	}
-	
+
 	const moduleMetaDada = ssModuleData.find((meta) => meta.repo === moduleName );
 	return moduleMetaDada ? (
 		(categoryFilters.indexOf('core') > -1 && moduleMetaDada.core ) ||
@@ -161,96 +128,27 @@ function filterModule(moduleName:string, categoryFilters: CategoryFilterType[]) 
 	) : categoryFilters.indexOf('nonmodule') > -1;
 }
 
-function postProcess(data: BuildData, {filter, term, categoryFilters}: BuildState) {
-	return Object.keys(data)
-		.filter((module) => filterModule(module, categoryFilters))
-		.map(module => ({
-			branches: data[module],
-			name: module,
-		}))
+function postProcess(data: Module[], filter: FilterType, categoryFilters: CategoryFilterType[], term: string) {
+	return data
+		.filter((module) => filterModule(module.name, categoryFilters))
 		.filter(({name}) => (name.indexOf(term) !== -1))
 		.map(({branches, ...data}) => ({
 			branches: filter === 'latestStable' ? moduleBranchFilter(branches, data.name) : branches,
 			...data
 		}))
-		.map(({branches, ...data}) => {
-			for (const key in branches) {
-				branches[key] = markExpiredBuild(branches[key]);
-			}
-			return {branches, ...data};
-		})
 		.map(data => ({...data, state: Object.values(data.branches).reduce(branchStateReduce, 'passed')}))
 		.sort((a, b) => sortModule(a, b));
 }
 
-/**
- * Count builds by state type
- * @param bulidState 
- */
-function countBuildStateType(bulidState: BuildState): BuildState {
-	const initStats = {
-		'passed': 0,
-		'errored': 0,
-		'failed': 0,
-		'running': 0,
-		'expired': 0,
-		'canceled': 0,
-		'created': 0,
-		'started': 0
-	};
-	
-	const stats = bulidState.modules.reduce((accumulator, module) => {
-		Object.values(module.branches).forEach(branch => accumulator[branch.state]++);
-		return accumulator;
-	}, initStats);
+export function useBuilds() {
+  const {filters: {categoryFilters, filter, term}, builds} = useSelector((state: RootState) => state);
 
-	return {...bulidState, stats};
+  return {
+    ...builds,
+    modules: useMemo(
+      () => postProcess(builds.modules, filter, categoryFilters, term),
+      [builds.modules, categoryFilters, filter, term]
+    )
+  }
+
 }
-
- const reducer = createReducer<BuildState>(initialState, {
-	[BuildActions.LOADING_BUILDS]() {
-		return initialState;
-	},
-	[BuildActions.BUILD_LOADED](state: BuildState, action: BuildAction) {
-		const {json, lastModified} = action.payload as BuildDataPayload;
-		return {
-			...state,
-			modules: postProcess(json, state),
-			lastModified: lastModified,
-			loading: false,
-			raw: json
-		};
-	},
-	[BuildActions.TOGGLE_FILTER]({filter, ...state}: BuildState) {
-		const nextFilter: FilterType = filter === 'latestStable' ? 'all' : 'latestStable';
-		const next = {
-			...state,
-			filter: nextFilter
-		};
-		return {...next, modules: postProcess(state.raw, next)};
-	},
-	[BuildActions.SET_TERM](state: BuildState, action: BuildAction) {
-		state.triggerSearchTimeout && clearTimeout(state.triggerSearchTimeout);
-
-		const {term, triggerSearchTimeout} =  action.payload as SetTermPayload;
-		return {
-			...state,
-			term: term.toLocaleLowerCase(),
-			triggerSearchTimeout
-		};
-	},
-	[BuildActions.TRIGGER_SEARCH](state: BuildState) {
-		return {
-			...state,
-			modules: postProcess(state.raw, state),
-		};
-	},
-	[BuildActions.SET_CATEGORY_FILTER](state: BuildState, action: BuildAction) {
-		const {categoryFilters} = action.payload as SetCatPayload;
-		const next = {...state, categoryFilters}
-
-		return {...next, modules: postProcess(state.raw, next)};
-	}
-});
-
-export const build = (state: BuildState | undefined, action: any) => countBuildStateType(reducer(state, action));

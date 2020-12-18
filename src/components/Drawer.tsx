@@ -35,8 +35,8 @@ const legendStyles = makeStyles({
 
 export function Drawer(props: {  }) {
 	const classes = useStyles();
-	const lastModified = useSelector((state: RootState) => state.build.lastModified);
-	const ago = lastModified ? 
+	const lastModified = useSelector((state: RootState) => state.builds.lastModified);
+	const ago = lastModified ?
 	    `Fetched ${Math.round(((new Date()).getTime() - lastModified.getTime()) / 1000 / 60)} min ago` :
 		'';
 	const history = useHistory();

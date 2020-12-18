@@ -2,7 +2,7 @@ import { makeStyles, FormGroup, Switch, FormControlLabel, TextField } from "@mat
 import * as React from "react";
 import { useSelector } from "react-redux";
 import { useActions } from "../../actions";
-import * as ReduxActions from "../../actions/build";
+import * as ReduxActions from "../../actions/filter";
 import { RootState } from "../../reducers";
 import { CategoryFilter } from "./CategoryFilter";
 
@@ -12,16 +12,16 @@ interface Props {
 
 export function BuildForm({className}: Props) {
 	const {toggleFilter, setTerm} = useActions(ReduxActions);
-	const {filter} = useSelector((state: RootState) => state.build);
+	const {filter, partialTerm} = useSelector((state: RootState) => state.filters);
 	const classes = useStyles();
 	return (
 		<FormGroup row className={`${className} ${classes.root}`}>
-			<TextField 
+			<TextField
 				label="Filter by name" variant="filled" color="secondary"
-				onChange={event => setTerm(event.target.value)} className={classes.term} />
+				onChange={event => setTerm(event.target.value)} className={classes.term} value={partialTerm} />
 			<CategoryFilter />
 			<FormControlLabel
-				control={<Switch checked={filter === 'latestStable'} onChange={toggleFilter} />} 
+				control={<Switch checked={filter === 'latestStable'} onChange={toggleFilter} />}
 				label="Latest only" color="secondary"/>
 		</FormGroup>
 	);
