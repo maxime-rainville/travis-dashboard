@@ -18,11 +18,11 @@ export function HomePage() {
   <ResultLoader loading={loading} results={modules}>
 		<div className={classes.root}>
 
-      {favModules && <Grid className={classes.centerContainer} container direction="row" justify="center" alignItems="stretch" spacing={3}>
+      {favModules.length > 0 && <Grid className={classes.centerContainer} container direction="row" justify="center" alignItems="stretch" spacing={3}>
 				{favModules.map( ({name, ...props}) => <Build key={name} name={name} {...props} />)}
 			</Grid>}
 
-      {otherModules && <Grid className={classes.centerContainer} container direction="row" justify="center" alignItems="stretch" spacing={3}>
+      {otherModules.length > 0 && <Grid className={classes.centerContainer} container direction="row" justify="center" alignItems="stretch" spacing={3}>
 				{otherModules.map( ({name, ...props}) => <Build key={name} name={name} {...props} />)}
 			</Grid>}
 		</div>
