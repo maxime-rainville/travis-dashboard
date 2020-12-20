@@ -129,7 +129,7 @@ function filterModule(moduleName:string, categoryFilters: CategoryFilterType[]) 
 }
 
 function postProcess(data: Module[], filter: FilterType, categoryFilters: CategoryFilterType[], term: string) {
-	return data
+  return data
 		.filter((module) => filterModule(module.name, categoryFilters))
 		.filter(({name}) => (name.indexOf(term) !== -1))
 		.map(({branches, ...data}) => ({

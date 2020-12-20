@@ -4,17 +4,27 @@ import * as React from "react";
 import { Build } from "../components";
 import { ResultLoader } from "../components/ResultLoader";
 import { useBuilds } from "../selectors/useBuilds";
+import { useSelector } from "react-redux";
+import { RootState } from "../reducers";
 
 export function HomePage() {
 	const classes = useStyles();
-	const {modules, loading} = useBuilds();
+  const {modules, loading} = useBuilds();
+  const favourites = useSelector((state: RootState) => state.favourites);
+  const favModules = modules.filter(({name}) => favourites.includes(name));
+  const otherModules = modules.filter(({name}) => !favourites.includes(name));
 
 	return (
   <ResultLoader loading={loading} results={modules}>
 		<div className={classes.root}>
-			<Grid className={classes.centerContainer} container direction="row" justify="center" alignItems="stretch" spacing={3}>
-				{modules.map( ({name, ...props}) => <Build key={name} name={name} {...props} />)}
-			</Grid>
+
+      {favModules && <Grid className={classes.centerContainer} container direction="row" justify="center" alignItems="stretch" spacing={3}>
+				{favModules.map( ({name, ...props}) => <Build key={name} name={name} {...props} />)}
+			</Grid>}
+
+      {otherModules && <Grid className={classes.centerContainer} container direction="row" justify="center" alignItems="stretch" spacing={3}>
+				{otherModules.map( ({name, ...props}) => <Build key={name} name={name} {...props} />)}
+			</Grid>}
 		</div>
   </ResultLoader>);
 }
@@ -28,12 +38,8 @@ const useStyles = makeStyles({
 	},
 
 	centerContainer: {
-		// flex: 1,
-		// height: "90%",
-		// display: "flex",
-		// alignItems: "center",
-		// justifyContent: "center",
-		// flexDirection: "column",
+    justifyContent: "flex-start",
+    marginBottom: 60
 	},
 
 	button: {

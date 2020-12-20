@@ -3,6 +3,7 @@ import { useDispatch } from "react-redux";
 import { bindActionCreators } from "redux";
 import { BuildAction } from "./build";
 import { Action as FilterAction} from './filter';
+import { Action as FavouriteAction} from './favourite';
 
 export function useActions(actions: any, deps?: any): any {
 	const dispatch = useDispatch();
@@ -21,4 +22,5 @@ export function useActions(actions: any, deps?: any): any {
 export type Action =
   | BuildAction
   | FilterAction
+  | FavouriteAction
 ;

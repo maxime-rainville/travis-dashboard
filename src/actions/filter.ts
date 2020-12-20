@@ -36,7 +36,7 @@ export function setTerm(term: string) {
 	return (dispatch: dispatchCallback) => {
 		const triggerSearchTimeout = setTimeout(() => {
 			dispatch({type: Actions.TRIGGER_SEARCH, payload: undefined});
-		}, 500)
+		}, 1000)
 
 		dispatch({
 			type: Actions.SET_TERM,

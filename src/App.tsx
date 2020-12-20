@@ -7,7 +7,8 @@ import * as React from "react";
 import { BrowserRouter } from "react-router-dom";
 import { withRoot } from "./withRoot";
 import { useActions } from "./actions";
-import * as ReduxActions from "./actions/build";
+import * as BuildActions from "./actions/build";
+import * as FavActions from "./actions/favourite";
 import { Drawer } from './components/Drawer';
 import { BuildForm} from "./components/Form/BuildForm";
 
@@ -15,15 +16,17 @@ import { Routes } from './Routes';
 
 
 function App() {
-	const todoActions = useActions(ReduxActions);
+  const buildActions = useActions(BuildActions);
+  const { initFavourite } = useActions(FavActions);
 	React.useEffect( () => {
-		todoActions.initBuildData();
+    buildActions.initBuildData();
+    initFavourite();
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, []);
 
 	const classes = useStyles();
 	const [mobileOpen, setMobileOpen] = React.useState(true);
-	
+
 	const isMobile = useMediaQuery((theme: Theme) =>
 		theme.breakpoints.down("sm")
 	);
