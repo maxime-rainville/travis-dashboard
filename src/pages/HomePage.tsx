@@ -6,16 +6,18 @@ import { ResultLoader } from "../components/ResultLoader";
 import { useBuilds } from "../selectors/useBuilds";
 import { useSelector } from "react-redux";
 import { RootState } from "../reducers";
+import { useSearching } from "../selectors/useSearching";
 
 export function HomePage() {
 	const classes = useStyles();
   const {modules, loading} = useBuilds();
-  const favourites = useSelector((state: RootState) => state.favourites);
+  const isSearching = useSearching();
+  const { favourites } = useSelector(({favourites}: RootState) => ({favourites}));
   const favModules = modules.filter(({name}) => favourites.includes(name));
   const otherModules = modules.filter(({name}) => !favourites.includes(name));
 
 	return (
-  <ResultLoader loading={loading} results={modules}>
+  <ResultLoader loading={loading || isSearching} results={modules}>
 		<div className={classes.root}>
 
       {favModules.length > 0 && <Grid className={classes.centerContainer} container direction="row" justify="center" alignItems="stretch" spacing={3}>
