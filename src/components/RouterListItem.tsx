@@ -17,8 +17,6 @@ export function RouterListItem({Icon, route, title}: Props) {
   const classes = useStyles();
   const history = useHistory();
 
-  console.dir(history.location)
-
   const props = {
     onClick: () => history.push(route),
     className: classnames({[classes.active]: history.location.pathname === route})
