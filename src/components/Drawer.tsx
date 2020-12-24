@@ -4,6 +4,7 @@ import { Theme } from "@material-ui/core/styles";
 import HomeIcon from "@material-ui/icons/Home";
 import PieChartIcon from '@material-ui/icons/PieChart';
 import GitHub from "@material-ui/icons/GitHub";
+import MergeTypeIcon from '@material-ui/icons/MergeType';
 import UpdateIcon from '@material-ui/icons/Update';
 import { makeStyles } from "@material-ui/styles";
 import * as React from "react";
@@ -51,6 +52,12 @@ export function Drawer(props: {  }) {
 						<HomeIcon />
 					</ListItemIcon>
 					<ListItemText primary="Builds" />
+				</ListItem>
+        <ListItem button onClick={() => history.push("/mergeups")}>
+					<ListItemIcon>
+						<MergeTypeIcon />
+					</ListItemIcon>
+					<ListItemText primary="Merge ups" />
 				</ListItem>
 				<ListItem button onClick={() => history.push("/stats")}>
 					<ListItemIcon>

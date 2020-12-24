@@ -4,6 +4,7 @@ import { makeStyles } from "@material-ui/styles";
 import * as React from "react";
 import { Route, Switch } from "react-router-dom";
 import { HomePage, StatsPage } from "./pages";
+import { MergeupPage } from "./pages/MergeupPage";
 
 export function Routes() {
 	const classes = useStyles();
@@ -13,6 +14,7 @@ export function Routes() {
 			<Switch>
 				<Route exact path="/" component={HomePage} />
 				<Route path="/home" component={HomePage} />
+        <Route path="/mergeups" component={MergeupPage} />
 				<Route path="/stats" component={StatsPage} />
 			</Switch>
 		</div>

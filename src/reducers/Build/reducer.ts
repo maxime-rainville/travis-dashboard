@@ -44,8 +44,7 @@ export const builds = createReducer<BuildState>(initialState, {
 			...state,
 			modules: postProcess(json),
 			lastModified: lastModified,
-			loading: false,
-			raw: json
+			loading: false
 		};
 	}
 });

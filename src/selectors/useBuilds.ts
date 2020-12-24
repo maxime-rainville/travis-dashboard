@@ -1,9 +1,10 @@
 import { BranchData, BranchList, BuildStateType, Module } from "../model";
-import { data as ssModuleData } from "silverstripe-cms-meta";
 import { CategoryFilterType, FilterType } from "../reducers/filters";
 import { useSelector } from "react-redux";
 import { RootState } from "../reducers";
 import { useMemo } from "react";
+import { filterModuleByCategory } from "./filterModuleByCategory";
+import { latestBranchFilter } from "./latestBranchFilter";
 
 
 const statePriority: BuildStateType[][] = [
@@ -58,47 +59,12 @@ function sortModule(a: Module, b: Module) {
  * @param mod
  */
 function moduleBranchFilter(branches: BranchList, mod: string): BranchList {
-	let nextBranches: {
-		nextMajor ?: string,
-		nextMinor ?: string,
-		nextPatch ?: string,
-		previousPatch ?: string,
-	} = { }
+	const filteredBranches = latestBranchFilter(
+    Object.keys(branches),
+    mod
+  );
 
-	const keys = Object.keys(branches);
-
-
-	if (keys.indexOf('master') > -1) {
-		nextBranches.nextMajor = 'master';
-	} else if (keys.indexOf('main') > -1) {
-		nextBranches.nextMajor = 'main';
-	}
-
-	const nextMinor = keys.filter(key => key.match(/^\d+$/))
-		.map(key => parseInt(key))
-		.reduce((a,b) => Math.max(a,b), 0);
-
-	if (nextMinor) {
-		nextBranches.nextMinor = nextMinor.toString();
-		const patches = keys
-			.filter(key => key.match(new RegExp(`^${nextMinor}\\.\\d+$`)))
-			.map(key => {
-				return key.replace(`${nextMinor}.`, '').trim()
-			})
-			.map(key => parseInt(key)).sort()
-			.slice(-2)
-			.map(subVersion => `${nextMinor}.${subVersion}`);
-
-		if (patches.length === 2) {
-			nextBranches.nextPatch = patches[1];
-			nextBranches.previousPatch = patches[0];
-		} else if (patches.length === 1) {
-			nextBranches.nextPatch = patches[0];
-		}
-	}
-
-
-	return Object.values(nextBranches).reduce((nextBranches, key) => {
+	return filteredBranches.reduce((nextBranches, key) => {
 		return key === undefined ?
 			nextBranches :
 			{...nextBranches, [key]: branches[key]}
@@ -115,22 +81,9 @@ function branchStateReduce(accumulator:BuildStateType, {state}:BranchData) {
   return sortByState(accumulator, state) > 0 ? state : accumulator;
 }
 
-function filterModule(moduleName:string, categoryFilters: CategoryFilterType[]) {
-	if (categoryFilters.length === 4) {
-		return true;
-	}
-
-	const moduleMetaDada = ssModuleData.find((meta) => meta.repo === moduleName );
-	return moduleMetaDada ? (
-		(categoryFilters.indexOf('core') > -1 && moduleMetaDada.core ) ||
-		(categoryFilters.indexOf('supported') > -1 && moduleMetaDada.supported ) ||
-		(categoryFilters.indexOf('unsupported') > -1 && !moduleMetaDada.supported )
-	) : categoryFilters.indexOf('nonmodule') > -1;
-}
-
 function postProcess(data: Module[], filter: FilterType, categoryFilters: CategoryFilterType[], term: string) {
   return data
-		.filter((module) => filterModule(module.name, categoryFilters))
+		.filter(({name}) => filterModuleByCategory(name, categoryFilters))
 		.filter(({name}) => (name.indexOf(term) !== -1))
 		.map(({branches, ...data}) => ({
 			branches: filter === 'latestStable' ? moduleBranchFilter(branches, data.name) : branches,

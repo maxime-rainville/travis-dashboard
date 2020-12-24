@@ -1,3 +1,4 @@
+import { FetchState } from "./generic";
 
 export type BuildStateType = 'passed'|'errored'|'failed'|'running'|'expired'|'canceled'|'created'|'started';
 
@@ -23,9 +24,6 @@ export interface Module {
   state: BuildStateType
 }
 
-export interface BuildState {
+export interface BuildState extends FetchState {
   modules: Module[],
-  loading: boolean,
-  lastModified?: Date,
-  stats: {[state in BuildStateType]: number}
 }

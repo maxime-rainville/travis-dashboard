@@ -21,3 +21,4 @@ yarn-debug.log*
 yarn-error.log*
 
 /public/buildData.json
+/public/mergeup.json
