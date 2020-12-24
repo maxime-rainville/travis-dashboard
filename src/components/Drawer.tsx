@@ -12,7 +12,7 @@ import { useSelector } from "react-redux";
 import { RootState } from "../reducers/index";
 import { BuildStateType } from "../model";
 import { buildStateColours } from './BranchBuild';
-import { useHistory } from 'react-router-dom';
+import { RouterListItem } from "./RouterListItem";
 
 const states: BuildStateType[] = [
 	'failed',
@@ -40,31 +40,16 @@ export function Drawer(props: {  }) {
 	const ago = lastModified ?
 	    `Fetched ${Math.round(((new Date()).getTime() - lastModified.getTime()) / 1000 / 60)} min ago` :
 		'';
-	const history = useHistory();
 
 	return (
 		<div className={classes.root}>
 			<div className={classes.drawerHeader} />
 			<Divider />
 			<List>
-				<ListItem button onClick={() => history.push("/")}>
-					<ListItemIcon>
-						<HomeIcon />
-					</ListItemIcon>
-					<ListItemText primary="Builds" />
-				</ListItem>
-        <ListItem button onClick={() => history.push("/mergeups")}>
-					<ListItemIcon>
-						<MergeTypeIcon />
-					</ListItemIcon>
-					<ListItemText primary="Merge ups" />
-				</ListItem>
-				<ListItem button onClick={() => history.push("/stats")}>
-					<ListItemIcon>
-						<PieChartIcon />
-					</ListItemIcon>
-					<ListItemText primary="Stats" />
-				</ListItem>
+        <RouterListItem route="/" Icon={HomeIcon} title="Builds" />
+				<RouterListItem route="/mergeups" Icon={MergeTypeIcon} title="Merge ups" />
+        <RouterListItem route="/stats" Icon={PieChartIcon} title="Stats" />
+
 				<ListItem component="a" button href="https://github.com/maxime-rainville/travis-dashboard/">
 					<ListItemIcon>
 						<GitHub />
