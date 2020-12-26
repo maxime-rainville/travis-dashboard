@@ -1,5 +1,5 @@
 name: Build and Deploy
-on: 
+on:
   push:
     branches: [master]
   schedule:
@@ -17,6 +17,7 @@ jobs:
         run: |
           npm install
           TRAVIS_TOKEN=${{ secrets.TRAVIS_TOKEN }} npm run fetch
+          GITHUB_TOKEN="${{ secrets.MERGEUP_TOKEN }}" npm run fetch-mergeup
           PUBLIC_URL=/travis-dashboard/ CI=false npm run build
           cp build/index.html build/404.html
 
@@ -26,4 +27,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
           FOLDER: build
-          CLEAN: true 
+          CLEAN: true
