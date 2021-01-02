@@ -1032,12 +1032,12 @@
       {
         "base": "1",
         "head": "1.7",
-        "ahead_by": 3
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "1",
-        "ahead_by": 6
+        "ahead_by": 10
       }
     ]
   },
@@ -1886,12 +1886,12 @@
       {
         "base": "3",
         "head": "3.4",
-        "ahead_by": 3
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "3",
-        "ahead_by": 26
+        "ahead_by": 30
       }
     ]
   },
@@ -2121,12 +2121,12 @@
       {
         "base": "2",
         "head": "2.1",
-        "ahead_by": 3
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "2",
-        "ahead_by": 8
+        "ahead_by": 12
       }
     ]
   },
@@ -2231,12 +2231,12 @@
       {
         "base": "2",
         "head": "2.2",
-        "ahead_by": 3
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "2",
-        "ahead_by": 16
+        "ahead_by": 20
       }
     ]
   },
@@ -2613,12 +2613,12 @@
       {
         "base": "2",
         "head": "2.1",
-        "ahead_by": 1
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "2",
-        "ahead_by": 11
+        "ahead_by": 13
       }
     ]
   },
@@ -2693,12 +2693,12 @@
       {
         "base": "4",
         "head": "4.7",
-        "ahead_by": 4
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "4",
-        "ahead_by": 17
+        "ahead_by": 22
       }
     ]
   },
@@ -2728,12 +2728,12 @@
       {
         "base": "1",
         "head": "1.2",
-        "ahead_by": 3
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "1",
-        "ahead_by": 12
+        "ahead_by": 16
       }
     ]
   },
@@ -2823,12 +2823,12 @@
       {
         "base": "2",
         "head": "2.1",
-        "ahead_by": 4
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "2",
-        "ahead_by": 14
+        "ahead_by": 19
       }
     ]
   },
@@ -2863,12 +2863,12 @@
       {
         "base": "2",
         "head": "2.3",
-        "ahead_by": 2
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "2",
-        "ahead_by": 0
+        "ahead_by": 3
       }
     ]
   },
@@ -2893,12 +2893,12 @@
       {
         "base": "4",
         "head": "4.0",
-        "ahead_by": 3
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "4",
-        "ahead_by": 10
+        "ahead_by": 14
       }
     ]
   },
