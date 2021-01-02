@@ -873,12 +873,12 @@
       {
         "base": "1",
         "head": "1.4",
-        "ahead_by": 1
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "1",
-        "ahead_by": 22
+        "ahead_by": 24
       }
     ]
   },
@@ -968,12 +968,12 @@
       {
         "base": "3",
         "head": "3.0",
-        "ahead_by": 2
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "3",
-        "ahead_by": 59
+        "ahead_by": 62
       }
     ]
   },
@@ -1542,12 +1542,12 @@
       {
         "base": "1",
         "head": "1.7",
-        "ahead_by": 6
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "1",
-        "ahead_by": 109
+        "ahead_by": 116
       }
     ]
   },
@@ -1737,12 +1737,12 @@
       {
         "base": "3",
         "head": "3.6",
-        "ahead_by": 3
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "3",
-        "ahead_by": 21
+        "ahead_by": 25
       }
     ]
   },
@@ -1762,12 +1762,12 @@
       {
         "base": "1",
         "head": "1.7",
-        "ahead_by": 4
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "1",
-        "ahead_by": 47
+        "ahead_by": 52
       }
     ]
   },
