@@ -13,11 +13,16 @@ interface Props {
 
 export function ModuleCard({name, children, url, className}: Props) {
   const classes = useStyles();
+  const [ , org] = name.match(/(.+)\/.+/) as string[];
+
   const meta = ssData.find(({repo}) => repo === name);
   const displayName = meta?.name || name;
   const [ , subheader, title] = displayName.match(/(.+)\/(.+)/) as string[];
   const headerProps = {
-    avatar: <Avatar>{displayName.substring(0,1).toUpperCase()}</Avatar>,
+    avatar: <Avatar
+      src={`https://github.com/${org}.png`}
+      alt={displayName}
+      className={classes.avatar}>{displayName.substring(0,1).toUpperCase()}</Avatar>,
     action: <Favourite name={name} />,
     subheader,
     title,
@@ -57,6 +62,10 @@ const useStyles = makeStyles((theme: Theme) => ({
     "& > :first-child": {
       flexGrow: 1
     }
+  },
+
+  avatar: {
+    background: 'white'
   }
 
 }));
