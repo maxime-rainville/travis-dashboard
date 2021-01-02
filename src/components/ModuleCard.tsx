@@ -21,7 +21,7 @@ export function ModuleCard({name, children, url, className}: Props) {
   const headerProps = {
     avatar: <Avatar
       src={`https://github.com/${org}.png`}
-      alt={displayName}
+      alt={displayName} variant="rounded"
       className={classes.avatar}>{displayName.substring(0,1).toUpperCase()}</Avatar>,
     action: <Favourite name={name} />,
     subheader,
