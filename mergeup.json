@@ -2379,12 +2379,12 @@
       {
         "base": "4",
         "head": "4.7",
-        "ahead_by": 0
+        "ahead_by": 4
       },
       {
         "base": "master",
         "head": "4",
-        "ahead_by": 484
+        "ahead_by": 490
       }
     ]
   },
