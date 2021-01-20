@@ -3134,8 +3134,13 @@
     "repo": "silverstripe/silverstripe-serve",
     "compares": [
       {
-        "base": "2",
+        "base": "2.2",
         "head": "2.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "2",
+        "head": "2.2",
         "ahead_by": 0
       },
       {
