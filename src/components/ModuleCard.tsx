@@ -29,7 +29,7 @@ export function ModuleCard({name, children, url, className}: Props) {
     className: classes.header
   };
 	return (
-		<Grid item xs={6} sm={4} md={3}>
+		<Grid item xs={12} sm={6} md={4} lg={3}>
 			<a href={url} style={{textDecoration: 'none'}}>
 				<Card className={classnames(classes.box, className)}>
           <CardHeader {...headerProps}></CardHeader>
