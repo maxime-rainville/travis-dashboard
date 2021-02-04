@@ -1,5 +1,5 @@
 // prettier-ignore
-import { Divider, List, ListItem, ListItemIcon, ListItemText, ListSubheader } from "@material-ui/core";
+import { Divider, List, ListItem, ListItemIcon, ListItemText, ListSubheader, Typography } from "@material-ui/core";
 import { Theme } from "@material-ui/core/styles";
 import HomeIcon from "@material-ui/icons/Home";
 import PieChartIcon from '@material-ui/icons/PieChart';
@@ -36,14 +36,16 @@ const legendStyles = makeStyles({
 
 export function Drawer(props: {  }) {
 	const classes = useStyles();
-	const lastModified = useSelector((state: RootState) => state.builds.lastModified);
-	const ago = lastModified ?
-	    `Fetched ${Math.round(((new Date()).getTime() - lastModified.getTime()) / 1000 / 60)} min ago` :
+  const lastModified = useSelector((state: RootState) => state.builds.lastModified);
+  const ago = lastModified ?
+	    `Fetched ${Math.round(((new Date()).getTime() - new Date(lastModified).getTime()) / 1000 / 60)} min ago` :
 		'';
 
 	return (
 		<div className={classes.root}>
-			<div className={classes.drawerHeader} />
+			<div className={classes.drawerHeader}>
+        <Typography variant="h6">CMS Squad Dashboard</Typography>
+      </div>
 			<Divider />
 			<List>
         <RouterListItem route="/" Icon={HomeIcon} title="Builds" />
@@ -82,7 +84,13 @@ export function Drawer(props: {  }) {
 }
 const drawerWidth = 240;
 const useStyles = makeStyles((theme: Theme) => ({
-	drawerHeader: { ...theme.mixins.toolbar },
+	drawerHeader: {
+    ...theme.mixins.toolbar,
+    background: theme.palette.primary.main,
+    display: 'flex',
+	justifyContent: 'center',
+	alignItems: 'center'
+  },
 	drawerPaper: {
 		width: 250,
 		backgroundColor: theme.palette.background.default,

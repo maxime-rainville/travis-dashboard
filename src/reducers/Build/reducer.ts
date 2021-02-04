@@ -39,11 +39,11 @@ export const builds = createReducer<BuildState>(initialState, {
 		return initialState;
 	},
 	[BuildActions.BUILD_LOADED](state: BuildState, action: BuildAction) {
-		const {json, lastModified} = action.payload as BuildDataPayload;
+    const {json, lastModified} = action.payload as BuildDataPayload;
 		return {
 			...state,
 			modules: postProcess(json),
-			lastModified: lastModified,
+			lastModified,
 			loading: false
 		};
 	}

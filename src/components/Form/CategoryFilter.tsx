@@ -5,6 +5,7 @@ import { useActions } from "../../actions";
 import * as ReduxActions from "../../actions/filter";
 import { RootState } from "../../reducers";
 import { CategoryFilterType } from "../../reducers/filters";
+import classnames from "classnames";
 
 interface Props {
 	className?: string
@@ -27,7 +28,7 @@ export function CategoryFilter({className}: Props) {
   }
 
   return (
-		<FormControl className={classes.root}>
+		<FormControl className={classnames(className, classes.root)}>
         <InputLabel id="demo-mutiple-checkbox-label" color="secondary">Category</InputLabel>
         <Select
           labelId="demo-mutiple-checkbox-label"

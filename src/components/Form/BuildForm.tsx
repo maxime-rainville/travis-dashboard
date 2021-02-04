@@ -19,7 +19,7 @@ export function BuildForm({className}: Props) {
 			<TextField
 				label="Filter by name" variant="filled" color="secondary"
 				onChange={event => setTerm(event.target.value)} className={classes.term} value={partialTerm} />
-			<CategoryFilter />
+			<CategoryFilter className={classes.cat} />
 			<FormControlLabel
 				control={<Switch checked={filter === 'latestStable'} onChange={toggleFilter} />}
 				label="Latest only" color="secondary"/>
@@ -29,8 +29,11 @@ export function BuildForm({className}: Props) {
 
 const useStyles = makeStyles(({
 	term: {
-		flexGrow: 1
-	},
+		flexGrow: .7
+  },
+  cat: {
+    flexGrow: .3
+  },
 	root: {
 	}
 

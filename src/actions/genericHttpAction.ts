@@ -1,6 +1,6 @@
 export interface DataPayload<T> {
   json: T
-  lastModified: Date
+  lastModified: string
 }
 
 export type ActionType<t,p> = {
@@ -29,9 +29,8 @@ export function genericHttpAction(url: string, loadingActionType: string, loaded
       fetch(process.env.PUBLIC_URL + `/${url}.json`, {method: 'GET'})
         .then((response) => response.json().then((data) => ({
         json: data,
-        lastModified:
-          response.headers.has('last-modified') ?
-          new Date(response.headers.get('last-modified') as string) :
+        lastModified: response.headers.has('last-modified') ?
+          response.headers.get('last-modified') as string :
           undefined
           })))
         .then(data => dispatch({type: loadedActionType, payload: data}));
