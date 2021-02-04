@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3a0a04b0c0cd877b0cb9dd7926ae612b",
+    "revision": "cebc3128bb8fd645efaf4cfbdf956b78",
     "url": "/travis-dashboard/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/travis-dashboard/static/js/2.de66d9e6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d0e0e0f3937f7d9e12d1",
-    "url": "/travis-dashboard/static/js/main.186f39bb.chunk.js"
+    "revision": "f60b32837bb223c81ac4",
+    "url": "/travis-dashboard/static/js/main.3279a5a8.chunk.js"
   },
   {
     "revision": "6fae7c62261fd0b6ecd0",
