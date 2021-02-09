@@ -18,6 +18,7 @@ jobs:
           npm install
           TRAVIS_TOKEN=${{ secrets.TRAVIS_TOKEN }} npm run fetch
           GITHUB_TOKEN="${{ secrets.MERGEUP_TOKEN }}" npm run fetch-mergeup
+          GITHUB_TOKEN="${{ secrets.MERGEUP_TOKEN }}" npm run fetch-unrelease
           PUBLIC_URL=/travis-dashboard/ CI=false npm run build
           cp build/index.html build/404.html
 

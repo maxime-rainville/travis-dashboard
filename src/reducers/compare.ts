@@ -11,7 +11,9 @@ export const initialState: CompareState = {
 	loading: true
 };
 
-
+/**
+ * Use to generate the reducer for unrelease and mergeups
+ */
 export function compareReducer(loadingAction: string, loadedAction: string) {
   return createReducer<CompareState>(initialState, {
     [loadingAction]() {

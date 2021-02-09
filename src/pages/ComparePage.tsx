@@ -10,10 +10,15 @@ import { useActions } from "../actions";
 import { Mergeup } from "../components/Mergeup";
 
 interface Props {
+  /** Which state to use when retireving comparaison data */
   stateKey: keyof RootState
+  /** Redux action to fire once the page is access */
   initAction: () => any
 }
 
+/**
+ * This component is use for both the unrelease and mergeup tab, because their underlying data structure is the same
+ */
 export function ComparePage({stateKey, initAction}: Props) {
   const { initData } = useActions({initData: initAction});
   React.useEffect( initData, [] );

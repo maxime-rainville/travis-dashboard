@@ -42,6 +42,6 @@ export function genericHttpAction(url: string, loadingActionType: string, loaded
 }
 
 /**
- * Payload for MergeUp unrelease
+ * Payload for MergeUp/unrelease
  */
 export interface CompareDataPayload extends  DataPayload<CompareData> {};
