@@ -27,8 +27,8 @@
 		"build": "react-scripts build",
 		"test": "echo skip test #react-scripts test",
 		"eject": "react-scripts eject",
-		"fetch": "fetch-travis-data --output json > public/buildData.json",
-		"fetch-mergeup": "mergeup --output json --throttle 1 >  public/mergeup.json"
+		"fetch": "silverstripe-cms-dashboard builds --output json > public/buildData.json",
+		"fetch-mergeup": "silverstripe-cms-dashboard mergeup --output json --throttle 1 >  public/mergeup.json"
 	},
 	"browserslist": [
 		">0.2%",
@@ -47,7 +47,6 @@
 		"@types/redux-logger": "3.0.7",
 		"@types/webpack-env": "1.15.1",
 		"eslint-plugin-react": "7.17.0",
-		"fetch-travis-data": "^0.5.0",
-		"silverstripe-cms-mergeup": "^0.2.0"
+		"silverstripe-cms-dashboard": "^0.0.0"
 	}
 }
