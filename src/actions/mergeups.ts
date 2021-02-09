@@ -1,7 +1,4 @@
-import { MergeupData } from "../model";
-import { genericHttpAction, DataPayload, ActionType } from "./genericHttpAction";
-
-export interface MergeupDataPayload extends  DataPayload<MergeupData> {};
+import { genericHttpAction, CompareDataPayload, ActionType } from "./genericHttpAction";
 
 export enum MergeupActions {
   LOADING = "LOADING_MERGEUP",
@@ -10,7 +7,7 @@ export enum MergeupActions {
 
 export type MergeupAction =
   | ActionType<typeof MergeupActions.LOADING, void>
-  | ActionType<typeof MergeupActions.LOADED, MergeupDataPayload>
+  | ActionType<typeof MergeupActions.LOADED, CompareDataPayload>
 ;
 
 export const initMergeupData = genericHttpAction(

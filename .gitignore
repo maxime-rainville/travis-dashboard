@@ -22,3 +22,4 @@ yarn-error.log*
 
 /public/buildData.json
 /public/mergeup.json
+/public/unrelease.json

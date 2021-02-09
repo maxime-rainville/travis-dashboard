@@ -1,3 +1,5 @@
+import { CompareData } from "../model";
+
 export interface DataPayload<T> {
   json: T
   lastModified: string
@@ -38,3 +40,8 @@ export function genericHttpAction(url: string, loadingActionType: string, loaded
     }
   );
 }
+
+/**
+ * Payload for MergeUp unrelease
+ */
+export interface CompareDataPayload extends  DataPayload<CompareData> {};

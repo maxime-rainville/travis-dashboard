@@ -6,6 +6,7 @@ import PieChartIcon from '@material-ui/icons/PieChart';
 import GitHub from "@material-ui/icons/GitHub";
 import MergeTypeIcon from '@material-ui/icons/MergeType';
 import UpdateIcon from '@material-ui/icons/Update';
+import NewReleasesIcon from '@material-ui/icons/NewReleases';
 import { makeStyles } from "@material-ui/styles";
 import * as React from "react";
 import { useSelector } from "react-redux";
@@ -50,6 +51,7 @@ export function Drawer(props: {  }) {
 			<List>
         <RouterListItem route="/" Icon={HomeIcon} title="Builds" />
 				<RouterListItem route="/mergeups" Icon={MergeTypeIcon} title="Merge ups" />
+        <RouterListItem route="/unreleases" Icon={NewReleasesIcon} title="Unrelease" />
         <RouterListItem route="/stats" Icon={PieChartIcon} title="Stats" />
 
 				<ListItem component="a" button href="https://github.com/maxime-rainville/travis-dashboard/">

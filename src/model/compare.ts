@@ -20,8 +20,8 @@ export interface CompareEntry {
 /**
  * Merge up data combino in a single array.
  */
-export type MergeupData = CompareEntry[];
+export type CompareData = CompareEntry[];
 
-export interface MergeupState extends FetchState {
-  mergeups: MergeupData
+export interface CompareState extends FetchState {
+  compares: CompareData
 }

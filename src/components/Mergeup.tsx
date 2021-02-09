@@ -9,7 +9,7 @@ export function Mergeup({repo, compares}: CompareEntry) {
 	return (
 		<ModuleCard name={repo} url={`https://github.com/${repo}`} className={classes.box}>
       { <div className={classes.cardActions}>
-          {compares.map((compare) => <MergeupBranch key={compare.base} repo={repo} {...compare}/>)}
+          {compares.map((compare) => <MergeupBranch key={`${compare.base}..${compare.head}`} repo={repo} {...compare}/>)}
 				</div>}
     </ModuleCard>
 	);

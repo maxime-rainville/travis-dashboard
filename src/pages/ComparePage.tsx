@@ -5,31 +5,35 @@ import { ResultLoader } from "../components/ResultLoader";
 import { useSelector } from "react-redux";
 import { RootState } from "../reducers";
 import { useSearching } from "../selectors/useSearching";
-import { useMergeups } from "../selectors/useMergeups";
-import * as MergeupActions from "../actions/mergeups";
+import { useCompares } from "../selectors/useCompares";
 import { useActions } from "../actions";
 import { Mergeup } from "../components/Mergeup";
 
-export function MergeupPage() {
-  const { initMergeupData } = useActions(MergeupActions);
-  React.useEffect( initMergeupData, [] );
+interface Props {
+  stateKey: keyof RootState
+  initAction: () => any
+}
+
+export function ComparePage({stateKey, initAction}: Props) {
+  const { initData } = useActions({initData: initAction});
+  React.useEffect( initData, [] );
 	const classes = useStyles();
   const isSearching = useSearching();
-  const {loading, mergeups} = useMergeups();
+  const {loading, compares} = useCompares(stateKey);
   const { favourites } = useSelector(({favourites}: RootState) => ({favourites}));
-  const favModules = mergeups.filter(({repo}) => favourites.includes(repo));
-  const otherModules = mergeups.filter(({repo}) => !favourites.includes(repo));
+  const favModules = compares.filter(({repo}) => favourites.includes(repo));
+  const otherModules = compares.filter(({repo}) => !favourites.includes(repo));
 
 	return (
-  <ResultLoader loading={loading || isSearching} results={mergeups}>
+  <ResultLoader loading={loading || isSearching} results={compares}>
 		<div className={classes.root}>
 
       {favModules.length > 0 && <Grid className={classes.centerContainer} container direction="row" justify="center" alignItems="stretch" spacing={3}>
-				{favModules.map( ({repo, ...props}) => <Mergeup key="repo" repo={repo} {...props} />)}
+				{favModules.map( ({repo, ...props}) => <Mergeup key={repo} repo={repo} {...props} />)}
 			</Grid>}
 
       {otherModules.length > 0 && <Grid className={classes.centerContainer} container direction="row" justify="center" alignItems="stretch" spacing={3}>
-				{otherModules.map( ({repo, ...props}) => <Mergeup key="repo" repo={repo} {...props} />)}
+				{otherModules.map( ({repo, ...props}) => <Mergeup key={repo} repo={repo} {...props} />)}
 			</Grid>}
 		</div>
   </ResultLoader>);

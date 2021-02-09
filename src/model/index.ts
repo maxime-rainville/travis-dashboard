@@ -1,2 +1,2 @@
 export * from './build';
-export * from './mergeup';
+export * from './compare';
