@@ -2922,12 +2922,12 @@
       {
         "base": "4.7.2",
         "head": "4.7",
-        "ahead_by": 0
+        "ahead_by": 1
       },
       {
         "base": "4.7.2",
         "head": "4",
-        "ahead_by": 94
+        "ahead_by": 96
       },
       {
         "base": "4.7.2",
