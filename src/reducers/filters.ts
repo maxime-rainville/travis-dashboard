@@ -11,6 +11,7 @@ export interface FilterState {
   partialTerm: string,
 	triggerSearchTimeout?: NodeJS.Timeout,
   categoryFilters: CategoryFilterType[],
+  dialogOpen: boolean
 }
 
 /**
@@ -21,6 +22,7 @@ const initialState: FilterState = {
   term: '',
   partialTerm: '',
   categoryFilters: ['core', 'nonmodule', 'supported', 'unsupported'],
+  dialogOpen: false
 };
 
 
@@ -30,6 +32,15 @@ export const filters = createReducer<FilterState>(initialState, {
 			...state,
 			filter: filter === 'latestStable' ? 'all' : 'latestStable'
 		};
+	},
+  [Actions.TOGGLE_DIALOG]({dialogOpen, ...state}: FilterState) {
+		return {
+			...state,
+			dialogOpen: !dialogOpen
+		};
+	},
+  [Actions.CLEAR_FILTERS]() {
+		return initialState;
 	},
 	[Actions.SET_TERM](state: FilterState, action: Action) {
 		state.triggerSearchTimeout && clearTimeout(state.triggerSearchTimeout);

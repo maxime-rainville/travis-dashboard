@@ -17,6 +17,8 @@ export enum Actions {
   SET_TERM = "SET_TERM",
   TRIGGER_SEARCH = "TRIGGER_SEARCH",
   SET_CATEGORY_FILTER = "SET_CATEGORY_FILTER",
+  CLEAR_FILTERS = "CLEAR_FILTERS",
+  TOGGLE_DIALOG = "TOGGLE_DIALOG",
 }
 
 export type Action =
@@ -24,10 +26,20 @@ export type Action =
   | ActionType<typeof Actions.SET_TERM, SetTermPayload>
   | ActionType<typeof Actions.TRIGGER_SEARCH, undefined>
   | ActionType<typeof Actions.SET_CATEGORY_FILTER, SetCatPayload>
+  | ActionType<typeof Actions.TOGGLE_DIALOG, undefined>
+  | ActionType<typeof Actions.CLEAR_FILTERS, undefined>
 ;
 
 export function toggleFilter() {
 	return {type: Actions.TOGGLE_FILTER}
+}
+
+export function toggleDialog() {
+	return {type: Actions.TOGGLE_DIALOG}
+}
+
+export function clearFilters() {
+	return {type: Actions.CLEAR_FILTERS}
 }
 
 type dispatchCallback = (action: Action) => void;

@@ -53,6 +53,6 @@ export function CategoryFilter({className}: Props) {
 const useStyles = makeStyles((theme) => ({
 	root: {
     margin: theme.spacing(1),
-    width: 200
+    maxWidth: '100%'
   },
 }));
