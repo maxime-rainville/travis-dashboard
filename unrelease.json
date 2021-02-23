@@ -4756,32 +4756,32 @@
         "ahead_by": 12
       },
       {
-        "base": "1.4.5",
+        "base": "1.4.6",
         "head": "1.4",
-        "ahead_by": 2
+        "ahead_by": 0
       },
       {
-        "base": "1.5.2",
+        "base": "1.5.3",
         "head": "1.5",
-        "ahead_by": 1
+        "ahead_by": 0
       },
       {
-        "base": "1.6.2",
+        "base": "1.6.3",
         "head": "1.6",
-        "ahead_by": 2
+        "ahead_by": 0
       },
       {
-        "base": "1.7.1",
+        "base": "1.7.2",
         "head": "1.7",
-        "ahead_by": 2
+        "ahead_by": 0
       },
       {
-        "base": "1.7.1",
+        "base": "1.7.2",
         "head": "1",
-        "ahead_by": 26
+        "ahead_by": 27
       },
       {
-        "base": "1.7.1",
+        "base": "1.7.2",
         "head": "master",
         "ahead_by": 75
       }

@@ -3792,12 +3792,12 @@
       {
         "base": "1.5",
         "head": "1.4",
-        "ahead_by": 2
+        "ahead_by": 1
       },
       {
         "base": "1.6",
         "head": "1.5",
-        "ahead_by": 0
+        "ahead_by": 2
       },
       {
         "base": "1.7",
@@ -3807,12 +3807,12 @@
       {
         "base": "1",
         "head": "1.7",
-        "ahead_by": 2
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "1",
-        "ahead_by": 78
+        "ahead_by": 86
       }
     ]
   },
