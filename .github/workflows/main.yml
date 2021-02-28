@@ -16,6 +16,7 @@ jobs:
       - name: Install and Build 🔧
         run: |
           npm install
+          npm install silverstripe-cms-meta@latest
           TRAVIS_TOKEN=${{ secrets.TRAVIS_TOKEN }} npm run fetch
           GITHUB_TOKEN="${{ secrets.MERGEUP_TOKEN }}" npm run fetch-mergeup
           GITHUB_TOKEN="${{ secrets.MERGEUP_TOKEN }}" npm run fetch-unrelease
