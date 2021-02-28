@@ -19,7 +19,7 @@
 		"redux-logger": "3.0.6",
 		"redux-persist": "6.0.0",
 		"redux-thunk": "2.3.0",
-		"silverstripe-cms-meta": "^0.0.5",
+		"silverstripe-cms-meta": "^0.0.7",
 		"typescript": "3.7.5"
 	},
 	"scripts": {
