@@ -1189,12 +1189,12 @@
       {
         "base": "3.0.3",
         "head": "3.0",
-        "ahead_by": 2
+        "ahead_by": 3
       },
       {
         "base": "3.0.3",
         "head": "3",
-        "ahead_by": 21
+        "ahead_by": 25
       },
       {
         "base": "3.0.3",
