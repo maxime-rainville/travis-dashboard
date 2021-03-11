@@ -4728,12 +4728,12 @@
       {
         "base": "5.8.2",
         "head": "5.8",
-        "ahead_by": 5
+        "ahead_by": 8
       },
       {
         "base": "5.8.2",
         "head": "5",
-        "ahead_by": 8
+        "ahead_by": 17
       },
       {
         "base": "5.8.2",
