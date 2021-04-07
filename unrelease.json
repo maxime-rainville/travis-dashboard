@@ -2109,12 +2109,7 @@
       {
         "base": "3.6.0",
         "head": "3",
-        "ahead_by": 7
-      },
-      {
-        "base": "3.6.0",
-        "head": "master",
-        "ahead_by": 63
+        "ahead_by": 9
       }
     ]
   },
