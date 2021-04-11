@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/travis-dashboard/static/js/main.381aab99.chunk.js",
-    "main.js.map": "/travis-dashboard/static/js/main.381aab99.chunk.js.map",
+    "main.js": "/travis-dashboard/static/js/main.24c0e6a0.chunk.js",
+    "main.js.map": "/travis-dashboard/static/js/main.24c0e6a0.chunk.js.map",
     "runtime-main.js": "/travis-dashboard/static/js/runtime-main.6285e692.js",
     "runtime-main.js.map": "/travis-dashboard/static/js/runtime-main.6285e692.js.map",
-    "static/js/2.ccc1bb73.chunk.js": "/travis-dashboard/static/js/2.ccc1bb73.chunk.js",
-    "static/js/2.ccc1bb73.chunk.js.map": "/travis-dashboard/static/js/2.ccc1bb73.chunk.js.map",
+    "static/js/2.f6de5118.chunk.js": "/travis-dashboard/static/js/2.f6de5118.chunk.js",
+    "static/js/2.f6de5118.chunk.js.map": "/travis-dashboard/static/js/2.f6de5118.chunk.js.map",
     "index.html": "/travis-dashboard/index.html",
-    "precache-manifest.898cb5c307f53cab72c6084f2a3e4e84.js": "/travis-dashboard/precache-manifest.898cb5c307f53cab72c6084f2a3e4e84.js",
+    "precache-manifest.5a1b70b8731f0befc98d6571a67114f2.js": "/travis-dashboard/precache-manifest.5a1b70b8731f0befc98d6571a67114f2.js",
     "service-worker.js": "/travis-dashboard/service-worker.js",
-    "static/js/2.ccc1bb73.chunk.js.LICENSE.txt": "/travis-dashboard/static/js/2.ccc1bb73.chunk.js.LICENSE.txt"
+    "static/js/2.f6de5118.chunk.js.LICENSE.txt": "/travis-dashboard/static/js/2.f6de5118.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6285e692.js",
-    "static/js/2.ccc1bb73.chunk.js",
-    "static/js/main.381aab99.chunk.js"
+    "static/js/2.f6de5118.chunk.js",
+    "static/js/main.24c0e6a0.chunk.js"
   ]
 }
