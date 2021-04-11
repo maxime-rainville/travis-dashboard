@@ -4,7 +4,7 @@ import { useMemo } from "react";
 import { filterModuleByCategory } from "./filterModuleByCategory";
 import { Comparaison, CompareEntry, CompareState } from "../model";
 import { latestBranchFilter } from "./latestBranchFilter";
-import { CategoryFilterType, FilterType } from "../reducers/filters";
+import { CategoryFilterType } from "../reducers/filters";
 
 /**
  * Which key to use on the comparaison as the branch name
@@ -52,7 +52,7 @@ function sort(a: CompareEntry, b: CompareEntry) {
  */
 function process(
   compareList: CompareEntry[],
-  filter: FilterType,
+  filter: string,
   categoryFilters: CategoryFilterType[],
   term: string,
   branchKey: BranchKey

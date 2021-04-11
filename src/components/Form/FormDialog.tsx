@@ -2,11 +2,11 @@ import { makeStyles, FormGroup, Theme, Dialog, DialogTitle, DialogContent, Dialo
 import * as React from "react";
 import { CategoryFilter } from "./CategoryFilter";
 import { TitleFilter } from "./TitleFilter";
-import { LatestBranchFilter } from "./LatestBranchFilter";
 import { useSelector } from "react-redux";
 import { RootState } from "../../reducers";
 import * as ReduxActions from "../../actions/filter";
 import { useActions } from "../../actions";
+import { ReleaseLineFilter } from "./ReleaseLineFilter";
 
 interface Props {
 	className?: string
@@ -23,7 +23,7 @@ export function FormDialog({className}: Props) {
         <FormGroup>
           <TitleFilter className={classes.term} />
           <CategoryFilter className={classes.cat} />
-          <LatestBranchFilter />
+          <ReleaseLineFilter />
         </FormGroup>
       </DialogContent>
       <DialogActions>

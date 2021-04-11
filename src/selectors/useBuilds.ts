@@ -1,10 +1,11 @@
 import { BranchData, BranchList, BuildStateType, Module } from "../model";
-import { CategoryFilterType, FilterType } from "../reducers/filters";
+import { CategoryFilterType } from "../reducers/filters";
 import { useSelector } from "react-redux";
 import { RootState } from "../reducers";
 import { useMemo } from "react";
 import { filterModuleByCategory } from "./filterModuleByCategory";
 import { latestBranchFilter } from "./latestBranchFilter";
+import { ReleaseLine, releases, data as SSModules } from "silverstripe-cms-meta";
 
 
 const statePriority: BuildStateType[][] = [
@@ -72,6 +73,34 @@ function moduleBranchFilter(branches: BranchList, mod: string): BranchList {
 }
 
 /**
+ * Filter a branch list to return only the branches that ship with a specific release
+ * @param branches
+ * @param repoName
+ * @param releaseName
+ * @returns
+ */
+function moduleBranchFilterByReleaseLine(branches: BranchList, repoName: string, releaseName: string): BranchList {
+  const releaseLine: ReleaseLine = releases[releaseName]
+  if (!releaseLine) {
+    return {}
+  }
+
+  const module = SSModules.find(({repo}) => repo === repoName);
+  if (!module) {
+    return {}
+  }
+
+  const moduleVersion = releaseLine[module.name ?? module.repo]
+  if (!moduleVersion || !branches[moduleVersion]) {
+    return {}
+  }
+
+	return {
+    [moduleVersion]: branches[moduleVersion]
+  }
+}
+
+/**
  * Given a list of branches, find the worst "state". (e.g "Running" is worst than "Passing" and "Failed" is worst than "running")
  * This is use to attach a state to a given module.
  * @param accumulator
@@ -81,12 +110,15 @@ function branchStateReduce(accumulator:BuildStateType, {state}:BranchData) {
   return sortByState(accumulator, state) > 0 ? state : accumulator;
 }
 
-function postProcess(data: Module[], filter: FilterType, categoryFilters: CategoryFilterType[], term: string) {
+function postProcess(data: Module[], filter: string, categoryFilters: CategoryFilterType[], term: string) {
   return data
 		.filter(({name}) => filterModuleByCategory(name, categoryFilters))
 		.filter(({name}) => (name.indexOf(term) !== -1))
 		.map(({branches, ...data}) => ({
-			branches: filter === 'latestStable' ? moduleBranchFilter(branches, data.name) : branches,
+			branches:
+        filter === 'latestStable' ? moduleBranchFilter(branches, data.name) :
+        filter === 'all' ? branches :
+        moduleBranchFilterByReleaseLine(branches, data.name, filter),
 			...data
 		}))
 		.map(data => ({...data, state: Object.values(data.branches).reduce(branchStateReduce, 'passed')}))

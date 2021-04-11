@@ -6,6 +6,10 @@ export interface SetTermPayload {
   triggerSearchTimeout: NodeJS.Timeout
 }
 
+export interface SetFilterPayload {
+  filter: string
+}
+
 export interface SetCatPayload {
   categoryFilters: CategoryFilterType[]
 }
@@ -13,7 +17,7 @@ export interface SetCatPayload {
 export enum Actions {
   LOADING_BUILDS = "LOADING_BUILDS",
   BUILD_LOADED = "BUILD_LOADED",
-  TOGGLE_FILTER = "TOGGLE_FILTER",
+  SET_FILTER = "SET_FILTER",
   SET_TERM = "SET_TERM",
   TRIGGER_SEARCH = "TRIGGER_SEARCH",
   SET_CATEGORY_FILTER = "SET_CATEGORY_FILTER",
@@ -22,7 +26,7 @@ export enum Actions {
 }
 
 export type Action =
-  | ActionType<typeof Actions.TOGGLE_FILTER, undefined>
+  | ActionType<typeof Actions.SET_FILTER, SetFilterPayload>
   | ActionType<typeof Actions.SET_TERM, SetTermPayload>
   | ActionType<typeof Actions.TRIGGER_SEARCH, undefined>
   | ActionType<typeof Actions.SET_CATEGORY_FILTER, SetCatPayload>
@@ -30,8 +34,8 @@ export type Action =
   | ActionType<typeof Actions.CLEAR_FILTERS, undefined>
 ;
 
-export function toggleFilter() {
-	return {type: Actions.TOGGLE_FILTER}
+export function setFilter(filter: string) {
+  return {type: Actions.SET_FILTER, payload: {filter}}
 }
 
 export function toggleDialog() {

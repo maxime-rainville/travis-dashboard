@@ -3,7 +3,7 @@ import * as React from "react";
 import { CategoryFilter } from "./CategoryFilter";
 import FilterListIcon from '@material-ui/icons/FilterList';
 import { TitleFilter } from "./TitleFilter";
-import { LatestBranchFilter } from "./LatestBranchFilter";
+import { ReleaseLineFilter } from "./ReleaseLineFilter";
 import { FormDialog } from "./FormDialog";
 import * as ReduxActions from "../../actions/filter";
 import { useActions } from "../../actions";
@@ -23,7 +23,7 @@ export function BuildForm({className}: Props) {
       <FormGroup row className={`${className} ${classes.root}`}>
         <TitleFilter className={classes.term} />
         {!useModal && <CategoryFilter className={classes.cat} /> }
-        {!useModal &&  <LatestBranchFilter /> }
+        {!useModal &&  <ReleaseLineFilter /> }
         {useModal && <IconButton aria-label="Advanced search filter" onClick={toggleDialog}><FilterListIcon /></IconButton> }
       </FormGroup>
       <FormDialog />

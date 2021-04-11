@@ -6,6 +6,11 @@ import { ModuleCard } from "./ModuleCard";
 
 export function Build({name, branches, state}: Module) {
   const classes = useStyles({state});
+
+  if (Object.keys(branches).length === 0) {
+    return null;
+  }
+
 	return (
 		<ModuleCard name={name} url={`https://travis-ci.com/github/${name}/branches`} className={classes.box}>
       { state !== 'passed' && <div className={classes.cardActions}>

@@ -1,12 +1,10 @@
-import { Action, Actions, SetCatPayload, SetTermPayload } from "../actions/filter";
+import { Action, Actions, SetCatPayload, SetFilterPayload, SetTermPayload } from "../actions/filter";
 import createReducer from "./createReducer";
 
-
-export type FilterType = 'all'|'latestStable';
 export type CategoryFilterType = 'core'|'supported'|'unsupported'|'nonmodule';
 
 export interface FilterState {
-	filter: FilterType,
+	filter: string,
   term: string,
   partialTerm: string,
 	triggerSearchTimeout?: NodeJS.Timeout,
@@ -27,10 +25,12 @@ const initialState: FilterState = {
 
 
 export const filters = createReducer<FilterState>(initialState, {
-	[Actions.TOGGLE_FILTER]({filter, ...state}: FilterState) {
+	[Actions.SET_FILTER](state: FilterState, action: Action) {
+    console.dir(action)
+    const {filter} = action.payload as SetFilterPayload;
 		return {
 			...state,
-			filter: filter === 'latestStable' ? 'all' : 'latestStable'
+			filter
 		};
 	},
   [Actions.TOGGLE_DIALOG]({dialogOpen, ...state}: FilterState) {
