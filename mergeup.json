@@ -89,7 +89,7 @@
     "compares": []
   },
   {
-    "repo": "dnadesign/silverstripe-elemental",
+    "repo": "silverstripe/silverstripe-elemental",
     "compares": [
       {
         "base": "3.1",
