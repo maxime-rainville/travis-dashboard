@@ -13,9 +13,9 @@ export function Build({name, branches, state}: Module) {
 
 	return (
 		<ModuleCard name={name} url={`https://travis-ci.com/github/${name}/branches`} className={classes.box}>
-      { state !== 'passed' && <div className={classes.cardActions}>
+      <div className={classes.cardActions}>
 				{Object.keys(branches).map(branch => <BranchBuild module={name} branch={branch} key={branch} build={branches[branch]} />)}
-				</div>}
+				</div>
     </ModuleCard>
 	);
 }

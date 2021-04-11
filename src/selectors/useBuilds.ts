@@ -95,7 +95,7 @@ function moduleBranchFilterByReleaseLine(branches: BranchList, repoName: string,
     return {}
   }
 
-	return {
+  return {
     [moduleVersion]: branches[moduleVersion]
   }
 }
