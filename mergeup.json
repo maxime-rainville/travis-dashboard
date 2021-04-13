@@ -2379,7 +2379,7 @@
       {
         "base": "4",
         "head": "4.7",
-        "ahead_by": 0
+        "ahead_by": 5
       },
       {
         "base": "master",
@@ -2753,7 +2753,7 @@
       {
         "base": "4.2",
         "head": "4.1",
-        "ahead_by": 0
+        "ahead_by": 8
       },
       {
         "base": "4.3",
