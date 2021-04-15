@@ -1650,8 +1650,13 @@
         "ahead_by": 0
       },
       {
-        "base": "4",
+        "base": "4.4",
         "head": "4.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "4",
+        "head": "4.4",
         "ahead_by": 0
       },
       {

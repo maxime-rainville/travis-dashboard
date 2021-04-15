@@ -1997,12 +1997,17 @@
         "ahead_by": 0
       },
       {
-        "base": "4.3.0",
-        "head": "4",
-        "ahead_by": 3
+        "base": "4.4.0",
+        "head": "4.4",
+        "ahead_by": 0
       },
       {
-        "base": "4.3.0",
+        "base": "4.4.0",
+        "head": "4",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.4.0",
         "head": "master",
         "ahead_by": 16
       }
