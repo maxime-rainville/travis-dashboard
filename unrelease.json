@@ -3085,12 +3085,12 @@
         "ahead_by": 0
       },
       {
-        "base": "3.4.1",
+        "base": "3.5.0",
         "head": "3",
-        "ahead_by": 7
+        "ahead_by": 0
       },
       {
-        "base": "3.4.1",
+        "base": "3.5.0",
         "head": "master",
         "ahead_by": 137
       }
@@ -3429,17 +3429,17 @@
         "ahead_by": 16
       },
       {
-        "base": "4.4.0",
+        "base": "4.4.1",
         "head": "4.4",
-        "ahead_by": 16
+        "ahead_by": 0
       },
       {
-        "base": "4.4.0",
+        "base": "4.4.1",
         "head": "4",
-        "ahead_by": 16
+        "ahead_by": 0
       },
       {
-        "base": "4.4.0",
+        "base": "4.4.1",
         "head": "master",
         "ahead_by": 2
       }
