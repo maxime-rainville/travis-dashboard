@@ -2034,8 +2034,13 @@
         "ahead_by": 0
       },
       {
-        "base": "2",
+        "base": "2.2",
         "head": "2.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2",
+        "head": "2.2",
         "ahead_by": 0
       },
       {
@@ -2389,12 +2394,12 @@
       {
         "base": "4",
         "head": "4.7",
-        "ahead_by": 2
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "4",
-        "ahead_by": 627
+        "ahead_by": 630
       }
     ]
   },
@@ -2713,7 +2718,7 @@
       {
         "base": "master",
         "head": "4",
-        "ahead_by": 34
+        "ahead_by": 36
       }
     ]
   },
