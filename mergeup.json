@@ -1560,8 +1560,13 @@
         "ahead_by": 0
       },
       {
-        "base": "1",
+        "base": "1.8",
         "head": "1.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "1",
+        "head": "1.8",
         "ahead_by": 0
       },
       {
@@ -1772,7 +1777,7 @@
       {
         "base": "3",
         "head": "3.6",
-        "ahead_by": 2
+        "ahead_by": 0
       }
     ]
   },
@@ -2424,7 +2429,7 @@
       {
         "base": "4.7",
         "head": "4.6",
-        "ahead_by": 3
+        "ahead_by": 0
       },
       {
         "base": "4.8",
@@ -2439,7 +2444,7 @@
       {
         "base": "master",
         "head": "4",
-        "ahead_by": 632
+        "ahead_by": 638
       }
     ]
   },
@@ -3877,7 +3882,7 @@
       {
         "base": "1.7",
         "head": "1.6",
-        "ahead_by": 3
+        "ahead_by": 0
       },
       {
         "base": "1.8",
@@ -3892,7 +3897,7 @@
       {
         "base": "master",
         "head": "1",
-        "ahead_by": 93
+        "ahead_by": 99
       }
     ]
   },
