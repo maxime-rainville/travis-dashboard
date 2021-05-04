@@ -1784,22 +1784,22 @@
       {
         "base": "1.6.4",
         "head": "1.6",
-        "ahead_by": 2
-      },
-      {
-        "base": "1.7.3",
-        "head": "1.7",
         "ahead_by": 4
       },
       {
         "base": "1.7.3",
+        "head": "1.7",
+        "ahead_by": 7
+      },
+      {
+        "base": "1.7.3",
         "head": "1.8",
-        "ahead_by": 33
+        "ahead_by": 37
       },
       {
         "base": "1.7.3",
         "head": "1",
-        "ahead_by": 33
+        "ahead_by": 37
       },
       {
         "base": "1.7.3",
