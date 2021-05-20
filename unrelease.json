@@ -1019,12 +1019,12 @@
       {
         "base": "2.7.1",
         "head": "2.8",
-        "ahead_by": 8
+        "ahead_by": 9
       },
       {
         "base": "2.7.1",
         "head": "2",
-        "ahead_by": 8
+        "ahead_by": 10
       },
       {
         "base": "2.7.1",
@@ -1899,12 +1899,12 @@
       {
         "base": "1.7.3",
         "head": "1.8",
-        "ahead_by": 41
+        "ahead_by": 43
       },
       {
         "base": "1.7.3",
         "head": "1",
-        "ahead_by": 50
+        "ahead_by": 53
       },
       {
         "base": "1.7.3",
