@@ -3141,8 +3141,13 @@
         "ahead_by": 0
       },
       {
-        "base": "4",
+        "base": "4.1",
         "head": "4.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "4",
+        "head": "4.1",
         "ahead_by": 0
       },
       {
