@@ -641,8 +641,13 @@
         "ahead_by": 1
       },
       {
-        "base": "master",
+        "base": "1",
         "head": "1.10",
+        "ahead_by": 0
+      },
+      {
+        "base": "master",
+        "head": "1",
         "ahead_by": 12
       }
     ]
