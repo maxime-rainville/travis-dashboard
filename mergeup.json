@@ -1602,7 +1602,7 @@
       {
         "base": "1.8",
         "head": "1.7",
-        "ahead_by": 2
+        "ahead_by": 0
       },
       {
         "base": "1",
@@ -1612,7 +1612,7 @@
       {
         "base": "master",
         "head": "1",
-        "ahead_by": 359
+        "ahead_by": 364
       }
     ]
   },
@@ -2007,7 +2007,7 @@
       {
         "base": "4.8",
         "head": "4.7",
-        "ahead_by": 2
+        "ahead_by": 0
       },
       {
         "base": "4",
@@ -2017,7 +2017,7 @@
       {
         "base": "master",
         "head": "4",
-        "ahead_by": 219
+        "ahead_by": 223
       }
     ]
   },
