@@ -5073,12 +5073,12 @@
       {
         "base": "5.8.3",
         "head": "5.9",
-        "ahead_by": 32
+        "ahead_by": 35
       },
       {
         "base": "5.8.3",
         "head": "5",
-        "ahead_by": 52
+        "ahead_by": 56
       },
       {
         "base": "5.8.3",
@@ -5158,12 +5158,12 @@
       {
         "base": "1.7.2",
         "head": "1.8",
-        "ahead_by": 36
+        "ahead_by": 39
       },
       {
         "base": "1.7.2",
         "head": "1",
-        "ahead_by": 45
+        "ahead_by": 48
       },
       {
         "base": "1.7.2",
