@@ -3095,12 +3095,12 @@
         "ahead_by": 0
       },
       {
-        "base": "3.7.6",
+        "base": "3.7.7",
         "head": "3.7",
-        "ahead_by": 4
+        "ahead_by": 0
       },
       {
-        "base": "3.7.6",
+        "base": "3.7.7",
         "head": "3",
         "ahead_by": 28
       },
