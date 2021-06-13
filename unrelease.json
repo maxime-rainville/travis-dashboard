@@ -1909,7 +1909,7 @@
       {
         "base": "1.8.0",
         "head": "1",
-        "ahead_by": 22
+        "ahead_by": 28
       },
       {
         "base": "1.8.0",
@@ -5156,17 +5156,17 @@
         "ahead_by": 0
       },
       {
-        "base": "1.8.0",
+        "base": "1.8.1",
         "head": "1.8",
-        "ahead_by": 4
+        "ahead_by": 0
       },
       {
-        "base": "1.8.0",
+        "base": "1.8.1",
         "head": "1",
-        "ahead_by": 13
+        "ahead_by": 9
       },
       {
-        "base": "1.8.0",
+        "base": "1.8.1",
         "head": "master",
         "ahead_by": 30
       }
@@ -5392,7 +5392,7 @@
       {
         "base": "5.4.0",
         "head": "5.4",
-        "ahead_by": 0
+        "ahead_by": 2
       },
       {
         "base": "5.4.0",
@@ -5895,9 +5895,9 @@
     "repo": "silverstripe/silverstripe-session-manager",
     "compares": [
       {
-        "base": "0.1.1",
+        "base": "0.2.0",
         "head": "1",
-        "ahead_by": 8
+        "ahead_by": 0
       }
     ]
   }
