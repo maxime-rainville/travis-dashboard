@@ -3649,17 +3649,17 @@
         "ahead_by": 16
       },
       {
-        "base": "4.4.2",
+        "base": "4.4.3",
         "head": "4.4",
         "ahead_by": 0
       },
       {
-        "base": "4.4.2",
+        "base": "4.4.3",
         "head": "4",
         "ahead_by": 7
       },
       {
-        "base": "4.4.2",
+        "base": "4.4.3",
         "head": "master",
         "ahead_by": 2
       }
