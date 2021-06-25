@@ -5887,6 +5887,16 @@
     "repo": "silverstripe/silverstripe-versioned-snapshot-admin",
     "compares": [
       {
+        "base": "0.1.0",
+        "head": "0.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "0.2.0",
+        "head": "0.2",
+        "ahead_by": 1
+      },
+      {
         "base": "0.2.0",
         "head": "master",
         "ahead_by": 0
