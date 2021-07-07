@@ -1607,12 +1607,12 @@
       {
         "base": "1",
         "head": "1.8",
-        "ahead_by": 2
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "1",
-        "ahead_by": 377
+        "ahead_by": 380
       }
     ]
   },
@@ -2012,12 +2012,12 @@
       {
         "base": "4",
         "head": "4.8",
-        "ahead_by": 2
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "4",
-        "ahead_by": 225
+        "ahead_by": 228
       }
     ]
   },
@@ -4167,12 +4167,12 @@
       {
         "base": "1",
         "head": "1.8",
-        "ahead_by": 2
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "1",
-        "ahead_by": 98
+        "ahead_by": 101
       }
     ]
   },
