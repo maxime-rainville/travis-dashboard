@@ -5780,9 +5780,9 @@
     "repo": "undefinedoffset/sortablegridfield",
     "compares": [
       {
-        "base": "2.0.8",
+        "base": "2.0.9",
         "head": "master",
-        "ahead_by": 12
+        "ahead_by": 0
       }
     ]
   },
