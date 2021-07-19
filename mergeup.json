@@ -1682,7 +1682,7 @@
       {
         "base": "1",
         "head": "1.8",
-        "ahead_by": 4
+        "ahead_by": 6
       },
       {
         "base": "master",
