@@ -70,7 +70,7 @@
       {
         "base": "master",
         "head": "2.3",
-        "ahead_by": 3
+        "ahead_by": 0
       }
     ]
   },
