@@ -4748,6 +4748,12 @@
   },
   {
     "repo": "silverstripe/silverstripe-session-manager",
-    "compares": []
+    "compares": [
+      {
+        "base": "1",
+        "head": "1.0",
+        "ahead_by": 0
+      }
+    ]
   }
 ]
