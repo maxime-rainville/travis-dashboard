@@ -34,8 +34,8 @@ export function ReleaseLineFilter({className}: Props) {
             <MenuItem key={key} value={key}>{key}</MenuItem>
           ))}
 
-          <ListSubheader>CWP</ListSubheader>
-          {Object.keys(releases).filter(key => key.startsWith('CWP')).map((key) => (
+          <ListSubheader>Sink</ListSubheader>
+          {Object.keys(releases).filter(key => key.startsWith('CWP') || key.startsWith('Silverstripe Sink')).map((key) => (
             <MenuItem key={key} value={key}>{key}</MenuItem>
           ))}
         </Select>
