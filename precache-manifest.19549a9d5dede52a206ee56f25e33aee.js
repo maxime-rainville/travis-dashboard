@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2427a0d016967148c4d0cf50f5e80fd3",
+    "revision": "29b1deb161d77ea32ae0020ff4e3009e",
     "url": "/travis-dashboard/index.html"
   },
   {
-    "revision": "3423a9724161423dc94e",
-    "url": "/travis-dashboard/static/js/2.53e0d80c.chunk.js"
+    "revision": "4adfaa63926c3dfb250f",
+    "url": "/travis-dashboard/static/js/2.137288b3.chunk.js"
   },
   {
     "revision": "db6b965ce0265ced3268127818a45969",
-    "url": "/travis-dashboard/static/js/2.53e0d80c.chunk.js.LICENSE.txt"
+    "url": "/travis-dashboard/static/js/2.137288b3.chunk.js.LICENSE.txt"
   },
   {
     "revision": "0db8bf4567b3a11aa33e",
