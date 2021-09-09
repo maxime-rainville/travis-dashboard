@@ -2724,7 +2724,7 @@
       {
         "base": "4",
         "head": "4.9",
-        "ahead_by": 0
+        "ahead_by": 2
       },
       {
         "base": "master",
@@ -5003,6 +5003,16 @@
         "base": "1",
         "head": "1.1",
         "ahead_by": 0
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/recipe-kitchen-sink",
+    "compares": [
+      {
+        "base": "4",
+        "head": "4.9",
+        "ahead_by": 3
       }
     ]
   }
