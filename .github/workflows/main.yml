@@ -18,7 +18,6 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
-          nvm use
           set -e
           npm install
           npm install silverstripe-cms-meta@latest
