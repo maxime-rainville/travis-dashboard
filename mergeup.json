@@ -2324,8 +2324,13 @@
         "ahead_by": 0
       },
       {
-        "base": "3",
+        "base": "3.8",
         "head": "3.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "3",
+        "head": "3.8",
         "ahead_by": 0
       },
       {
@@ -3516,8 +3521,13 @@
         "ahead_by": 0
       },
       {
-        "base": "2",
+        "base": "2.3",
         "head": "2.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2",
+        "head": "2.3",
         "ahead_by": 0
       },
       {
@@ -3879,8 +3889,13 @@
         "ahead_by": 0
       },
       {
-        "base": "2",
+        "base": "2.5",
         "head": "2.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "2",
+        "head": "2.5",
         "ahead_by": 0
       },
       {
@@ -5451,8 +5466,13 @@
     "repo": "silverstripe/recipe-kitchen-sink",
     "compares": [
       {
-        "base": "4",
+        "base": "4.10",
         "head": "4.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "4",
+        "head": "4.10",
         "ahead_by": 0
       }
     ]
