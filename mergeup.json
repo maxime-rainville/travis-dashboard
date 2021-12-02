@@ -1377,7 +1377,7 @@
       {
         "base": "1",
         "head": "1.10",
-        "ahead_by": 0
+        "ahead_by": 2
       },
       {
         "base": "master",
@@ -1562,7 +1562,7 @@
       {
         "base": "1",
         "head": "1.10",
-        "ahead_by": 0
+        "ahead_by": 2
       },
       {
         "base": "master",
