@@ -67,7 +67,6 @@ export function Drawer(props: {  }) {
 					<ListItemText primary="Refresh data" secondary={ago} />
 				</ListItem>
 			</List>
-			<div className={classes.drawerSpacer}></div>
 			<List>
 				<ListSubheader>Legend</ListSubheader>
 				{
@@ -81,6 +80,10 @@ export function Drawer(props: {  }) {
 					))
 				}
 			</List>
+      <div className={classes.drawerSpacer}></div>
+      <a className={classes.badge} href="https://github.com/maxime-rainville/travis-dashboard/actions/workflows/main.yml">
+        <img src="https://github.com/maxime-rainville/travis-dashboard/actions/workflows/main.yml/badge.svg" alt="Workflow status badge" height="20" />
+      </a>
 		</div>
 	);
 }
@@ -90,8 +93,8 @@ const useStyles = makeStyles((theme: Theme) => ({
     ...theme.mixins.toolbar,
     background: theme.palette.primary.main,
     display: 'flex',
-	justifyContent: 'center',
-	alignItems: 'center'
+	  justifyContent: 'center',
+	  alignItems: 'center'
   },
 	drawerPaper: {
 		width: 250,
@@ -110,4 +113,7 @@ const useStyles = makeStyles((theme: Theme) => ({
 	drawerSpacer: {
 		flexGrow: 1
 	},
+  badge: {
+    padding: `${theme.spacing(1)}px ${theme.spacing(2)}px`
+  }
 }));

@@ -39,13 +39,14 @@ function App() {
 		<BrowserRouter basename={process.env.PUBLIC_URL}>
 			<div className={classes.root}>
 				<div className={classes.appFrame}>
-          <nav className={""}>
+          <nav>
             <DrawerMui
               variant={isMobile ? "temporary" : "permanent"}
               open={!isMobile || mobileOpen}
               onClose={() => setMobileOpen(false)}
               classes={{
-                paper: classes.drawerPaper,
+                root: classes.drawerRoot,
+                paper: classes.drawerPaper
               }}
               ModalProps={{
                 keepMounted: true, // Better open performance on mobile.
@@ -106,13 +107,16 @@ const useStyles = makeStyles((theme: Theme) => ({
 	},
 	drawerPaper: {
 	    width: 250,
-        backgroundColor: theme.palette.background.default,
-        [theme.breakpoints.up("md")]: {
-                width: drawerWidth,
-                position: "relative",
-                height: "100%",
-        },
+      backgroundColor: theme.palette.background.default,
+      [theme.breakpoints.up("md")]: {
+              width: drawerWidth,
+              position: "relative",
+              height: "100%",
+      },
 	},
+  drawerRoot: {
+    height: "100%",
+  }
 }));
 
 export default withRoot(App);
