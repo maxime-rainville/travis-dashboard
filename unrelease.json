@@ -3575,22 +3575,22 @@
         "ahead_by": 1
       },
       {
-        "base": "3.8.1",
+        "base": "3.8.2",
         "head": "3.8",
         "ahead_by": 0
       },
       {
-        "base": "3.8.1",
+        "base": "3.8.2",
         "head": "3.9",
         "ahead_by": 5
       },
       {
-        "base": "3.8.1",
+        "base": "3.8.2",
         "head": "3",
-        "ahead_by": 4
+        "ahead_by": 5
       },
       {
-        "base": "3.8.1",
+        "base": "3.8.2",
         "head": "master",
         "ahead_by": 7
       }
