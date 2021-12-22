@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/travis-dashboard/precache-manifest.5bda151a5fd0dcfb3a1f0c44b565f24c.js"
+  "/travis-dashboard/precache-manifest.136225e30a4e9fd0062d8af2c31f4c9e.js"
 );
 
 self.addEventListener('message', (event) => {
