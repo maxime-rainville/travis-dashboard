@@ -3719,17 +3719,17 @@
         "ahead_by": 0
       },
       {
-        "base": "2.6.1",
+        "base": "2.6.2",
         "head": "2.6",
         "ahead_by": 0
       },
       {
-        "base": "2.6.1",
+        "base": "2.6.2",
         "head": "2",
         "ahead_by": 1
       },
       {
-        "base": "2.6.1",
+        "base": "2.6.2",
         "head": "master",
         "ahead_by": 0
       }
