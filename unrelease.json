@@ -214,7 +214,7 @@
       {
         "base": "4.7.1",
         "head": "4",
-        "ahead_by": 4
+        "ahead_by": 5
       },
       {
         "base": "4.7.1",
@@ -3492,7 +3492,7 @@
       {
         "base": "4.9.1",
         "head": "4",
-        "ahead_by": 74
+        "ahead_by": 75
       },
       {
         "base": "4.9.1",
@@ -6297,7 +6297,7 @@
       {
         "base": "4.9.1",
         "head": "4.9",
-        "ahead_by": 0
+        "ahead_by": 2
       },
       {
         "base": "4.9.1",
@@ -6427,7 +6427,7 @@
       {
         "base": "5.0.0",
         "head": "master",
-        "ahead_by": 27
+        "ahead_by": 28
       }
     ]
   },
