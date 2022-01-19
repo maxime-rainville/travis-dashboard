@@ -2944,12 +2944,12 @@
       {
         "base": "4",
         "head": "4.10",
-        "ahead_by": 3
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "4",
-        "ahead_by": 993
+        "ahead_by": 997
       }
     ]
   },
@@ -3218,12 +3218,12 @@
       {
         "base": "2",
         "head": "2.4",
-        "ahead_by": 2
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "2",
-        "ahead_by": 13
+        "ahead_by": 16
       }
     ]
   },
@@ -4430,12 +4430,12 @@
       {
         "base": "2",
         "head": "2.3",
-        "ahead_by": 2
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "2",
-        "ahead_by": 24
+        "ahead_by": 27
       }
     ]
   },
