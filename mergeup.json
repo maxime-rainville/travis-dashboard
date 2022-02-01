@@ -1782,12 +1782,12 @@
       {
         "base": "1",
         "head": "1.10",
-        "ahead_by": 2
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "1",
-        "ahead_by": 418
+        "ahead_by": 422
       }
     ]
   },
@@ -1872,12 +1872,12 @@
       {
         "base": "1",
         "head": "1.10",
-        "ahead_by": 1
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "1",
-        "ahead_by": 201
+        "ahead_by": 204
       }
     ]
   },
@@ -2262,17 +2262,17 @@
       {
         "base": "4.10",
         "head": "4.9",
-        "ahead_by": 2
+        "ahead_by": 0
       },
       {
         "base": "4",
         "head": "4.10",
-        "ahead_by": 1
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "4",
-        "ahead_by": 270
+        "ahead_by": 275
       }
     ]
   },
@@ -3029,17 +3029,17 @@
       {
         "base": "3.9",
         "head": "3.8",
-        "ahead_by": 2
+        "ahead_by": 0
       },
       {
         "base": "3",
         "head": "3.9",
-        "ahead_by": 1
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "3",
-        "ahead_by": 42
+        "ahead_by": 47
       }
     ]
   },
@@ -3428,12 +3428,12 @@
       {
         "base": "4",
         "head": "4.6",
-        "ahead_by": 1
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "4",
-        "ahead_by": 100
+        "ahead_by": 102
       }
     ]
   },
@@ -4777,12 +4777,12 @@
       {
         "base": "1",
         "head": "1.10",
-        "ahead_by": 1
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "1",
-        "ahead_by": 130
+        "ahead_by": 133
       }
     ]
   },
