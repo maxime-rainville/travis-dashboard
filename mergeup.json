@@ -40,12 +40,12 @@
       {
         "base": "2",
         "head": "2.1",
-        "ahead_by": 1
+        "ahead_by": 0
       },
       {
         "base": "master",
         "head": "2",
-        "ahead_by": 6
+        "ahead_by": 9
       }
     ]
   },
@@ -85,7 +85,7 @@
       {
         "base": "2.5",
         "head": "2.4",
-        "ahead_by": 1
+        "ahead_by": 0
       },
       {
         "base": "2",
@@ -95,7 +95,7 @@
       {
         "base": "master",
         "head": "2",
-        "ahead_by": 6
+        "ahead_by": 10
       }
     ]
   },
