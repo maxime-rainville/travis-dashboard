@@ -3302,6 +3302,16 @@
       },
       {
         "base": "4.0.2",
+        "head": "4.0",
+        "ahead_by": 7
+      },
+      {
+        "base": "4.0.2",
+        "head": "4",
+        "ahead_by": 7
+      },
+      {
+        "base": "4.0.2",
         "head": "master",
         "ahead_by": 7
       }

@@ -2819,9 +2819,14 @@
     "repo": "silverstripe/silverstripe-dynamodb",
     "compares": [
       {
+        "base": "4",
+        "head": "4.0",
+        "ahead_by": 0
+      },
+      {
         "base": "master",
-        "head": "3.0",
-        "ahead_by": 3
+        "head": "4",
+        "ahead_by": 0
       }
     ]
   },
