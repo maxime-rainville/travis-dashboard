@@ -1,0 +1,7179 @@
+[
+  {
+    "repo": "bringyourownideas/silverstripe-composer-security-checker",
+    "compares": [
+      {
+        "base": "1.0.1",
+        "head": "1.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.1.0",
+        "head": "1.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.1.0",
+        "head": "1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.0.4",
+        "head": "2.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.0.4",
+        "head": "master",
+        "ahead_by": 3
+      }
+    ]
+  },
+  {
+    "repo": "bringyourownideas/silverstripe-composer-update-checker",
+    "compares": [
+      {
+        "base": "1.0.2",
+        "head": "1.0",
+        "ahead_by": 3
+      },
+      {
+        "base": "1.1.0",
+        "head": "1.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.1.0",
+        "head": "1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.0.3",
+        "head": "2.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.1.1",
+        "head": "2.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.1.1",
+        "head": "2",
+        "ahead_by": 1
+      },
+      {
+        "base": "3.0.0",
+        "head": "3.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.0.0",
+        "head": "3",
+        "ahead_by": 1
+      },
+      {
+        "base": "3.0.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "bringyourownideas/silverstripe-maintenance",
+    "compares": [
+      {
+        "base": "1.0.0",
+        "head": "1.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.1.0",
+        "head": "1.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.1.0",
+        "head": "1",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.0.1",
+        "head": "2.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.1.0",
+        "head": "2.1",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.2.0",
+        "head": "2.2",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.3.1",
+        "head": "2.3",
+        "ahead_by": 6
+      },
+      {
+        "base": "2.4.1",
+        "head": "2.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.5.0",
+        "head": "2.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.6.0",
+        "head": "2.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.6.0",
+        "head": "2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.6.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "colymba/GridFieldBulkEditingTools",
+    "compares": [
+      {
+        "base": "3.0.2",
+        "head": "master",
+        "ahead_by": 0
+      }
+    ]
+  },
+  {
+    "repo": "composer/installers",
+    "compares": []
+  },
+  {
+    "repo": "silverstripe/silverstripe-elemental",
+    "compares": [
+      {
+        "base": "1.0.0",
+        "head": "1.0",
+        "ahead_by": 121
+      },
+      {
+        "base": "2.1.2",
+        "head": "2.1",
+        "ahead_by": 3
+      },
+      {
+        "base": "3.0.2",
+        "head": "3.0",
+        "ahead_by": 7
+      },
+      {
+        "base": "3.1.3",
+        "head": "3.1",
+        "ahead_by": 2
+      },
+      {
+        "base": "3.1.3",
+        "head": "3",
+        "ahead_by": 8
+      },
+      {
+        "base": "4.0.5",
+        "head": "4.0",
+        "ahead_by": 7
+      },
+      {
+        "base": "4.1.1",
+        "head": "4.1",
+        "ahead_by": 6
+      },
+      {
+        "base": "4.2.1",
+        "head": "4.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.3.2",
+        "head": "4.3",
+        "ahead_by": 2
+      },
+      {
+        "base": "4.4.1",
+        "head": "4.4",
+        "ahead_by": 3
+      },
+      {
+        "base": "4.5.0",
+        "head": "4.5",
+        "ahead_by": 2
+      },
+      {
+        "base": "4.6.0",
+        "head": "4.6",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.7.1",
+        "head": "4.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.8.3",
+        "head": "4.8",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.8.3",
+        "head": "4.9",
+        "ahead_by": 13
+      },
+      {
+        "base": "4.8.3",
+        "head": "4",
+        "ahead_by": 15
+      },
+      {
+        "base": "4.8.3",
+        "head": "master",
+        "ahead_by": 4
+      }
+    ]
+  },
+  {
+    "repo": "dnadesign/silverstripe-elemental-subsites",
+    "compares": [
+      {
+        "base": "1.0.0",
+        "head": "1.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.0.0",
+        "head": "1",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.0.0",
+        "head": "2.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.0.0",
+        "head": "3.0",
+        "ahead_by": 6
+      },
+      {
+        "base": "2.0.0",
+        "head": "3",
+        "ahead_by": 7
+      },
+      {
+        "base": "2.0.0",
+        "head": "master",
+        "ahead_by": 3
+      }
+    ]
+  },
+  {
+    "repo": "dnadesign/silverstripe-elemental-userforms",
+    "compares": [
+      {
+        "base": "1.0.0",
+        "head": "1.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.0.0",
+        "head": "1",
+        "ahead_by": 4
+      },
+      {
+        "base": "2.0.0",
+        "head": "2.0",
+        "ahead_by": 2
+      },
+      {
+        "base": "3.0.0",
+        "head": "3.0",
+        "ahead_by": 2
+      },
+      {
+        "base": "3.1.0",
+        "head": "3.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.2.1",
+        "head": "3.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.2.1",
+        "head": "3",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.2.1",
+        "head": "master",
+        "ahead_by": 2
+      }
+    ]
+  },
+  {
+    "repo": "hafriedlander/phockito",
+    "compares": [
+      {
+        "base": "1.0.0",
+        "head": "1.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.0.0",
+        "head": "master",
+        "ahead_by": 0
+      }
+    ]
+  },
+  {
+    "repo": "hafriedlander/silverstripe-phockito",
+    "compares": [
+      {
+        "base": "1.0.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "lekoala/silverstripe-debugbar",
+    "compares": [
+      {
+        "base": "1.0.1",
+        "head": "1.0",
+        "ahead_by": 6
+      },
+      {
+        "base": "1.1.0",
+        "head": "1.1",
+        "ahead_by": 6
+      },
+      {
+        "base": "1.1.0",
+        "head": "1.2",
+        "ahead_by": 10
+      },
+      {
+        "base": "1.1.0",
+        "head": "1",
+        "ahead_by": 10
+      },
+      {
+        "base": "2.0.6",
+        "head": "2.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.0.6",
+        "head": "master",
+        "ahead_by": 0
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe-themes/silverstripe-simple",
+    "compares": [
+      {
+        "base": "3.1.2",
+        "head": "3.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.2.1",
+        "head": "3.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.2.1",
+        "head": "master",
+        "ahead_by": 6
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/comment-notifications",
+    "compares": [
+      {
+        "base": "1.0.2",
+        "head": "1.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.0.1",
+        "head": "2.0",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.1.0",
+        "head": "2.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.0",
+        "head": "2.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.0",
+        "head": "2.3",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.2.0",
+        "head": "2",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.2.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/cwp",
+    "compares": [
+      {
+        "base": "1.1.2",
+        "head": "1.1",
+        "ahead_by": 15
+      },
+      {
+        "base": "1.2.0",
+        "head": "1.2",
+        "ahead_by": 59
+      },
+      {
+        "base": "1.3.0",
+        "head": "1.3",
+        "ahead_by": 36
+      },
+      {
+        "base": "1.4.1",
+        "head": "1.4",
+        "ahead_by": 37
+      },
+      {
+        "base": "1.5.2",
+        "head": "1.5",
+        "ahead_by": 53
+      },
+      {
+        "base": "1.6.2",
+        "head": "1.6",
+        "ahead_by": 2
+      },
+      {
+        "base": "1.7.2",
+        "head": "1.7",
+        "ahead_by": 4
+      },
+      {
+        "base": "1.8.3",
+        "head": "1.8",
+        "ahead_by": 6
+      },
+      {
+        "base": "1.9.4",
+        "head": "1.9",
+        "ahead_by": 5
+      },
+      {
+        "base": "1.9.4",
+        "head": "1.10",
+        "ahead_by": 5
+      },
+      {
+        "base": "1.9.4",
+        "head": "1",
+        "ahead_by": 10
+      },
+      {
+        "base": "2.0.2",
+        "head": "2.0",
+        "ahead_by": 36
+      },
+      {
+        "base": "2.1.2",
+        "head": "2.1",
+        "ahead_by": 20
+      },
+      {
+        "base": "2.2.3",
+        "head": "2.2",
+        "ahead_by": 7
+      },
+      {
+        "base": "2.3.3",
+        "head": "2.3",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.4.1",
+        "head": "2.4",
+        "ahead_by": 9
+      },
+      {
+        "base": "2.5.2",
+        "head": "2.5",
+        "ahead_by": 9
+      },
+      {
+        "base": "2.6.1",
+        "head": "2.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.7.1",
+        "head": "2.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.8.1",
+        "head": "2.8",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.9.0",
+        "head": "2.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.10.0",
+        "head": "2.10",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.10.0",
+        "head": "2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.10.0",
+        "head": "master",
+        "ahead_by": 0
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/cwp-agencyextensions",
+    "compares": [
+      {
+        "base": "1.0.1",
+        "head": "1.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.1.0",
+        "head": "1.1",
+        "ahead_by": 2
+      },
+      {
+        "base": "1.2.0",
+        "head": "1.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.2.0",
+        "head": "1",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.0.0",
+        "head": "2.0",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.1.2",
+        "head": "2.1",
+        "ahead_by": 7
+      },
+      {
+        "base": "2.2.0",
+        "head": "2.2",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.3.1",
+        "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.4.1",
+        "head": "2.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.5.0",
+        "head": "2.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.6.0",
+        "head": "2.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.7.0",
+        "head": "2.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.7.0",
+        "head": "2",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.7.0",
+        "head": "master",
+        "ahead_by": 2
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/cwp-core",
+    "compares": [
+      {
+        "base": "1.5.2",
+        "head": "1.5",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.6.4",
+        "head": "1.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.7.1",
+        "head": "1.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.8.3",
+        "head": "1.8",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.9.4",
+        "head": "1.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.9.4",
+        "head": "1.10",
+        "ahead_by": 4
+      },
+      {
+        "base": "1.9.4",
+        "head": "1",
+        "ahead_by": 4
+      },
+      {
+        "base": "2.0.2",
+        "head": "2.0",
+        "ahead_by": 7
+      },
+      {
+        "base": "2.1.2",
+        "head": "2.1",
+        "ahead_by": 8
+      },
+      {
+        "base": "2.2.3",
+        "head": "2.2",
+        "ahead_by": 4
+      },
+      {
+        "base": "2.3.3",
+        "head": "2.3",
+        "ahead_by": 5
+      },
+      {
+        "base": "2.4.1",
+        "head": "2.4",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.5.2",
+        "head": "2.5",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.6.2",
+        "head": "2.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.7.1",
+        "head": "2.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.8.0",
+        "head": "2.8",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.9.1",
+        "head": "2.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.10.0",
+        "head": "2.10",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.11.0",
+        "head": "2.11",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.11.0",
+        "head": "2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.11.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/cwp-installer",
+    "compares": [
+      {
+        "base": "1.6.2",
+        "head": "1.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.7.1",
+        "head": "1.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.8.3",
+        "head": "1.8",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.9.4",
+        "head": "1.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.9.4",
+        "head": "1.10",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.9.4",
+        "head": "1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.0.2",
+        "head": "2.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.1.2",
+        "head": "2.1",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.2.3",
+        "head": "2.2",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.3.3",
+        "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.4.1",
+        "head": "2.4",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.5.2",
+        "head": "2.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.6.1",
+        "head": "2.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.7.1",
+        "head": "2.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.8.0",
+        "head": "2.8",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.8.0",
+        "head": "2",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.8.0",
+        "head": "master",
+        "ahead_by": 0
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/cwp-pdfexport",
+    "compares": [
+      {
+        "base": "1.0.2",
+        "head": "1.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.1.1",
+        "head": "1.1",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.2.0",
+        "head": "1.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.3.0",
+        "head": "1.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.4.0",
+        "head": "1.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.4.0",
+        "head": "1",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.4.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/cwp-recipe-basic",
+    "compares": [
+      {
+        "base": "1.6.2",
+        "head": "1.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.7.1",
+        "head": "1.7",
+        "ahead_by": 5
+      },
+      {
+        "base": "1.8.3",
+        "head": "1.8",
+        "ahead_by": 5
+      },
+      {
+        "base": "1.9.4",
+        "head": "1.9",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.9.4",
+        "head": "1.10",
+        "ahead_by": 8
+      },
+      {
+        "base": "1.9.4",
+        "head": "1",
+        "ahead_by": 8
+      },
+      {
+        "base": "1.9.4",
+        "head": "master",
+        "ahead_by": 3
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/cwp-recipe-basic-dev",
+    "compares": [
+      {
+        "base": "1.1.0",
+        "head": "1.1",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.1.0",
+        "head": "master",
+        "ahead_by": 3
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/cwp-recipe-blog",
+    "compares": [
+      {
+        "base": "1.6.2",
+        "head": "1.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.7.1",
+        "head": "1.7",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.8.3",
+        "head": "1.8",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.9.4",
+        "head": "1.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.9.4",
+        "head": "1.10",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.9.4",
+        "head": "master",
+        "ahead_by": 0
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/cwp-recipe-cms",
+    "compares": [
+      {
+        "base": "2.0.2",
+        "head": "2.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.1.2",
+        "head": "2.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.3",
+        "head": "2.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.3.3",
+        "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.4.1",
+        "head": "2.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.5.2",
+        "head": "2.5",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.6.1",
+        "head": "2.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.7.1",
+        "head": "2.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.8.0",
+        "head": "2.8",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.8.0",
+        "head": "2",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.8.0",
+        "head": "master",
+        "ahead_by": 0
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/cwp-recipe-core",
+    "compares": [
+      {
+        "base": "2.0.2",
+        "head": "2.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.1.2",
+        "head": "2.1",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.2.3",
+        "head": "2.2",
+        "ahead_by": 4
+      },
+      {
+        "base": "2.3.3",
+        "head": "2.3",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.4.1",
+        "head": "2.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.5.2",
+        "head": "2.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.6.1",
+        "head": "2.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.7.1",
+        "head": "2.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.8.0",
+        "head": "2.8",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.8.0",
+        "head": "2",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.8.0",
+        "head": "master",
+        "ahead_by": 0
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/cwp-recipe-kitchen-sink",
+    "compares": [
+      {
+        "base": "2.0.2",
+        "head": "2.0",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.1.2",
+        "head": "2.1",
+        "ahead_by": 6
+      },
+      {
+        "base": "2.2.3",
+        "head": "2.2",
+        "ahead_by": 8
+      },
+      {
+        "base": "2.3.3",
+        "head": "2.3",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.4.1",
+        "head": "2.4",
+        "ahead_by": 5
+      },
+      {
+        "base": "2.5.2",
+        "head": "2.5",
+        "ahead_by": 7
+      },
+      {
+        "base": "2.6.1",
+        "head": "2.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.7.1",
+        "head": "2.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.8.0",
+        "head": "2.8",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.8.0",
+        "head": "2",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.8.0",
+        "head": "master",
+        "ahead_by": 0
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/cwp-recipe-search",
+    "compares": [
+      {
+        "base": "2.0.2",
+        "head": "2.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.1.2",
+        "head": "2.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.3",
+        "head": "2.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.3.3",
+        "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.4.1",
+        "head": "2.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.5.2",
+        "head": "2.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.6.1",
+        "head": "2.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.7.1",
+        "head": "2.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.8.0",
+        "head": "2.8",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.8.0",
+        "head": "2.9",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.8.0",
+        "head": "2",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.8.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/cwp-search",
+    "compares": [
+      {
+        "base": "1.0.0",
+        "head": "1.0",
+        "ahead_by": 3
+      },
+      {
+        "base": "1.1.1",
+        "head": "1.1",
+        "ahead_by": 3
+      },
+      {
+        "base": "1.2.1",
+        "head": "1.2",
+        "ahead_by": 2
+      },
+      {
+        "base": "1.3.0",
+        "head": "1.3",
+        "ahead_by": 3
+      },
+      {
+        "base": "1.4.0",
+        "head": "1.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.5.0",
+        "head": "1.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.6.0",
+        "head": "1.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.6.0",
+        "head": "1.7",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.6.0",
+        "head": "1",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.6.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/cwp-starter-theme",
+    "compares": [
+      {
+        "base": "1.0.5",
+        "head": "1.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.1.1",
+        "head": "1.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.1.1",
+        "head": "1",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.0.4",
+        "head": "2.0",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.0.4",
+        "head": "2",
+        "ahead_by": 4
+      },
+      {
+        "base": "3.0.5",
+        "head": "3.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "3.1.0",
+        "head": "3.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.2.0",
+        "head": "3.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.2.0",
+        "head": "3",
+        "ahead_by": 8
+      },
+      {
+        "base": "3.2.0",
+        "head": "master",
+        "ahead_by": 2
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/cwp-theme-default",
+    "compares": [
+      {
+        "base": "1.1.2",
+        "head": "1.1",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.2.1",
+        "head": "1.2",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.3.0",
+        "head": "1.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.4.0",
+        "head": "1.4",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.4.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/cwp-watea-theme",
+    "compares": [
+      {
+        "base": "1.0.4",
+        "head": "1.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.1.2",
+        "head": "1.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.1.2",
+        "head": "1",
+        "ahead_by": 4
+      },
+      {
+        "base": "2.0.2",
+        "head": "2.0",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.1.1",
+        "head": "2.1",
+        "ahead_by": 4
+      },
+      {
+        "base": "2.1.1",
+        "head": "2",
+        "ahead_by": 5
+      },
+      {
+        "base": "3.0.3",
+        "head": "3.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.1.0",
+        "head": "3.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.1.0",
+        "head": "3",
+        "ahead_by": 14
+      },
+      {
+        "base": "3.1.0",
+        "head": "master",
+        "ahead_by": 2
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/eslint-config",
+    "compares": [
+      {
+        "base": "0.0.6",
+        "head": "master",
+        "ahead_by": 2
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/multi-domain",
+    "compares": [
+      {
+        "base": "1.0.0",
+        "head": "1.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.0.0",
+        "head": "master",
+        "ahead_by": 4
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/recipe-authoring-tools",
+    "compares": [
+      {
+        "base": "1.0.1",
+        "head": "1.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.1.2",
+        "head": "1.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.2.3",
+        "head": "1.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.3.3",
+        "head": "1.3",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.4.1",
+        "head": "1.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.5.2",
+        "head": "1.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.6.1",
+        "head": "1.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.7.1",
+        "head": "1.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.8.0",
+        "head": "1.8",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.9.0",
+        "head": "1.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.10.0",
+        "head": "1.10",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.10.0",
+        "head": "1.11",
+        "ahead_by": 3
+      },
+      {
+        "base": "1.10.0",
+        "head": "1",
+        "ahead_by": 3
+      },
+      {
+        "base": "1.10.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/recipe-blog",
+    "compares": [
+      {
+        "base": "1.0.1",
+        "head": "1.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.1.6",
+        "head": "1.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.3.3",
+        "head": "1.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.4.1",
+        "head": "1.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.5.2",
+        "head": "1.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.6.1",
+        "head": "1.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.7.1",
+        "head": "1.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.8.0",
+        "head": "1.8",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.9.0",
+        "head": "1.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.10.0",
+        "head": "1.10",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.10.0",
+        "head": "1.11",
+        "ahead_by": 3
+      },
+      {
+        "base": "1.10.0",
+        "head": "1",
+        "ahead_by": 3
+      },
+      {
+        "base": "1.10.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/recipe-cms",
+    "compares": [
+      {
+        "base": "4.2.5",
+        "head": "4.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.3.6",
+        "head": "4.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.4.7",
+        "head": "4.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.5.3",
+        "head": "4.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.6.1",
+        "head": "4.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.7.3",
+        "head": "4.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.8.0",
+        "head": "4.8",
+        "ahead_by": 2
+      },
+      {
+        "base": "4.9.0",
+        "head": "4.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.10.0",
+        "head": "4.10",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.10.0",
+        "head": "4.11",
+        "ahead_by": 5
+      },
+      {
+        "base": "4.10.0",
+        "head": "4",
+        "ahead_by": 5
+      },
+      {
+        "base": "4.10.0",
+        "head": "master",
+        "ahead_by": 8
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/recipe-collaboration",
+    "compares": [
+      {
+        "base": "1.0.1",
+        "head": "1.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.1.2",
+        "head": "1.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.2.3",
+        "head": "1.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.3.3",
+        "head": "1.3",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.4.1",
+        "head": "1.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.5.2",
+        "head": "1.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.6.1",
+        "head": "1.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.7.1",
+        "head": "1.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.8.0",
+        "head": "1.8",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.9.0",
+        "head": "1.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.10.0",
+        "head": "1.10",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.10.0",
+        "head": "1.11",
+        "ahead_by": 3
+      },
+      {
+        "base": "1.10.0",
+        "head": "1",
+        "ahead_by": 3
+      },
+      {
+        "base": "1.10.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/recipe-content-blocks",
+    "compares": [
+      {
+        "base": "1.0.1",
+        "head": "1.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.0.2",
+        "head": "2.0",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.1.3",
+        "head": "2.1",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.2.0",
+        "head": "2.2",
+        "ahead_by": 5
+      },
+      {
+        "base": "2.3.3",
+        "head": "2.3",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.4.1",
+        "head": "2.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.5.2",
+        "head": "2.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.6.1",
+        "head": "2.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.7.1",
+        "head": "2.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.8.0",
+        "head": "2.8",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.9.0",
+        "head": "2.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.10.0",
+        "head": "2.10",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.10.0",
+        "head": "2.11",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.10.0",
+        "head": "2",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.10.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/recipe-core",
+    "compares": [
+      {
+        "base": "4.2.5",
+        "head": "4.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.3.6",
+        "head": "4.3",
+        "ahead_by": 2
+      },
+      {
+        "base": "4.4.7",
+        "head": "4.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.5.3",
+        "head": "4.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.6.1",
+        "head": "4.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.7.3",
+        "head": "4.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.8.0",
+        "head": "4.8",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.9.0",
+        "head": "4.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.10.0",
+        "head": "4.10",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.10.0",
+        "head": "4.11",
+        "ahead_by": 4
+      },
+      {
+        "base": "4.10.0",
+        "head": "4",
+        "ahead_by": 4
+      },
+      {
+        "base": "4.10.0",
+        "head": "master",
+        "ahead_by": 4
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/recipe-form-building",
+    "compares": [
+      {
+        "base": "1.0.1",
+        "head": "1.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.1.2",
+        "head": "1.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.2.3",
+        "head": "1.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.3.3",
+        "head": "1.3",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.4.1",
+        "head": "1.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.5.2",
+        "head": "1.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.6.1",
+        "head": "1.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.7.1",
+        "head": "1.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.8.0",
+        "head": "1.8",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.9.0",
+        "head": "1.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.10.0",
+        "head": "1.10",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.10.0",
+        "head": "1.11",
+        "ahead_by": 3
+      },
+      {
+        "base": "1.10.0",
+        "head": "1",
+        "ahead_by": 3
+      },
+      {
+        "base": "1.10.0",
+        "head": "master",
+        "ahead_by": 2
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/recipe-plugin",
+    "compares": [
+      {
+        "base": "1.7.0",
+        "head": "1.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.7.0",
+        "head": "1",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.7.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/recipe-reporting-tools",
+    "compares": [
+      {
+        "base": "1.0.1",
+        "head": "1.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.1.2",
+        "head": "1.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.2.3",
+        "head": "1.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.3.3",
+        "head": "1.3",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.4.1",
+        "head": "1.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.5.2",
+        "head": "1.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.6.1",
+        "head": "1.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.7.1",
+        "head": "1.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.8.0",
+        "head": "1.8",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.9.0",
+        "head": "1.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.10.0",
+        "head": "1.10",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.10.0",
+        "head": "1.11",
+        "ahead_by": 4
+      },
+      {
+        "base": "1.10.0",
+        "head": "1",
+        "ahead_by": 4
+      },
+      {
+        "base": "1.10.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/recipe-services",
+    "compares": [
+      {
+        "base": "1.0.1",
+        "head": "1.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.1.6",
+        "head": "1.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.3.3",
+        "head": "1.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.4.1",
+        "head": "1.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.5.2",
+        "head": "1.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.6.1",
+        "head": "1.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.7.1",
+        "head": "1.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.8.0",
+        "head": "1.8",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.9.0",
+        "head": "1.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.10.0",
+        "head": "1.10",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.10.0",
+        "head": "1.11",
+        "ahead_by": 3
+      },
+      {
+        "base": "1.10.0",
+        "head": "1",
+        "ahead_by": 3
+      },
+      {
+        "base": "1.10.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-activedirectory",
+    "compares": [
+      {
+        "base": "3.0.7",
+        "head": "3.0",
+        "ahead_by": 2
+      },
+      {
+        "base": "3.1.0",
+        "head": "3.1",
+        "ahead_by": 2
+      },
+      {
+        "base": "3.2.1",
+        "head": "3.2",
+        "ahead_by": 2
+      },
+      {
+        "base": "3.2.1",
+        "head": "3",
+        "ahead_by": 9
+      },
+      {
+        "base": "3.2.1",
+        "head": "master",
+        "ahead_by": 11
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-admin",
+    "compares": [
+      {
+        "base": "1.2.6",
+        "head": "1.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.3.5",
+        "head": "1.3",
+        "ahead_by": 9
+      },
+      {
+        "base": "1.4.5",
+        "head": "1.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.5.2",
+        "head": "1.5",
+        "ahead_by": 4
+      },
+      {
+        "base": "1.6.4",
+        "head": "1.6",
+        "ahead_by": 2
+      },
+      {
+        "base": "1.7.4",
+        "head": "1.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.8.1",
+        "head": "1.8",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.9.0",
+        "head": "1.9",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.10.1",
+        "head": "1.10",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.10.1",
+        "head": "1.11",
+        "ahead_by": 15
+      },
+      {
+        "base": "1.10.1",
+        "head": "1",
+        "ahead_by": 15
+      },
+      {
+        "base": "1.10.1",
+        "head": "master",
+        "ahead_by": 13
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-akismet",
+    "compares": [
+      {
+        "base": "3.1.0",
+        "head": "3.1",
+        "ahead_by": 2
+      },
+      {
+        "base": "3.2.7",
+        "head": "3.2",
+        "ahead_by": 4
+      },
+      {
+        "base": "4.0.4",
+        "head": "4.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.1.0",
+        "head": "4.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.2.0",
+        "head": "4.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.2.0",
+        "head": "4.3",
+        "ahead_by": 2
+      },
+      {
+        "base": "4.2.0",
+        "head": "4",
+        "ahead_by": 2
+      },
+      {
+        "base": "4.2.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-asset-admin",
+    "compares": [
+      {
+        "base": "1.2.5",
+        "head": "1.2",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.3.5",
+        "head": "1.3",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.4.6",
+        "head": "1.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.5.2",
+        "head": "1.5",
+        "ahead_by": 2
+      },
+      {
+        "base": "1.6.1",
+        "head": "1.6",
+        "ahead_by": 6
+      },
+      {
+        "base": "1.7.3",
+        "head": "1.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.8.5",
+        "head": "1.8",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.9.1",
+        "head": "1.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.10.3",
+        "head": "1.10",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.10.3",
+        "head": "1.11",
+        "ahead_by": 8
+      },
+      {
+        "base": "1.10.3",
+        "head": "1",
+        "ahead_by": 8
+      },
+      {
+        "base": "1.10.3",
+        "head": "master",
+        "ahead_by": 12
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-assets",
+    "compares": [
+      {
+        "base": "1.2.5",
+        "head": "1.2",
+        "ahead_by": 2
+      },
+      {
+        "base": "1.3.5",
+        "head": "1.3",
+        "ahead_by": 9
+      },
+      {
+        "base": "1.4.8",
+        "head": "1.4",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.5.3",
+        "head": "1.5",
+        "ahead_by": 2
+      },
+      {
+        "base": "1.6.1",
+        "head": "1.6",
+        "ahead_by": 3
+      },
+      {
+        "base": "1.7.1",
+        "head": "1.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.8.0",
+        "head": "1.8",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.9.0",
+        "head": "1.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.10.0",
+        "head": "1.10",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.10.0",
+        "head": "1.11",
+        "ahead_by": 11
+      },
+      {
+        "base": "1.10.0",
+        "head": "1",
+        "ahead_by": 11
+      },
+      {
+        "base": "1.10.0",
+        "head": "master",
+        "ahead_by": 18
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-auditor",
+    "compares": [
+      {
+        "base": "1.0.2",
+        "head": "1.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.1.0",
+        "head": "1.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.1.0",
+        "head": "1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.0.0",
+        "head": "2.0",
+        "ahead_by": 5
+      },
+      {
+        "base": "2.1.5",
+        "head": "2.1",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.2.1",
+        "head": "2.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.3.0",
+        "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.4.0",
+        "head": "2.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.5.0",
+        "head": "2.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.5.0",
+        "head": "2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.5.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-behat-extension",
+    "compares": [
+      {
+        "base": "1.0.5",
+        "head": "1.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.1.1",
+        "head": "2.1",
+        "ahead_by": 15
+      },
+      {
+        "base": "2.3.7",
+        "head": "2",
+        "ahead_by": 2
+      },
+      {
+        "base": "3.0.0",
+        "head": "3.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.0.0",
+        "head": "3",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.0.0",
+        "head": "4.0",
+        "ahead_by": 2
+      },
+      {
+        "base": "4.3.0",
+        "head": "4.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.4.0",
+        "head": "4.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.5.0",
+        "head": "4.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.6.0",
+        "head": "4.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.7.0",
+        "head": "4.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.8.2",
+        "head": "4.8",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.9.0",
+        "head": "4.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.9.0",
+        "head": "4",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.9.0",
+        "head": "master",
+        "ahead_by": 9
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-blog",
+    "compares": [
+      {
+        "base": "0.2.1",
+        "head": "0.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "0.3.1",
+        "head": "0.3",
+        "ahead_by": 3
+      },
+      {
+        "base": "0.4.1",
+        "head": "0.4",
+        "ahead_by": 13
+      },
+      {
+        "base": "0.4.1",
+        "head": "0.5",
+        "ahead_by": 49
+      },
+      {
+        "base": "0.6.3",
+        "head": "0.6",
+        "ahead_by": 24
+      },
+      {
+        "base": "1.0.0",
+        "head": "1.0",
+        "ahead_by": 30
+      },
+      {
+        "base": "2.0.5",
+        "head": "2.0",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.1.0",
+        "head": "2.1",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.2.0",
+        "head": "2.2",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.3.0",
+        "head": "2.3",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.4.10",
+        "head": "2.4",
+        "ahead_by": 4
+      },
+      {
+        "base": "2.5.3",
+        "head": "2.5",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.5.3",
+        "head": "2",
+        "ahead_by": 6
+      },
+      {
+        "base": "3.0.1",
+        "head": "3.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "3.1.2",
+        "head": "3.1",
+        "ahead_by": 1
+      },
+      {
+        "base": "3.2.4",
+        "head": "3.2",
+        "ahead_by": 2
+      },
+      {
+        "base": "3.3.0",
+        "head": "3.3",
+        "ahead_by": 9
+      },
+      {
+        "base": "3.4.0",
+        "head": "3.4",
+        "ahead_by": 1
+      },
+      {
+        "base": "3.5.1",
+        "head": "3.5",
+        "ahead_by": 2
+      },
+      {
+        "base": "3.6.0",
+        "head": "3.6",
+        "ahead_by": 3
+      },
+      {
+        "base": "3.7.0",
+        "head": "3.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.8.0",
+        "head": "3.8",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.9.0",
+        "head": "3.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.9.0",
+        "head": "3.10",
+        "ahead_by": 6
+      },
+      {
+        "base": "3.9.0",
+        "head": "3",
+        "ahead_by": 6
+      },
+      {
+        "base": "3.9.0",
+        "head": "master",
+        "ahead_by": 37
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-campaign-admin",
+    "compares": [
+      {
+        "base": "1.5.1",
+        "head": "1.5",
+        "ahead_by": 2
+      },
+      {
+        "base": "1.6.0",
+        "head": "1.6",
+        "ahead_by": 2
+      },
+      {
+        "base": "1.7.2",
+        "head": "1.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.8.0",
+        "head": "1.8",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.9.0",
+        "head": "1.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.10.0",
+        "head": "1.10",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.10.0",
+        "head": "1.11",
+        "ahead_by": 22
+      },
+      {
+        "base": "1.10.0",
+        "head": "1",
+        "ahead_by": 23
+      },
+      {
+        "base": "1.10.0",
+        "head": "master",
+        "ahead_by": 7
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-cms",
+    "compares": [
+      {
+        "base": "2.1.1",
+        "head": "2.1",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.2.4",
+        "head": "2.2",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.3.13",
+        "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.4.13",
+        "head": "2.4",
+        "ahead_by": 4
+      },
+      {
+        "base": "3.0.14",
+        "head": "3.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "3.5.8",
+        "head": "3.5",
+        "ahead_by": 1
+      },
+      {
+        "base": "3.6.7",
+        "head": "3.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.7.3",
+        "head": "3.7",
+        "ahead_by": 2
+      },
+      {
+        "base": "3.7.3",
+        "head": "3",
+        "ahead_by": 4
+      },
+      {
+        "base": "4.2.5",
+        "head": "4.2",
+        "ahead_by": 2
+      },
+      {
+        "base": "4.3.5",
+        "head": "4.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.4.5",
+        "head": "4.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.5.2",
+        "head": "4.5",
+        "ahead_by": 3
+      },
+      {
+        "base": "4.6.0",
+        "head": "4.6",
+        "ahead_by": 10
+      },
+      {
+        "base": "4.7.2",
+        "head": "4.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.8.0",
+        "head": "4.8",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.9.2",
+        "head": "4.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.10.2",
+        "head": "4.10",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.10.2",
+        "head": "4.11",
+        "ahead_by": 15
+      },
+      {
+        "base": "4.10.2",
+        "head": "4",
+        "ahead_by": 15
+      },
+      {
+        "base": "4.10.2",
+        "head": "master",
+        "ahead_by": 28
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-colorpicker",
+    "compares": []
+  },
+  {
+    "repo": "silverstripe/silverstripe-comments",
+    "compares": [
+      {
+        "base": "1.2.2",
+        "head": "1.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.0.3",
+        "head": "2.0",
+        "ahead_by": 16
+      },
+      {
+        "base": "2.1.7",
+        "head": "2.1",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.1.7",
+        "head": "2",
+        "ahead_by": 3
+      },
+      {
+        "base": "3.1.6",
+        "head": "3.1",
+        "ahead_by": 1
+      },
+      {
+        "base": "3.2.1",
+        "head": "3.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.3.1",
+        "head": "3.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.4.0",
+        "head": "3.4",
+        "ahead_by": 2
+      },
+      {
+        "base": "3.5.0",
+        "head": "3.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.6.0",
+        "head": "3.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.7.2",
+        "head": "3.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.7.2",
+        "head": "3.8",
+        "ahead_by": 3
+      },
+      {
+        "base": "3.7.2",
+        "head": "3",
+        "ahead_by": 3
+      },
+      {
+        "base": "3.7.2",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-config",
+    "compares": [
+      {
+        "base": "1.0.18",
+        "head": "1.0",
+        "ahead_by": 4
+      },
+      {
+        "base": "1.1.0",
+        "head": "1.1",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.2.0",
+        "head": "1.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.3.1",
+        "head": "1.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.3.1",
+        "head": "1.4",
+        "ahead_by": 2
+      },
+      {
+        "base": "1.3.1",
+        "head": "1",
+        "ahead_by": 2
+      },
+      {
+        "base": "1.3.1",
+        "head": "master",
+        "ahead_by": 4
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-content-widget",
+    "compares": [
+      {
+        "base": "1.0.5",
+        "head": "1.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.0.5",
+        "head": "1",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.0.1",
+        "head": "2.0",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.1.0",
+        "head": "2.1",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.2.0",
+        "head": "2.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.3.0",
+        "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.3.0",
+        "head": "2.4",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.3.0",
+        "head": "2",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.3.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-contentreview",
+    "compares": [
+      {
+        "base": "3.0.8",
+        "head": "3.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "3.0.8",
+        "head": "3.1",
+        "ahead_by": 4
+      },
+      {
+        "base": "4.0.1",
+        "head": "4.0",
+        "ahead_by": 5
+      },
+      {
+        "base": "4.1.2",
+        "head": "4.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.2.0",
+        "head": "4.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.3.0",
+        "head": "4.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.4.0",
+        "head": "4.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.4.0",
+        "head": "4.5",
+        "ahead_by": 5
+      },
+      {
+        "base": "4.4.0",
+        "head": "4",
+        "ahead_by": 5
+      },
+      {
+        "base": "4.4.0",
+        "head": "master",
+        "ahead_by": 3
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-controllerpolicy",
+    "compares": [
+      {
+        "base": "1.0.1",
+        "head": "1.0",
+        "ahead_by": 2
+      },
+      {
+        "base": "1.1.0",
+        "head": "1.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.1.0",
+        "head": "1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.0.0",
+        "head": "2.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.1.0",
+        "head": "2.1",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.2.0",
+        "head": "2.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.0",
+        "head": "2",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.2.0",
+        "head": "master",
+        "ahead_by": 2
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-crazy-egg",
+    "compares": [
+      {
+        "base": "1.0.3",
+        "head": "1.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.0.0",
+        "head": "2.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.0.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-crontask",
+    "compares": [
+      {
+        "base": "1.1.2",
+        "head": "1.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.2.0",
+        "head": "1.2",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.2.0",
+        "head": "1",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.0.0",
+        "head": "2.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.1.3",
+        "head": "2.1",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.2.1",
+        "head": "2.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.3.0",
+        "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.4.0",
+        "head": "2.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.4.0",
+        "head": "2.5",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.4.0",
+        "head": "2",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.4.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-dms",
+    "compares": [
+      {
+        "base": "1.4.2",
+        "head": "1.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.4.2",
+        "head": "1",
+        "ahead_by": 7
+      },
+      {
+        "base": "2.0.6",
+        "head": "2.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.1.4",
+        "head": "2.1",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.2.0",
+        "head": "2.2",
+        "ahead_by": 4
+      },
+      {
+        "base": "2.3.0",
+        "head": "master",
+        "ahead_by": 16
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-dms-cart",
+    "compares": [
+      {
+        "base": "1.0.0",
+        "head": "1.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.0.0",
+        "head": "master",
+        "ahead_by": 3
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-docsviewer",
+    "compares": [
+      {
+        "base": "2.0.0",
+        "head": "2.0",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.0.0",
+        "head": "2",
+        "ahead_by": 6
+      },
+      {
+        "base": "2.0.0",
+        "head": "master",
+        "ahead_by": 7
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-documentconverter",
+    "compares": [
+      {
+        "base": "1.0.15",
+        "head": "1.0",
+        "ahead_by": 5
+      },
+      {
+        "base": "1.0.15",
+        "head": "1",
+        "ahead_by": 8
+      },
+      {
+        "base": "2.0.3",
+        "head": "2.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.1.1",
+        "head": "2.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.0",
+        "head": "2.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.0",
+        "head": "2.3",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.2.0",
+        "head": "2",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.2.0",
+        "head": "master",
+        "ahead_by": 2
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-dynamodb",
+    "compares": [
+      {
+        "base": "1.1.0",
+        "head": "1.1",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.0.1",
+        "head": "2",
+        "ahead_by": 1
+      },
+      {
+        "base": "3.0.0",
+        "head": "3.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.1.0",
+        "head": "4.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.1.0",
+        "head": "4",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.1.0",
+        "head": "master",
+        "ahead_by": 0
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-elemental-bannerblock",
+    "compares": [
+      {
+        "base": "1.0.1",
+        "head": "1.0",
+        "ahead_by": 3
+      },
+      {
+        "base": "1.0.1",
+        "head": "1",
+        "ahead_by": 5
+      },
+      {
+        "base": "2.0.2",
+        "head": "2.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.1.1",
+        "head": "2.1",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.2.1",
+        "head": "2.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.3.0",
+        "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.4.0",
+        "head": "2.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.4.0",
+        "head": "2.5",
+        "ahead_by": 5
+      },
+      {
+        "base": "2.4.0",
+        "head": "2",
+        "ahead_by": 5
+      },
+      {
+        "base": "2.4.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-elemental-blocks",
+    "compares": [
+      {
+        "base": "1.0.0",
+        "head": "1.0",
+        "ahead_by": 8
+      },
+      {
+        "base": "1.0.0",
+        "head": "master",
+        "ahead_by": 3
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-elemental-fileblock",
+    "compares": [
+      {
+        "base": "1.0.0",
+        "head": "1.0",
+        "ahead_by": 2
+      },
+      {
+        "base": "1.0.0",
+        "head": "1",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.0.0",
+        "head": "2.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.1.2",
+        "head": "2.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.1",
+        "head": "2.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.3.1",
+        "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.3.1",
+        "head": "2.4",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.3.1",
+        "head": "2",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.3.1",
+        "head": "master",
+        "ahead_by": 0
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-environmentcheck",
+    "compares": [
+      {
+        "base": "1.1.2",
+        "head": "1.1",
+        "ahead_by": 2
+      },
+      {
+        "base": "1.2.0",
+        "head": "1.2",
+        "ahead_by": 9
+      },
+      {
+        "base": "1.3.1",
+        "head": "1.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.0.0",
+        "head": "2.0",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.1.3",
+        "head": "2.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.0",
+        "head": "2.2",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.3.0",
+        "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.4.0",
+        "head": "2.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.5.0",
+        "head": "2.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.5.0",
+        "head": "2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.5.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-errorpage",
+    "compares": [
+      {
+        "base": "1.2.5",
+        "head": "1.2",
+        "ahead_by": 2
+      },
+      {
+        "base": "1.3.5",
+        "head": "1.3",
+        "ahead_by": 2
+      },
+      {
+        "base": "1.4.4",
+        "head": "1.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.5.1",
+        "head": "1.5",
+        "ahead_by": 3
+      },
+      {
+        "base": "1.6.0",
+        "head": "1.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.7.0",
+        "head": "1.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.8.0",
+        "head": "1.8",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.9.0",
+        "head": "1.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.10.1",
+        "head": "1.10",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.10.1",
+        "head": "1.11",
+        "ahead_by": 4
+      },
+      {
+        "base": "1.10.1",
+        "head": "1",
+        "ahead_by": 4
+      },
+      {
+        "base": "1.10.1",
+        "head": "master",
+        "ahead_by": 10
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-externallinks",
+    "compares": [
+      {
+        "base": "1.0.10",
+        "head": "1.0",
+        "ahead_by": 2
+      },
+      {
+        "base": "1.1.1",
+        "head": "1.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.0.5",
+        "head": "2.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.1.2",
+        "head": "2.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.1",
+        "head": "2.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.1",
+        "head": "2.3",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.2.1",
+        "head": "2",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.2.1",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-faq",
+    "compares": [
+      {
+        "base": "1.1.0",
+        "head": "master",
+        "ahead_by": 9
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-fontpicker",
+    "compares": []
+  },
+  {
+    "repo": "silverstripe/silverstripe-framework",
+    "compares": [
+      {
+        "base": "2.1.1",
+        "head": "2.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.4",
+        "head": "2.2",
+        "ahead_by": 5
+      },
+      {
+        "base": "2.3.13",
+        "head": "2.3",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.4.13",
+        "head": "2.4",
+        "ahead_by": 19
+      },
+      {
+        "base": "3.0.14",
+        "head": "3.0",
+        "ahead_by": 5
+      },
+      {
+        "base": "3.5.8",
+        "head": "3.5",
+        "ahead_by": 16
+      },
+      {
+        "base": "3.6.8",
+        "head": "3.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.7.7",
+        "head": "3.7",
+        "ahead_by": 1
+      },
+      {
+        "base": "3.7.7",
+        "head": "3",
+        "ahead_by": 13
+      },
+      {
+        "base": "4.2.5",
+        "head": "4.2",
+        "ahead_by": 6
+      },
+      {
+        "base": "4.3.5",
+        "head": "4.3",
+        "ahead_by": 7
+      },
+      {
+        "base": "4.4.7",
+        "head": "4.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.5.4",
+        "head": "4.5",
+        "ahead_by": 4
+      },
+      {
+        "base": "4.6.2",
+        "head": "4.6",
+        "ahead_by": 19
+      },
+      {
+        "base": "4.7.4",
+        "head": "4.7",
+        "ahead_by": 2
+      },
+      {
+        "base": "4.8.1",
+        "head": "4.8",
+        "ahead_by": 6
+      },
+      {
+        "base": "4.9.3",
+        "head": "4.9",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.10.6",
+        "head": "4.10",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.10.6",
+        "head": "4.11",
+        "ahead_by": 88
+      },
+      {
+        "base": "4.10.6",
+        "head": "4",
+        "ahead_by": 100
+      },
+      {
+        "base": "4.10.6",
+        "head": "master",
+        "ahead_by": 106
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-fulltextsearch",
+    "compares": [
+      {
+        "base": "2.1.1",
+        "head": "2.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.2",
+        "head": "2.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.3.5",
+        "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.4.1",
+        "head": "2.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.5.0",
+        "head": "2.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.5.0",
+        "head": "2",
+        "ahead_by": 2
+      },
+      {
+        "base": "3.0.0",
+        "head": "3.0",
+        "ahead_by": 2
+      },
+      {
+        "base": "3.1.0",
+        "head": "3.1",
+        "ahead_by": 1
+      },
+      {
+        "base": "3.2.0",
+        "head": "3.2",
+        "ahead_by": 5
+      },
+      {
+        "base": "3.3.1",
+        "head": "3.3",
+        "ahead_by": 5
+      },
+      {
+        "base": "3.4.2",
+        "head": "3.4",
+        "ahead_by": 1
+      },
+      {
+        "base": "3.5.2",
+        "head": "3.5",
+        "ahead_by": 1
+      },
+      {
+        "base": "3.6.2",
+        "head": "3.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.7.1",
+        "head": "3.7",
+        "ahead_by": 1
+      },
+      {
+        "base": "3.8.2",
+        "head": "3.8",
+        "ahead_by": 1
+      },
+      {
+        "base": "3.9.6",
+        "head": "3.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.10.1",
+        "head": "3.10",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.11.0",
+        "head": "3.11",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.11.0",
+        "head": "3",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.11.0",
+        "head": "master",
+        "ahead_by": 7
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-graphql",
+    "compares": [
+      {
+        "base": "1.1.5",
+        "head": "1.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.0.5",
+        "head": "2.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.0.5",
+        "head": "2",
+        "ahead_by": 9
+      },
+      {
+        "base": "3.0.4",
+        "head": "3.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.1.5",
+        "head": "3.1",
+        "ahead_by": 1
+      },
+      {
+        "base": "3.2.4",
+        "head": "3.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.3.0",
+        "head": "3.3",
+        "ahead_by": 2
+      },
+      {
+        "base": "3.4.1",
+        "head": "3.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.5.2",
+        "head": "3.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.6.0",
+        "head": "3.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.7.1",
+        "head": "3.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.8.0",
+        "head": "3.8",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.8.0",
+        "head": "3",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.8.0",
+        "head": "4.0",
+        "ahead_by": 156
+      },
+      {
+        "base": "3.8.0",
+        "head": "4",
+        "ahead_by": 156
+      },
+      {
+        "base": "3.8.0",
+        "head": "master",
+        "ahead_by": 156
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-graphql-devtools",
+    "compares": []
+  },
+  {
+    "repo": "silverstripe/silverstripe-gridfieldqueuedexport",
+    "compares": [
+      {
+        "base": "1.0.0",
+        "head": "1.0",
+        "ahead_by": 5
+      },
+      {
+        "base": "1.1.0",
+        "head": "1.1",
+        "ahead_by": 4
+      },
+      {
+        "base": "1.1.0",
+        "head": "1",
+        "ahead_by": 4
+      },
+      {
+        "base": "2.0.0",
+        "head": "2.0",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.1.2",
+        "head": "2.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.0",
+        "head": "2.2",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.3.0",
+        "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.4.0",
+        "head": "2.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.5.1",
+        "head": "2.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.6.2",
+        "head": "2.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.6.2",
+        "head": "2.7",
+        "ahead_by": 4
+      },
+      {
+        "base": "2.6.2",
+        "head": "2",
+        "ahead_by": 4
+      },
+      {
+        "base": "2.6.2",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-html5",
+    "compares": [
+      {
+        "base": "1.0.6",
+        "head": "1.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.0.1",
+        "head": "2.0",
+        "ahead_by": 4
+      },
+      {
+        "base": "2.1.0",
+        "head": "2.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.0",
+        "head": "2.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.3.0",
+        "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.3.0",
+        "head": "2.4",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.3.0",
+        "head": "2",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.3.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-hybridsessions",
+    "compares": [
+      {
+        "base": "1.0.4",
+        "head": "1.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.1.2",
+        "head": "1.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.2.0",
+        "head": "1.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.2.0",
+        "head": "1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.0.0",
+        "head": "2.0",
+        "ahead_by": 13
+      },
+      {
+        "base": "2.1.2",
+        "head": "2.1",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.2.1",
+        "head": "2.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.3.0",
+        "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.4.0",
+        "head": "2.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.5.0",
+        "head": "2.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.5.0",
+        "head": "2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.5.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-iframe",
+    "compares": [
+      {
+        "base": "1.0.16",
+        "head": "1.0",
+        "ahead_by": 4
+      },
+      {
+        "base": "2.0.4",
+        "head": "2.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.1.0",
+        "head": "2.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.0",
+        "head": "2.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.0",
+        "head": "2.3",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.2.0",
+        "head": "2",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.2.0",
+        "head": "master",
+        "ahead_by": 3
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-installer",
+    "compares": [
+      {
+        "base": "2.2.4",
+        "head": "2.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.3.13",
+        "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.4.13",
+        "head": "2.4",
+        "ahead_by": 2
+      },
+      {
+        "base": "3.0.14",
+        "head": "3.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.5.8",
+        "head": "3.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.6.8",
+        "head": "3.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.7.5",
+        "head": "3.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.7.5",
+        "head": "3",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.0.7",
+        "head": "4.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.1.5",
+        "head": "4.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.2.5",
+        "head": "4.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.3.6",
+        "head": "4.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.4.7",
+        "head": "4.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.5.3",
+        "head": "4.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.6.1",
+        "head": "4.6",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.7.3",
+        "head": "4.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.8.0",
+        "head": "4.8",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.9.0",
+        "head": "4.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.10.0",
+        "head": "4.10",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.10.0",
+        "head": "4.11",
+        "ahead_by": 5
+      },
+      {
+        "base": "4.10.0",
+        "head": "4",
+        "ahead_by": 5
+      },
+      {
+        "base": "4.10.0",
+        "head": "master",
+        "ahead_by": 9
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-intercom",
+    "compares": [
+      {
+        "base": "1.0.0",
+        "head": "1",
+        "ahead_by": 5
+      },
+      {
+        "base": "2.0.1",
+        "head": "2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.0.1",
+        "head": "master",
+        "ahead_by": 10
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-ldap",
+    "compares": [
+      {
+        "base": "1.0.3",
+        "head": "1.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.1.2",
+        "head": "1.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.2.1",
+        "head": "1.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.3.0",
+        "head": "1.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.3.0",
+        "head": "1.4",
+        "ahead_by": 2
+      },
+      {
+        "base": "1.3.0",
+        "head": "1",
+        "ahead_by": 2
+      },
+      {
+        "base": "1.3.0",
+        "head": "master",
+        "ahead_by": 2
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-login-forms",
+    "compares": [
+      {
+        "base": "3.0.0",
+        "head": "3.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.0.0",
+        "head": "4.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.1.2",
+        "head": "4.1",
+        "ahead_by": 8
+      },
+      {
+        "base": "4.2.1",
+        "head": "4.2",
+        "ahead_by": 8
+      },
+      {
+        "base": "4.3.0",
+        "head": "4.3",
+        "ahead_by": 9
+      },
+      {
+        "base": "4.4.3",
+        "head": "4.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.5.0",
+        "head": "4.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.6.0",
+        "head": "4.6",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.6.0",
+        "head": "4.7",
+        "ahead_by": 6
+      },
+      {
+        "base": "4.6.0",
+        "head": "4",
+        "ahead_by": 7
+      },
+      {
+        "base": "4.6.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-lumberjack",
+    "compares": [
+      {
+        "base": "1.3.4",
+        "head": "1.3",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.0.2",
+        "head": "2.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.1.1",
+        "head": "2.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.0",
+        "head": "2.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.0",
+        "head": "2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.0",
+        "head": "master",
+        "ahead_by": 3
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-mathspamprotection",
+    "compares": [
+      {
+        "base": "2.0.0",
+        "head": "2",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.0.0",
+        "head": "master",
+        "ahead_by": 0
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-mfa",
+    "compares": [
+      {
+        "base": "3.0.1",
+        "head": "3.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.0.6",
+        "head": "4.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.1.1",
+        "head": "4.1",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.2.2",
+        "head": "4.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.3.0",
+        "head": "4.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.4.0",
+        "head": "4.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.5.1",
+        "head": "4.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.6.1",
+        "head": "4.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.6.1",
+        "head": "4",
+        "ahead_by": 2
+      },
+      {
+        "base": "4.6.1",
+        "head": "master",
+        "ahead_by": 3
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-mimevalidator",
+    "compares": [
+      {
+        "base": "1.0.12",
+        "head": "1.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.0.0",
+        "head": "2.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.1.1",
+        "head": "2.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.0",
+        "head": "2.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.3.0",
+        "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.3.0",
+        "head": "2.4",
+        "ahead_by": 4
+      },
+      {
+        "base": "2.3.0",
+        "head": "2",
+        "ahead_by": 4
+      },
+      {
+        "base": "2.3.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-omnipay",
+    "compares": [
+      {
+        "base": "1.1.1",
+        "head": "1.2",
+        "ahead_by": 16
+      },
+      {
+        "base": "1.3.0",
+        "head": "1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.0.0",
+        "head": "2.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.5.1",
+        "head": "2",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.0.1",
+        "head": "3.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.1.3",
+        "head": "3.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.2.0",
+        "head": "3.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.2.0",
+        "head": "3",
+        "ahead_by": 1
+      },
+      {
+        "base": "3.2.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-postgresql",
+    "compares": [
+      {
+        "base": "1.2.1",
+        "head": "1.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.2.1",
+        "head": "1",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.3.2",
+        "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.3.2",
+        "head": "2",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.3.2",
+        "head": "master",
+        "ahead_by": 13
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-realme",
+    "compares": [
+      {
+        "base": "2.0.1",
+        "head": "2.0",
+        "ahead_by": 4
+      },
+      {
+        "base": "2.1.1",
+        "head": "2",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.0.0",
+        "head": "3.0",
+        "ahead_by": 2
+      },
+      {
+        "base": "3.1.5",
+        "head": "3.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.1.5",
+        "head": "3",
+        "ahead_by": 12
+      },
+      {
+        "base": "4.0.2",
+        "head": "4.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.1.3",
+        "head": "4.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.2.0",
+        "head": "4.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.2.0",
+        "head": "4.3",
+        "ahead_by": 3
+      },
+      {
+        "base": "4.2.0",
+        "head": "4",
+        "ahead_by": 3
+      },
+      {
+        "base": "4.2.0",
+        "head": "master",
+        "ahead_by": 0
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-redirectedurls",
+    "compares": [
+      {
+        "base": "1.0.3",
+        "head": "1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.1.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-registry",
+    "compares": [
+      {
+        "base": "1.0.15",
+        "head": "1.0",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.0.1",
+        "head": "2.0",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.1.1",
+        "head": "2.1",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.2.1",
+        "head": "2.2",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.3.0",
+        "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.4.0",
+        "head": "2.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.4.0",
+        "head": "2.5",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.4.0",
+        "head": "2",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.4.0",
+        "head": "master",
+        "ahead_by": 2
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-reports",
+    "compares": [
+      {
+        "base": "3.5.8",
+        "head": "3.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.6.7",
+        "head": "3.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.7.3",
+        "head": "3.7",
+        "ahead_by": 2
+      },
+      {
+        "base": "3.7.3",
+        "head": "3",
+        "ahead_by": 3
+      },
+      {
+        "base": "4.2.5",
+        "head": "4.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.3.4",
+        "head": "4.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.4.1",
+        "head": "4.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.5.1",
+        "head": "4.5",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.6.0",
+        "head": "4.6",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.7.0",
+        "head": "4.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.8.0",
+        "head": "4.8",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.9.0",
+        "head": "4.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.10.0",
+        "head": "4.10",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.10.0",
+        "head": "4.11",
+        "ahead_by": 4
+      },
+      {
+        "base": "4.10.0",
+        "head": "4",
+        "ahead_by": 4
+      },
+      {
+        "base": "4.10.0",
+        "head": "master",
+        "ahead_by": 15
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-restfulserver",
+    "compares": [
+      {
+        "base": "1.0.9",
+        "head": "1.0",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.0.4",
+        "head": "2.0",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.1.2",
+        "head": "2.1",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.2.1",
+        "head": "2.2",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.3.0",
+        "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.4.0",
+        "head": "2.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.4.0",
+        "head": "2.5",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.4.0",
+        "head": "2",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.4.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-s3",
+    "compares": [
+      {
+        "base": "1.1.1",
+        "head": "master",
+        "ahead_by": 0
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-saml",
+    "compares": [
+      {
+        "base": "2.0.0",
+        "head": "master",
+        "ahead_by": 13
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-secureassets",
+    "compares": [
+      {
+        "base": "1.0.6",
+        "head": "1.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.1.7",
+        "head": "1.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.2.0",
+        "head": "1.2",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.2.0",
+        "head": "master",
+        "ahead_by": 10
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-security-extensions",
+    "compares": [
+      {
+        "base": "3.0.0",
+        "head": "3.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.0.3",
+        "head": "4.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.1.0",
+        "head": "4.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.2.1",
+        "head": "4.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.2.1",
+        "head": "4.3",
+        "ahead_by": 2
+      },
+      {
+        "base": "4.2.1",
+        "head": "4",
+        "ahead_by": 2
+      },
+      {
+        "base": "4.2.1",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-securityreport",
+    "compares": [
+      {
+        "base": "1.0.10",
+        "head": "1.0",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.0.1",
+        "head": "2.0",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.1.1",
+        "head": "2.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.0",
+        "head": "2.2",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.3.1",
+        "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.4.0",
+        "head": "2.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.4.0",
+        "head": "2.5",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.4.0",
+        "head": "2",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.4.0",
+        "head": "master",
+        "ahead_by": 2
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-segment-field",
+    "compares": [
+      {
+        "base": "2.1.1",
+        "head": "2.1",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.2.3",
+        "head": "2.2",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.3.0",
+        "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.4.0",
+        "head": "2.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.5.0",
+        "head": "2.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.5.0",
+        "head": "2.6",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.5.0",
+        "head": "2",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.5.0",
+        "head": "master",
+        "ahead_by": 2
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-selectupload",
+    "compares": [
+      {
+        "base": "1.0.7",
+        "head": "1.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.0.0",
+        "head": "2.0",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.0.0",
+        "head": "2",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.0.0",
+        "head": "master",
+        "ahead_by": 0
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-serve",
+    "compares": [
+      {
+        "base": "1.0.1",
+        "head": "1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.0.1",
+        "head": "2.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.2.0",
+        "head": "2.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.0",
+        "head": "2",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.2.0",
+        "head": "master",
+        "ahead_by": 3
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-sharedraftcontent",
+    "compares": [
+      {
+        "base": "1.0.3",
+        "head": "1.0",
+        "ahead_by": 7
+      },
+      {
+        "base": "1.1.3",
+        "head": "1.1",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.2.0",
+        "head": "1.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.3.1",
+        "head": "1.3",
+        "ahead_by": 2
+      },
+      {
+        "base": "1.4.0",
+        "head": "1.4",
+        "ahead_by": 5
+      },
+      {
+        "base": "2.0.1",
+        "head": "2.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.1.0",
+        "head": "2.1",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.2.1",
+        "head": "2.2",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.3.6",
+        "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.4.2",
+        "head": "2.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.5.1",
+        "head": "2.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.6.0",
+        "head": "2.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.6.0",
+        "head": "2.7",
+        "ahead_by": 6
+      },
+      {
+        "base": "2.6.0",
+        "head": "2",
+        "ahead_by": 6
+      },
+      {
+        "base": "2.6.0",
+        "head": "master",
+        "ahead_by": 2
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-sitebanner",
+    "compares": [
+      {
+        "base": "1.0.0",
+        "head": "1.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.0.0",
+        "head": "master",
+        "ahead_by": 0
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-siteconfig",
+    "compares": [
+      {
+        "base": "3.5.8",
+        "head": "3.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.6.7",
+        "head": "3.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.7.3",
+        "head": "3.7",
+        "ahead_by": 2
+      },
+      {
+        "base": "3.7.3",
+        "head": "3",
+        "ahead_by": 3
+      },
+      {
+        "base": "4.2.5",
+        "head": "4.2",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.3.4",
+        "head": "4.3",
+        "ahead_by": 2
+      },
+      {
+        "base": "4.4.3",
+        "head": "4.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.5.1",
+        "head": "4.5",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.6.0",
+        "head": "4.6",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.7.0",
+        "head": "4.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.8.0",
+        "head": "4.8",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.9.0",
+        "head": "4.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.10.0",
+        "head": "4.10",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.10.0",
+        "head": "4.11",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.10.0",
+        "head": "4",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.10.0",
+        "head": "master",
+        "ahead_by": 8
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-sitewidecontent-report",
+    "compares": [
+      {
+        "base": "1.0.0",
+        "head": "1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.0.4",
+        "head": "2.0",
+        "ahead_by": 3
+      },
+      {
+        "base": "3.0.4",
+        "head": "3.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "3.1.0",
+        "head": "3.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.2.0",
+        "head": "3.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.2.0",
+        "head": "3.3",
+        "ahead_by": 2
+      },
+      {
+        "base": "3.2.0",
+        "head": "3",
+        "ahead_by": 2
+      },
+      {
+        "base": "3.2.0",
+        "head": "master",
+        "ahead_by": 2
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-spamprotection",
+    "compares": [
+      {
+        "base": "2.0.9",
+        "head": "2.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.0.3",
+        "head": "3.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.1.1",
+        "head": "3.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.2.1",
+        "head": "3.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.2.1",
+        "head": "3.3",
+        "ahead_by": 3
+      },
+      {
+        "base": "3.2.1",
+        "head": "3",
+        "ahead_by": 3
+      },
+      {
+        "base": "3.2.1",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-spellcheck",
+    "compares": [
+      {
+        "base": "1.0.11",
+        "head": "1.0",
+        "ahead_by": 2
+      },
+      {
+        "base": "1.1.0",
+        "head": "1.1",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.0.2",
+        "head": "2.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.1.0",
+        "head": "2.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.1",
+        "head": "2.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.3.0",
+        "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.3.0",
+        "head": "2.4",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.3.0",
+        "head": "2",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.3.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-sqlite3",
+    "compares": [
+      {
+        "base": "1.1.0",
+        "head": "1.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.2.0",
+        "head": "1.2",
+        "ahead_by": 2
+      },
+      {
+        "base": "1.2.0",
+        "head": "1.3",
+        "ahead_by": 33
+      },
+      {
+        "base": "1.4.0",
+        "head": "1.4",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.0.0",
+        "head": "2.0",
+        "ahead_by": 12
+      },
+      {
+        "base": "2.1.1",
+        "head": "2.1",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.2.0",
+        "head": "2",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.2.0",
+        "head": "master",
+        "ahead_by": 7
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-staticpublisher",
+    "compares": [
+      {
+        "base": "1.1.0",
+        "head": "master",
+        "ahead_by": 7
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-staticpublishqueue",
+    "compares": [
+      {
+        "base": "3.3.1",
+        "head": "3.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.3.1",
+        "head": "3",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.0.0",
+        "head": "4",
+        "ahead_by": 0
+      },
+      {
+        "base": "5.0.0",
+        "head": "5.0",
+        "ahead_by": 2
+      },
+      {
+        "base": "5.1.0",
+        "head": "master",
+        "ahead_by": 0
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-subsites",
+    "compares": [
+      {
+        "base": "0.2.8",
+        "head": "0.2",
+        "ahead_by": 2
+      },
+      {
+        "base": "0.3.4",
+        "head": "0.3",
+        "ahead_by": 10
+      },
+      {
+        "base": "0.3.4",
+        "head": "0.4",
+        "ahead_by": 21
+      },
+      {
+        "base": "0.3.4",
+        "head": "0.5",
+        "ahead_by": 117
+      },
+      {
+        "base": "0.3.4",
+        "head": "0.6",
+        "ahead_by": 116
+      },
+      {
+        "base": "1.0.8",
+        "head": "1.0",
+        "ahead_by": 5
+      },
+      {
+        "base": "1.1.0",
+        "head": "1.1",
+        "ahead_by": 12
+      },
+      {
+        "base": "1.2.3",
+        "head": "1.2",
+        "ahead_by": 11
+      },
+      {
+        "base": "1.3.4",
+        "head": "1.3",
+        "ahead_by": 6
+      },
+      {
+        "base": "1.4.2",
+        "head": "1.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.4.2",
+        "head": "1.5",
+        "ahead_by": 2
+      },
+      {
+        "base": "1.4.2",
+        "head": "1",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.0.2",
+        "head": "2.0",
+        "ahead_by": 18
+      },
+      {
+        "base": "2.1.1",
+        "head": "2.1",
+        "ahead_by": 23
+      },
+      {
+        "base": "2.2.2",
+        "head": "2.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.3.3",
+        "head": "2.3",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.4.1",
+        "head": "2.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.5.0",
+        "head": "2.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.6.0",
+        "head": "2.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.6.0",
+        "head": "2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.6.0",
+        "head": "master",
+        "ahead_by": 2
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-tagfield",
+    "compares": [
+      {
+        "base": "1.0.1",
+        "head": "1.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.1.1",
+        "head": "1.1",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.2.3",
+        "head": "1.2",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.3.3",
+        "head": "1.3",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.3.3",
+        "head": "1.4",
+        "ahead_by": 5
+      },
+      {
+        "base": "2.0.1",
+        "head": "2.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.1.1",
+        "head": "2.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.3",
+        "head": "2.2",
+        "ahead_by": 7
+      },
+      {
+        "base": "2.3.0",
+        "head": "2.3",
+        "ahead_by": 7
+      },
+      {
+        "base": "2.4.3",
+        "head": "2.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.5.0",
+        "head": "2.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.6.1",
+        "head": "2.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.7.1",
+        "head": "2.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.8.0",
+        "head": "2.8",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.8.0",
+        "head": "2.9",
+        "ahead_by": 7
+      },
+      {
+        "base": "2.8.0",
+        "head": "2",
+        "ahead_by": 7
+      },
+      {
+        "base": "2.8.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-taxonomy",
+    "compares": [
+      {
+        "base": "1.1.4",
+        "head": "1.1",
+        "ahead_by": 2
+      },
+      {
+        "base": "1.2.2",
+        "head": "1.2",
+        "ahead_by": 3
+      },
+      {
+        "base": "1.3.1",
+        "head": "1.3",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.3.1",
+        "head": "1",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.0.2",
+        "head": "2.0",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.1.0",
+        "head": "2.1",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.2.1",
+        "head": "2.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.3.0",
+        "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.3.0",
+        "head": "2.4",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.3.0",
+        "head": "2",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.3.0",
+        "head": "master",
+        "ahead_by": 2
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-testsession",
+    "compares": [
+      {
+        "base": "0.2.1",
+        "head": "0.2",
+        "ahead_by": 2
+      },
+      {
+        "base": "0.2.1",
+        "head": "1",
+        "ahead_by": 14
+      },
+      {
+        "base": "2.0.0",
+        "head": "2.0",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.3.1",
+        "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.3.1",
+        "head": "2",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.3.1",
+        "head": "master",
+        "ahead_by": 4
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-textextraction",
+    "compares": [
+      {
+        "base": "2.0.2",
+        "head": "2.0",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.1.4",
+        "head": "2.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.0",
+        "head": "2.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.0",
+        "head": "2",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.0.4",
+        "head": "3.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.1.0",
+        "head": "3.1",
+        "ahead_by": 1
+      },
+      {
+        "base": "3.2.0",
+        "head": "3.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.3.0",
+        "head": "3.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.3.0",
+        "head": "3.4",
+        "ahead_by": 5
+      },
+      {
+        "base": "3.3.0",
+        "head": "3",
+        "ahead_by": 5
+      },
+      {
+        "base": "3.3.0",
+        "head": "master",
+        "ahead_by": 2
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-theme-colorpicker",
+    "compares": []
+  },
+  {
+    "repo": "silverstripe/silverstripe-theme-fontpicker",
+    "compares": []
+  },
+  {
+    "repo": "silverstripe/silverstripe-totp-authenticator",
+    "compares": [
+      {
+        "base": "3.0.0",
+        "head": "3.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.0.0",
+        "head": "4.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.1.1",
+        "head": "4.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.2.0",
+        "head": "4.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.3.0",
+        "head": "4.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.3.0",
+        "head": "4.4",
+        "ahead_by": 4
+      },
+      {
+        "base": "4.3.0",
+        "head": "4",
+        "ahead_by": 5
+      },
+      {
+        "base": "4.3.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-translatable",
+    "compares": [
+      {
+        "base": "1.0.0",
+        "head": "1.1",
+        "ahead_by": 132
+      },
+      {
+        "base": "2.0.9",
+        "head": "2.0",
+        "ahead_by": 3
+      },
+      {
+        "base": "2.1.1",
+        "head": "2.1",
+        "ahead_by": 6
+      },
+      {
+        "base": "2.2.6",
+        "head": "2.2",
+        "ahead_by": 6
+      },
+      {
+        "base": "2.3.2",
+        "head": "2.3",
+        "ahead_by": 5
+      },
+      {
+        "base": "2.3.2",
+        "head": "2.4",
+        "ahead_by": 8
+      },
+      {
+        "base": "2.3.2",
+        "head": "2",
+        "ahead_by": 9
+      },
+      {
+        "base": "2.3.2",
+        "head": "master",
+        "ahead_by": 30
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-upgrader",
+    "compares": [
+      {
+        "base": "1.4.3",
+        "head": "master",
+        "ahead_by": 4
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-userforms",
+    "compares": [
+      {
+        "base": "4.0.1",
+        "head": "4.0",
+        "ahead_by": 18
+      },
+      {
+        "base": "4.1.0",
+        "head": "4.1",
+        "ahead_by": 4
+      },
+      {
+        "base": "4.2.6",
+        "head": "4.2",
+        "ahead_by": 7
+      },
+      {
+        "base": "4.3.5",
+        "head": "4.3",
+        "ahead_by": 4
+      },
+      {
+        "base": "4.4.2",
+        "head": "4.4",
+        "ahead_by": 4
+      },
+      {
+        "base": "4.5.8",
+        "head": "4.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.6.3",
+        "head": "4.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "5.0.2",
+        "head": "5.0",
+        "ahead_by": 11
+      },
+      {
+        "base": "5.1.1",
+        "head": "5.1",
+        "ahead_by": 17
+      },
+      {
+        "base": "5.2.2",
+        "head": "5.2",
+        "ahead_by": 12
+      },
+      {
+        "base": "5.3.3",
+        "head": "5.3",
+        "ahead_by": 4
+      },
+      {
+        "base": "5.4.3",
+        "head": "5.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "5.5.3",
+        "head": "5.5",
+        "ahead_by": 1
+      },
+      {
+        "base": "5.6.3",
+        "head": "5.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "5.7.1",
+        "head": "5.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "5.8.3",
+        "head": "5.8",
+        "ahead_by": 6
+      },
+      {
+        "base": "5.9.2",
+        "head": "5.9",
+        "ahead_by": 1
+      },
+      {
+        "base": "5.10.0",
+        "head": "5.10",
+        "ahead_by": 0
+      },
+      {
+        "base": "5.11.1",
+        "head": "5.11",
+        "ahead_by": 0
+      },
+      {
+        "base": "5.12.0",
+        "head": "5.12",
+        "ahead_by": 1
+      },
+      {
+        "base": "5.12.0",
+        "head": "5.13",
+        "ahead_by": 6
+      },
+      {
+        "base": "5.12.0",
+        "head": "5",
+        "ahead_by": 9
+      },
+      {
+        "base": "5.12.0",
+        "head": "master",
+        "ahead_by": 7
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-versioned",
+    "compares": [
+      {
+        "base": "1.2.5",
+        "head": "1.2",
+        "ahead_by": 4
+      },
+      {
+        "base": "1.3.6",
+        "head": "1.3",
+        "ahead_by": 8
+      },
+      {
+        "base": "1.4.6",
+        "head": "1.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.5.3",
+        "head": "1.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.6.3",
+        "head": "1.6",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.7.3",
+        "head": "1.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.8.0",
+        "head": "1.8",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.9.0",
+        "head": "1.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.10.1",
+        "head": "1.10",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.10.1",
+        "head": "1.11",
+        "ahead_by": 7
+      },
+      {
+        "base": "1.10.1",
+        "head": "1",
+        "ahead_by": 8
+      },
+      {
+        "base": "1.10.1",
+        "head": "master",
+        "ahead_by": 28
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-versioned-admin",
+    "compares": [
+      {
+        "base": "1.3.1",
+        "head": "1.3",
+        "ahead_by": 5
+      },
+      {
+        "base": "1.6.1",
+        "head": "1.6",
+        "ahead_by": 2
+      },
+      {
+        "base": "1.7.3",
+        "head": "1.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.8.1",
+        "head": "1.8",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.9.1",
+        "head": "1.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.10.1",
+        "head": "1.10",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.10.1",
+        "head": "1.11",
+        "ahead_by": 7
+      },
+      {
+        "base": "1.10.1",
+        "head": "1",
+        "ahead_by": 7
+      },
+      {
+        "base": "1.10.1",
+        "head": "master",
+        "ahead_by": 11
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-versionfeed",
+    "compares": [
+      {
+        "base": "1.1.1",
+        "head": "1.1",
+        "ahead_by": 2
+      },
+      {
+        "base": "1.2.6",
+        "head": "1.2",
+        "ahead_by": 4
+      },
+      {
+        "base": "2.0.3",
+        "head": "2.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.1.0",
+        "head": "2.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.0",
+        "head": "2.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.0",
+        "head": "2.3",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.2.0",
+        "head": "2",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.2.0",
+        "head": "master",
+        "ahead_by": 2
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-webauthn-authenticator",
+    "compares": [
+      {
+        "base": "3.0.0",
+        "head": "3.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.0.1",
+        "head": "4.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.1.0",
+        "head": "4.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.2.0",
+        "head": "4.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.3.0",
+        "head": "4.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.4.1",
+        "head": "4.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.4.1",
+        "head": "4.5",
+        "ahead_by": 7
+      },
+      {
+        "base": "4.4.1",
+        "head": "4",
+        "ahead_by": 8
+      },
+      {
+        "base": "4.4.1",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-widgets",
+    "compares": [
+      {
+        "base": "0.2.0",
+        "head": "1.0",
+        "ahead_by": 7
+      },
+      {
+        "base": "1.1.2",
+        "head": "1.1",
+        "ahead_by": 4
+      },
+      {
+        "base": "1.2.5",
+        "head": "1.2",
+        "ahead_by": 3
+      },
+      {
+        "base": "1.3.2",
+        "head": "1.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.3.2",
+        "head": "1",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.0.2",
+        "head": "2.0",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.1.1",
+        "head": "2.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.0",
+        "head": "2.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.2.0",
+        "head": "2.3",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.2.0",
+        "head": "2",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.2.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/sspak",
+    "compares": []
+  },
+  {
+    "repo": "silverstripe/vendor-plugin",
+    "compares": [
+      {
+        "base": "1.5.2",
+        "head": "1.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.6.0",
+        "head": "1.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.6.0",
+        "head": "1",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.6.0",
+        "head": "master",
+        "ahead_by": 4
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/webpack-config",
+    "compares": [
+      {
+        "base": "1.7.0",
+        "head": "master",
+        "ahead_by": 0
+      }
+    ]
+  },
+  {
+    "repo": "symbiote/silverstripe-advancedworkflow",
+    "compares": [
+      {
+        "base": "3.0.6",
+        "head": "3.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.1.3",
+        "head": "3.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.2.3",
+        "head": "3.2",
+        "ahead_by": 6
+      },
+      {
+        "base": "3.7.2",
+        "head": "3.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.8.2",
+        "head": "3.8",
+        "ahead_by": 5
+      },
+      {
+        "base": "3.9.1",
+        "head": "3.9",
+        "ahead_by": 5
+      },
+      {
+        "base": "4.0.1",
+        "head": "4.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.1.0",
+        "head": "4.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.2.0",
+        "head": "4.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.2.0",
+        "head": "4",
+        "ahead_by": 2
+      },
+      {
+        "base": "5.0.8",
+        "head": "5.0",
+        "ahead_by": 6
+      },
+      {
+        "base": "5.1.2",
+        "head": "5.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "5.2.2",
+        "head": "5.2",
+        "ahead_by": 1
+      },
+      {
+        "base": "5.3.1",
+        "head": "5.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "5.4.0",
+        "head": "5.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "5.5.1",
+        "head": "5.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "5.6.0",
+        "head": "5.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "5.7.0",
+        "head": "5.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "5.7.0",
+        "head": "5",
+        "ahead_by": 1
+      },
+      {
+        "base": "5.7.0",
+        "head": "master",
+        "ahead_by": 3
+      }
+    ]
+  },
+  {
+    "repo": "symbiote/silverstripe-gridfieldextensions",
+    "compares": [
+      {
+        "base": "1.0.3",
+        "head": "1.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.1.0",
+        "head": "1.1",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.4.5",
+        "head": "1.4",
+        "ahead_by": 2
+      },
+      {
+        "base": "1.5.1",
+        "head": "1.5",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.0.2",
+        "head": "2.0",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.1.0",
+        "head": "2.1",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.1.0",
+        "head": "2",
+        "ahead_by": 4
+      },
+      {
+        "base": "3.0.2",
+        "head": "3.0",
+        "ahead_by": 29
+      },
+      {
+        "base": "3.1.2",
+        "head": "3.1",
+        "ahead_by": 2
+      },
+      {
+        "base": "3.2.4",
+        "head": "3.2",
+        "ahead_by": 3
+      },
+      {
+        "base": "3.3.0",
+        "head": "3.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.4.0",
+        "head": "3.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.4.0",
+        "head": "3",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.4.0",
+        "head": "master",
+        "ahead_by": 4
+      }
+    ]
+  },
+  {
+    "repo": "symbiote/silverstripe-multivaluefield",
+    "compares": [
+      {
+        "base": "2.0.6",
+        "head": "2.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "2.1.1",
+        "head": "2.1",
+        "ahead_by": 6
+      },
+      {
+        "base": "2.2.4",
+        "head": "2.2",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.3.4",
+        "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.4.4",
+        "head": "2.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.0.5",
+        "head": "3.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.1.2",
+        "head": "3.1",
+        "ahead_by": 1
+      },
+      {
+        "base": "5.0.2",
+        "head": "5.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "5.1.1",
+        "head": "5.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "5.2.1",
+        "head": "5.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "5.3.0",
+        "head": "5.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "5.3.0",
+        "head": "5",
+        "ahead_by": 0
+      },
+      {
+        "base": "5.3.0",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "symbiote/silverstripe-queuedjobs",
+    "compares": [
+      {
+        "base": "1.0.6",
+        "head": "1.0",
+        "ahead_by": 83
+      },
+      {
+        "base": "2.0.3",
+        "head": "2.0",
+        "ahead_by": 18
+      },
+      {
+        "base": "2.1.1",
+        "head": "2.1",
+        "ahead_by": 16
+      },
+      {
+        "base": "2.3.1",
+        "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.4.0",
+        "head": "2.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.5.1",
+        "head": "2.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.7.0",
+        "head": "2.7",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.8.6",
+        "head": "2.8",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.9.2",
+        "head": "2.9",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.10.7",
+        "head": "2.10",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.0.2",
+        "head": "3.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.1.4",
+        "head": "3.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.0.7",
+        "head": "4.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.1.2",
+        "head": "4.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.2.4",
+        "head": "4.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.3.3",
+        "head": "4.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.4.3",
+        "head": "4.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.5.1",
+        "head": "4.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.6.4",
+        "head": "4.6",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.7.0",
+        "head": "4.7",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.8.1",
+        "head": "4.8",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.9.2",
+        "head": "4.9",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.10.0",
+        "head": "4.10",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.10.0",
+        "head": "4",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.10.0",
+        "head": "master",
+        "ahead_by": 2
+      }
+    ]
+  },
+  {
+    "repo": "symbiote/silverstripe-versionedfiles",
+    "compares": [
+      {
+        "base": "1.0.13",
+        "head": "1.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "2.0.3",
+        "head": "2.0",
+        "ahead_by": 6
+      },
+      {
+        "base": "2.0.3",
+        "head": "2",
+        "ahead_by": 10
+      },
+      {
+        "base": "2.0.3",
+        "head": "master",
+        "ahead_by": 8
+      }
+    ]
+  },
+  {
+    "repo": "tijsverkoyen/akismet",
+    "compares": [
+      {
+        "base": "1.1.1",
+        "head": "master",
+        "ahead_by": 2
+      }
+    ]
+  },
+  {
+    "repo": "tractorcow-farm/silverstripe-fluent",
+    "compares": [
+      {
+        "base": "3.1.1",
+        "head": "3.1",
+        "ahead_by": 20
+      },
+      {
+        "base": "3.2.3",
+        "head": "3.2",
+        "ahead_by": 1
+      },
+      {
+        "base": "3.7.0",
+        "head": "3.7",
+        "ahead_by": 7
+      },
+      {
+        "base": "3.8.2",
+        "head": "3.8",
+        "ahead_by": 0
+      },
+      {
+        "base": "3.8.2",
+        "head": "3",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.0.4",
+        "head": "4.0",
+        "ahead_by": 4
+      },
+      {
+        "base": "4.1.5",
+        "head": "4.1",
+        "ahead_by": 35
+      },
+      {
+        "base": "4.2.2",
+        "head": "4.2",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.3.1",
+        "head": "4.3",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.4.5",
+        "head": "4.4",
+        "ahead_by": 4
+      },
+      {
+        "base": "4.5.1",
+        "head": "4.5",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.6.0",
+        "head": "4.6",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.6.0",
+        "head": "4.7",
+        "ahead_by": 1
+      },
+      {
+        "base": "4.6.0",
+        "head": "4",
+        "ahead_by": 1
+      },
+      {
+        "base": "5.0.1",
+        "head": "5.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "5.1.1",
+        "head": "5.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "5.1.1",
+        "head": "5",
+        "ahead_by": 1
+      },
+      {
+        "base": "6.0.0",
+        "head": "6.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "6.0.0",
+        "head": "6",
+        "ahead_by": 1
+      },
+      {
+        "base": "6.0.0",
+        "head": "master",
+        "ahead_by": 0
+      }
+    ]
+  },
+  {
+    "repo": "tractorcow/classproxy",
+    "compares": [
+      {
+        "base": "1.0.0",
+        "head": "master",
+        "ahead_by": 0
+      }
+    ]
+  },
+  {
+    "repo": "tractorcow/silverstripe-proxy-db",
+    "compares": [
+      {
+        "base": "1.0.0",
+        "head": "master",
+        "ahead_by": 0
+      }
+    ]
+  },
+  {
+    "repo": "undefinedoffset/sortablegridfield",
+    "compares": [
+      {
+        "base": "2.0.9",
+        "head": "master",
+        "ahead_by": 6
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-event-dispatcher",
+    "compares": [
+      {
+        "base": "0.1.3",
+        "head": "master",
+        "ahead_by": 0
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-ckan-registry",
+    "compares": [
+      {
+        "base": "1.0.0",
+        "head": "1.0",
+        "ahead_by": 14
+      },
+      {
+        "base": "1.1.2",
+        "head": "1.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.2.0",
+        "head": "1.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.3.0",
+        "head": "1.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.4.0",
+        "head": "1.4",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.4.0",
+        "head": "1.5",
+        "ahead_by": 4
+      },
+      {
+        "base": "1.4.0",
+        "head": "1",
+        "ahead_by": 4
+      },
+      {
+        "base": "1.4.0",
+        "head": "master",
+        "ahead_by": 4
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-project-watcher",
+    "compares": []
+  },
+  {
+    "repo": "silverstripe/silverstripe-installer-wizard",
+    "compares": []
+  },
+  {
+    "repo": "silverstripe/silverstripe-versioned-snapshots",
+    "compares": [
+      {
+        "base": "0.1.0",
+        "head": "1",
+        "ahead_by": 14
+      },
+      {
+        "base": "0.1.0",
+        "head": "master",
+        "ahead_by": 2
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-multiform",
+    "compares": [
+      {
+        "base": "1.1.0",
+        "head": "1.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.3.1",
+        "head": "1.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.3.1",
+        "head": "1",
+        "ahead_by": 2
+      },
+      {
+        "base": "2.0.1",
+        "head": "master",
+        "ahead_by": 1
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-cms-events",
+    "compares": []
+  },
+  {
+    "repo": "silverstripe/silverstripe-content-notifier",
+    "compares": []
+  },
+  {
+    "repo": "silverstripe/bambusa-installer",
+    "compares": []
+  },
+  {
+    "repo": "silverstripe/bambusa-theme",
+    "compares": []
+  },
+  {
+    "repo": "silverstripe/silverstripe-search-service",
+    "compares": [
+      {
+        "base": "1.0.0",
+        "head": "master",
+        "ahead_by": 0
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-versioned-snapshot-admin",
+    "compares": [
+      {
+        "base": "0.1.1",
+        "head": "0.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "0.2.0",
+        "head": "0.2",
+        "ahead_by": 1
+      },
+      {
+        "base": "0.3.5",
+        "head": "0.3",
+        "ahead_by": 1
+      },
+      {
+        "base": "0.3.5",
+        "head": "1",
+        "ahead_by": 5
+      },
+      {
+        "base": "0.3.5",
+        "head": "master",
+        "ahead_by": 0
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-linkfield",
+    "compares": [
+      {
+        "base": "1.1.0",
+        "head": "1",
+        "ahead_by": 4
+      },
+      {
+        "base": "1.1.0",
+        "head": "master",
+        "ahead_by": 2
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/silverstripe-session-manager",
+    "compares": [
+      {
+        "base": "1.0.0",
+        "head": "1.0",
+        "ahead_by": 1
+      },
+      {
+        "base": "1.1.0",
+        "head": "1.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.2.1",
+        "head": "1.2",
+        "ahead_by": 0
+      },
+      {
+        "base": "1.2.1",
+        "head": "1.3",
+        "ahead_by": 7
+      },
+      {
+        "base": "1.2.1",
+        "head": "1",
+        "ahead_by": 7
+      }
+    ]
+  },
+  {
+    "repo": "silverstripe/recipe-kitchen-sink",
+    "compares": [
+      {
+        "base": "4.9.0",
+        "head": "4.9",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.10.0",
+        "head": "4.10",
+        "ahead_by": 0
+      },
+      {
+        "base": "4.10.0",
+        "head": "4.11",
+        "ahead_by": 2
+      },
+      {
+        "base": "4.10.0",
+        "head": "4",
+        "ahead_by": 2
+      }
+    ]
+  }
+]
