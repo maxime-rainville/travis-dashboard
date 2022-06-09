@@ -2297,22 +2297,22 @@
         "ahead_by": 0
       },
       {
-        "base": "1.10.3",
+        "base": "1.10.4",
         "head": "1.10",
-        "ahead_by": 1
+        "ahead_by": 0
       },
       {
-        "base": "1.10.3",
+        "base": "1.10.4",
         "head": "1.11",
-        "ahead_by": 9
+        "ahead_by": 8
       },
       {
-        "base": "1.10.3",
+        "base": "1.10.4",
         "head": "1",
-        "ahead_by": 9
+        "ahead_by": 8
       },
       {
-        "base": "1.10.3",
+        "base": "1.10.4",
         "head": "master",
         "ahead_by": 12
       }
