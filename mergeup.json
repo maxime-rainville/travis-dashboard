@@ -3335,7 +3335,13 @@
   },
   {
     "repo": "silverstripe/silverstripe-graphql-devtools",
-    "compares": []
+    "compares": [
+      {
+        "base": "master",
+        "head": "1",
+        "ahead_by": 0
+      }
+    ]
   },
   {
     "repo": "silverstripe/silverstripe-gridfieldqueuedexport",
