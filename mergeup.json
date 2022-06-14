@@ -4265,14 +4265,19 @@
         "ahead_by": 0
       },
       {
-        "base": "2",
+        "base": "2.4",
         "head": "2.3",
+        "ahead_by": 0
+      },
+      {
+        "base": "2",
+        "head": "2.4",
         "ahead_by": 0
       },
       {
         "base": "master",
         "head": "2",
-        "ahead_by": 14
+        "ahead_by": 16
       }
     ]
   },
@@ -5656,7 +5661,7 @@
       {
         "base": "master",
         "head": "4",
-        "ahead_by": 114
+        "ahead_by": 118
       }
     ]
   },
