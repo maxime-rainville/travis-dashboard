@@ -5892,7 +5892,18 @@
   },
   {
     "repo": "silverstripe/silverstripe-search-service",
-    "compares": []
+    "compares": [
+      {
+        "base": "1",
+        "head": "1.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "master",
+        "head": "1",
+        "ahead_by": 0
+      }
+    ]
   },
   {
     "repo": "silverstripe/silverstripe-versioned-snapshot-admin",
