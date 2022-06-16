@@ -6581,17 +6581,17 @@
         "ahead_by": 0
       },
       {
-        "base": "3.4.0",
+        "base": "3.4.1",
         "head": "3.4",
         "ahead_by": 0
       },
       {
-        "base": "3.4.0",
+        "base": "3.4.1",
         "head": "3",
         "ahead_by": 0
       },
       {
-        "base": "3.4.0",
+        "base": "3.4.1",
         "head": "master",
         "ahead_by": 4
       }
