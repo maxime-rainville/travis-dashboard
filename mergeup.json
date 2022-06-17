@@ -4594,8 +4594,13 @@
         "ahead_by": 3
       },
       {
-        "base": "5",
+        "base": "5.2",
         "head": "5.1",
+        "ahead_by": 0
+      },
+      {
+        "base": "5",
+        "head": "5.2",
         "ahead_by": 0
       },
       {
@@ -5904,14 +5909,19 @@
     "repo": "silverstripe/silverstripe-search-service",
     "compares": [
       {
-        "base": "1",
+        "base": "1.1",
         "head": "1.0",
+        "ahead_by": 0
+      },
+      {
+        "base": "1",
+        "head": "1.1",
         "ahead_by": 0
       },
       {
         "base": "master",
         "head": "1",
-        "ahead_by": 0
+        "ahead_by": 1
       }
     ]
   },
