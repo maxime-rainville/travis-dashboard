@@ -7100,17 +7100,17 @@
         "ahead_by": 0
       },
       {
-        "base": "1.1.0",
+        "base": "1.1.1",
         "head": "1.1",
         "ahead_by": 0
       },
       {
-        "base": "1.1.0",
+        "base": "1.1.1",
         "head": "1",
         "ahead_by": 0
       },
       {
-        "base": "1.1.0",
+        "base": "1.1.1",
         "head": "master",
         "ahead_by": 0
       }
