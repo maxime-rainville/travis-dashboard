@@ -4244,17 +4244,17 @@
         "ahead_by": 1
       },
       {
-        "base": "4.11.1",
+        "base": "4.11.2",
         "head": "4.11",
         "ahead_by": 0
       },
       {
-        "base": "4.11.1",
+        "base": "4.11.2",
         "head": "4",
         "ahead_by": 0
       },
       {
-        "base": "4.11.1",
+        "base": "4.11.2",
         "head": "master",
         "ahead_by": 9
       }
