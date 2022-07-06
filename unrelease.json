@@ -6967,8 +6967,13 @@
     "compares": [
       {
         "base": "2.0.9",
-        "head": "master",
+        "head": "2.0",
         "ahead_by": 6
+      },
+      {
+        "base": "2.1.0",
+        "head": "master",
+        "ahead_by": 0
       }
     ]
   },

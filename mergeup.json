@@ -5794,7 +5794,13 @@
   },
   {
     "repo": "undefinedoffset/sortablegridfield",
-    "compares": []
+    "compares": [
+      {
+        "base": "master",
+        "head": "2.0",
+        "ahead_by": 0
+      }
+    ]
   },
   {
     "repo": "silverstripe/silverstripe-event-dispatcher",
