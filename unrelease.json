@@ -3890,17 +3890,17 @@
         "ahead_by": 0
       },
       {
-        "base": "3.7.1",
+        "base": "3.7.2",
         "head": "3.7",
         "ahead_by": 0
       },
       {
-        "base": "3.8.0",
+        "base": "3.8.1",
         "head": "3.8",
         "ahead_by": 0
       },
       {
-        "base": "3.8.0",
+        "base": "3.8.1",
         "head": "3",
         "ahead_by": 0
       },
