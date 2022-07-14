@@ -323,7 +323,7 @@
       {
         "base": "2.3",
         "head": "2.2",
-        "ahead_by": 0
+        "ahead_by": 2
       },
       {
         "base": "2",
@@ -1108,7 +1108,7 @@
       {
         "base": "3.2",
         "head": "3.1",
-        "ahead_by": 0
+        "ahead_by": 2
       },
       {
         "base": "3",
@@ -1927,7 +1927,7 @@
       {
         "base": "4.3",
         "head": "4.2",
-        "ahead_by": 0
+        "ahead_by": 2
       },
       {
         "base": "4",
@@ -2047,7 +2047,7 @@
       {
         "base": "1.11",
         "head": "1.10",
-        "ahead_by": 0
+        "ahead_by": 2
       },
       {
         "base": "1",
@@ -2097,7 +2097,7 @@
       {
         "base": "2.5",
         "head": "2.4",
-        "ahead_by": 0
+        "ahead_by": 2
       },
       {
         "base": "2",
@@ -2272,7 +2272,7 @@
       {
         "base": "3.10",
         "head": "3.9",
-        "ahead_by": 0
+        "ahead_by": 2
       },
       {
         "base": "3",
@@ -2317,7 +2317,7 @@
       {
         "base": "1.11",
         "head": "1.10",
-        "ahead_by": 0
+        "ahead_by": 2
       },
       {
         "base": "1",
