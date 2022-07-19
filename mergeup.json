@@ -2601,7 +2601,7 @@
       {
         "base": "4.5",
         "head": "4.4",
-        "ahead_by": 2
+        "ahead_by": 4
       },
       {
         "base": "4",
@@ -3056,7 +3056,7 @@
       {
         "base": "2.3",
         "head": "2.2",
-        "ahead_by": 2
+        "ahead_by": 4
       },
       {
         "base": "2",
@@ -3314,7 +3314,7 @@
       {
         "base": "3.8",
         "head": "3.7",
-        "ahead_by": 0
+        "ahead_by": 2
       },
       {
         "base": "3",
@@ -3704,7 +3704,7 @@
       {
         "base": "4.7",
         "head": "4.6",
-        "ahead_by": 2
+        "ahead_by": 4
       },
       {
         "base": "4",
@@ -4452,7 +4452,7 @@
       {
         "base": "3.3",
         "head": "3.2",
-        "ahead_by": 0
+        "ahead_by": 2
       },
       {
         "base": "3",
@@ -4696,7 +4696,7 @@
       {
         "base": "2.6",
         "head": "2.5",
-        "ahead_by": 2
+        "ahead_by": 4
       },
       {
         "base": "2",
