@@ -438,7 +438,7 @@
       {
         "base": "2.10",
         "head": "2.9",
-        "ahead_by": 2
+        "ahead_by": 4
       },
       {
         "base": "2",
@@ -1173,7 +1173,7 @@
       {
         "base": "3.1",
         "head": "3.0",
-        "ahead_by": 2
+        "ahead_by": 4
       },
       {
         "base": "3",
