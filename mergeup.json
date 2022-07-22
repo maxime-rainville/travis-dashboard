@@ -179,7 +179,7 @@
       {
         "base": "4.9",
         "head": "4.8",
-        "ahead_by": 2
+        "ahead_by": 4
       },
       {
         "base": "4",
@@ -3314,7 +3314,7 @@
       {
         "base": "3.8",
         "head": "3.7",
-        "ahead_by": 6
+        "ahead_by": 8
       },
       {
         "base": "3",
