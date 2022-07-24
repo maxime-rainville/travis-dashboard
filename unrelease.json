@@ -1264,12 +1264,12 @@
       {
         "base": "1.7.0",
         "head": "1.7",
-        "ahead_by": 0
+        "ahead_by": 1
       },
       {
         "base": "1.7.0",
         "head": "1",
-        "ahead_by": 0
+        "ahead_by": 1
       },
       {
         "base": "1.7.0",
@@ -1404,12 +1404,12 @@
       {
         "base": "3.1.0",
         "head": "3.1",
-        "ahead_by": 0
+        "ahead_by": 1
       },
       {
         "base": "3.1.0",
         "head": "3",
-        "ahead_by": 15
+        "ahead_by": 16
       },
       {
         "base": "3.1.0",

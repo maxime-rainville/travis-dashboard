@@ -323,7 +323,7 @@
       {
         "base": "2.3",
         "head": "2.2",
-        "ahead_by": 2
+        "ahead_by": 0
       },
       {
         "base": "2",
@@ -333,7 +333,7 @@
       {
         "base": "master",
         "head": "2",
-        "ahead_by": 26
+        "ahead_by": 30
       }
     ]
   },
@@ -503,7 +503,7 @@
       {
         "base": "2.7",
         "head": "2.6",
-        "ahead_by": 4
+        "ahead_by": 0
       },
       {
         "base": "2",
@@ -513,7 +513,7 @@
       {
         "base": "master",
         "head": "2",
-        "ahead_by": 67
+        "ahead_by": 73
       }
     ]
   },
@@ -603,7 +603,7 @@
       {
         "base": "2.11",
         "head": "2.10",
-        "ahead_by": 2
+        "ahead_by": 0
       },
       {
         "base": "2",
@@ -613,7 +613,7 @@
       {
         "base": "master",
         "head": "2",
-        "ahead_by": 39
+        "ahead_by": 43
       }
     ]
   },
@@ -718,7 +718,7 @@
       {
         "base": "1.4",
         "head": "1.3",
-        "ahead_by": 2
+        "ahead_by": 0
       },
       {
         "base": "1",
@@ -728,7 +728,7 @@
       {
         "base": "master",
         "head": "1",
-        "ahead_by": 19
+        "ahead_by": 23
       }
     ]
   },
@@ -1068,7 +1068,7 @@
       {
         "base": "1.7",
         "head": "1.6",
-        "ahead_by": 4
+        "ahead_by": 0
       },
       {
         "base": "1",
@@ -1078,7 +1078,7 @@
       {
         "base": "master",
         "head": "1",
-        "ahead_by": 35
+        "ahead_by": 41
       }
     ]
   },
@@ -1108,7 +1108,7 @@
       {
         "base": "3.2",
         "head": "3.1",
-        "ahead_by": 2
+        "ahead_by": 0
       },
       {
         "base": "3",
@@ -1118,7 +1118,7 @@
       {
         "base": "master",
         "head": "3",
-        "ahead_by": 99
+        "ahead_by": 103
       }
     ]
   },
@@ -1173,7 +1173,7 @@
       {
         "base": "3.1",
         "head": "3.0",
-        "ahead_by": 6
+        "ahead_by": 0
       },
       {
         "base": "3",
@@ -1183,7 +1183,7 @@
       {
         "base": "master",
         "head": "3",
-        "ahead_by": 103
+        "ahead_by": 111
       }
     ]
   },
