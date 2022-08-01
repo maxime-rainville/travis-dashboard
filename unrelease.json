@@ -2199,7 +2199,7 @@
       {
         "base": "1.11.1",
         "head": "1",
-        "ahead_by": 35
+        "ahead_by": 36
       },
       {
         "base": "1.11.1",
@@ -6591,17 +6591,17 @@
         "ahead_by": 0
       },
       {
-        "base": "3.4.1",
+        "base": "3.4.2",
         "head": "3.4",
         "ahead_by": 0
       },
       {
-        "base": "3.4.1",
+        "base": "3.4.2",
         "head": "3",
         "ahead_by": 0
       },
       {
-        "base": "3.4.1",
+        "base": "3.4.2",
         "head": "master",
         "ahead_by": 4
       }
