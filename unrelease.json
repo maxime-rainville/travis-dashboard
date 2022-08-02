@@ -232,17 +232,17 @@
         "ahead_by": 0
       },
       {
-        "base": "4.9.1",
+        "base": "4.9.2",
         "head": "4.9",
-        "ahead_by": 1
+        "ahead_by": 0
       },
       {
-        "base": "4.9.1",
+        "base": "4.9.2",
         "head": "4",
         "ahead_by": 5
       },
       {
-        "base": "4.9.1",
+        "base": "4.9.2",
         "head": "master",
         "ahead_by": 4
       }
