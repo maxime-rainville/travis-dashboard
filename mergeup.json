@@ -1676,7 +1676,7 @@
       },
       {
         "base": "master",
-        "head": "1",
+        "head": "2",
         "ahead_by": 16
       }
     ]
@@ -1896,7 +1896,7 @@
       },
       {
         "base": "master",
-        "head": "1",
+        "head": "2",
         "ahead_by": 524
       }
     ]
@@ -1996,7 +1996,7 @@
       },
       {
         "base": "master",
-        "head": "1",
+        "head": "2",
         "ahead_by": 257
       }
     ]
@@ -2056,7 +2056,7 @@
       },
       {
         "base": "master",
-        "head": "1",
+        "head": "2",
         "ahead_by": 92
       }
     ]
@@ -2166,7 +2166,7 @@
       },
       {
         "base": "master",
-        "head": "4",
+        "head": "5",
         "ahead_by": 48
       }
     ]
@@ -2326,7 +2326,7 @@
       },
       {
         "base": "master",
-        "head": "1",
+        "head": "2",
         "ahead_by": 145
       }
     ]
@@ -2421,7 +2421,7 @@
       },
       {
         "base": "master",
-        "head": "4",
+        "head": "5",
         "ahead_by": 332
       }
     ]
@@ -2525,7 +2525,7 @@
       },
       {
         "base": "master",
-        "head": "1",
+        "head": "2",
         "ahead_by": 46
       }
     ]
@@ -3030,7 +3030,7 @@
       },
       {
         "base": "master",
-        "head": "1",
+        "head": "2",
         "ahead_by": 43
       }
     ]
@@ -3168,7 +3168,7 @@
       },
       {
         "base": "master",
-        "head": "4",
+        "head": "5",
         "ahead_by": 1288
       }
     ]
@@ -3328,7 +3328,7 @@
       },
       {
         "base": "master",
-        "head": "4",
+        "head": "5",
         "ahead_by": 20
       }
     ]
@@ -3713,7 +3713,7 @@
       },
       {
         "base": "master",
-        "head": "4",
+        "head": "5",
         "ahead_by": 130
       }
     ]
@@ -3828,7 +3828,7 @@
       },
       {
         "base": "master",
-        "head": "2",
+        "head": "3",
         "ahead_by": 48
       }
     ]
@@ -3978,7 +3978,7 @@
       },
       {
         "base": "master",
-        "head": "2",
+        "head": "3",
         "ahead_by": 32
       }
     ]
@@ -4053,7 +4053,7 @@
       },
       {
         "base": "master",
-        "head": "4",
+        "head": "5",
         "ahead_by": 55
       }
     ]
@@ -4276,7 +4276,7 @@
       },
       {
         "base": "master",
-        "head": "2",
+        "head": "3",
         "ahead_by": 24
       }
     ]
@@ -4431,7 +4431,7 @@
       },
       {
         "base": "master",
-        "head": "4",
+        "head": "5",
         "ahead_by": 56
       }
     ]
@@ -4865,7 +4865,7 @@
       },
       {
         "base": "master",
-        "head": "2",
+        "head": "3",
         "ahead_by": 15
       }
     ]
@@ -5167,7 +5167,7 @@
       },
       {
         "base": "master",
-        "head": "1",
+        "head": "2",
         "ahead_by": 155
       }
     ]
@@ -5212,7 +5212,7 @@
       },
       {
         "base": "master",
-        "head": "1",
+        "head": "2",
         "ahead_by": 162
       }
     ]
@@ -5361,7 +5361,7 @@
       },
       {
         "base": "master",
-        "head": "1",
+        "head": "2",
         "ahead_by": 59
       }
     ]
@@ -5809,7 +5809,13 @@
   },
   {
     "repo": "silverstripe/silverstripe-event-dispatcher",
-    "compares": []
+    "compares": [
+      {
+        "base": "master",
+        "head": "1",
+        "ahead_by": 0
+      }
+    ]
   },
   {
     "repo": "silverstripe/silverstripe-ckan-registry",
